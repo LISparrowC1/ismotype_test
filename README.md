@@ -32,10 +32,10 @@
 ## 快速开始
 
 ### 本地运行
-```bash
-git clone https://github.com/lisparrowc1/ismotype_test.git
-cd ismotype_test
-# 直接用浏览器打开 index.html 即可
+
+- `git clone https://github.com/lisparrowc1/ismotype_test.git/`
+
+### 增加问题
 1. 在 `questions/` 下新建 `questions_8.js`（编号连续）。
 2. 文件格式：`const QUESTIONS_8 = [{ q: "翻译键", mbti: [...], tags: [...] }, ...];`
 3. 在 `languages/` 下添加对应的中英文翻译文件：`zh-CN-questions_8.js` 和 `en-questions_8.js`。
@@ -77,4 +77,3 @@ cd ismotype_test
 ---
 
 **如果这个项目对你有启发，请给个 ⭐ 吧！**
-```
