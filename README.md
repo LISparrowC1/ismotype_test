@@ -1,6 +1,3 @@
-这是可直接下载的 README.md 完整文件：
-
-```markdown
 # IsmoType — 人格与主义光谱测试
 
 **一套测试，双重视角。超过300道多维题目，同时揭示你的MBTI人格与分布在六大领域的200余种主义倾向。**
@@ -39,43 +36,6 @@
 git clone https://github.com/lisparrowc1/ismotype_test.git
 cd ismotype_test
 # 直接用浏览器打开 index.html 即可
-```
-
-### 部署到 GitHub Pages
-1. Fork 本仓库
-2. 进入 `Settings` → `Pages`
-3. 选择分支 `main`，文件夹 `/(root)`
-4. 保存，稍等片刻访问 `https://你的用户名.github.io/ismotype_test/`
-
----
-
-## 项目结构
-
-```
-ismotype_test/
-├── index.html                  # 入口页面（含主题、语言切换UI）
-├── data.js                     # 静态数据：标签、主义配方、MBTI/维度键
-├── main.js                     # 核心逻辑：题库加载、答题、计分、渲染、翻译函数
-├── questions/                  # 题库文件（按编号自动索引）
-│   ├── questions_1.js
-│   ├── questions_2.js
-│   └── ...
-├── languages/                  # 多语言词典
-│   ├── zh-CN.js                # 中文UI与描述
-│   ├── en.js                   # 英文UI与描述
-│   ├── zh-CN-questions_1.js    # 中文题目文本（与题库一一对应）
-│   ├── en-questions_1.js       # 英文题目文本
-│   └── ...
-└── images/                     # 图标资源（可自行替换）
-    ├── mbti/                   # 16张MBTI插画 (如 intj.png)
-    └── isms/                   # 200+张主义图标 (如 existentialism.png)
-```
-
----
-
-## 如何自定义
-
-### 增加题目
 1. 在 `questions/` 下新建 `questions_8.js`（编号连续）。
 2. 文件格式：`const QUESTIONS_8 = [{ q: "翻译键", mbti: [...], tags: [...] }, ...];`
 3. 在 `languages/` 下添加对应的中英文翻译文件：`zh-CN-questions_8.js` 和 `en-questions_8.js`。
@@ -93,26 +53,14 @@ ismotype_test/
 
 ---
 
-## 技术栈
-
-- **HTML5 & CSS3** (自定义属性实现主题切换，Grid/Flexbox布局)
-- **JavaScript (ES6)**  
-  动态加载脚本、Intersection Observer 动画、Canvas 雷达图
-- **词典式国际化**：运行时键值查找，无需额外库
-- **无构建工具**：原生模块加载
-
----
-
 ## 贡献
 
 欢迎任何形式的贡献！如果你发现了bug、有新的主义建议、或想增加题目/语言，请：
 1. Fork 本项目
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的修改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
+2. 创建你的特性分支
+3. 提交你的修改
+4. 推送到分支
 5. 打开一个 Pull Request
-
-请确保题目权重数据合理，并与现有标签体系匹配。对于主义定义，请附上可靠的来源或说明。
 
 ---
 
