@@ -29,18 +29,37 @@ git clone https://github.com/LISparrowC1/ismotype_test.git
 cd ismotype_test
 ```
 
-### 增加问题
-1. 在 `questions/` 下新建 `questions_8.js`（编号连续）。
-2. 文件格式：`const QUESTIONS_8 = [{ q: "题目内容", mbti: [...], tags: [...] }, ...];`
-3. 在 `languages/` 下添加对应的翻译文件（如 `zh.js` 和 `en.js` 中增加对应条目）。
-4. 无需修改任何现有代码，系统会自动加载新文件。
+### 增加题目（在现有语言中）
 
-### 增加语言
-1. 复制 `languages/zh.js` 并重命名为目标语言代码（如 `fr.js`）。
-2. 翻译所有键值对（保持键名不变）。
-3. 在 `questions/` 下创建对应的题目文件（如 `questions_fr_1.js` ~ `questions_fr_7.js`），或将现有题目翻译后放入。
-4. 在 `main.js` 的 `autoDiscoverLanguages()` 函数的 `supportedLangs` 数组中添加 `'fr'`。
-5. 刷新页面即可自动出现语言切换选项。
+在 `questions/` 下新建 `questions_zh_8.js`（编号连续），格式如下：
+
+```javascript
+const QUESTIONS_ZH_8 = [
+    {
+        q: "在这里直接写入中文题目内容",  // 直接写文本，不是翻译键
+        mbti: [0, 0, 0, 0],             // [E/I, S/N, T/F, J/P] 权重
+        tags: [0, 0, 0, 0, ...]         // 26 个标签权重，与 TAGS 数组顺序一致
+    }
+];
+```
+
+**注意**：`questions_zh_8.js` 只会被中文语言加载。如果需要英文版本，需同时创建 `questions_en_8.js` 并翻译其中的 `q` 字段。
+
+### 增加新语言（需修改代码）
+
+复制 `languages/zh.js` 并重命名为目标语言代码（如 `fr.js`），翻译所有键值对（保持键名不变）。
+
+在 `questions/` 下创建对应的题目文件（如 `questions_fr_1.js` ~ `questions_fr_7.js`），将现有题目翻译后放入。
+
+修改 `main.js` 中的 `autoDiscoverLanguages()` 函数：
+```javascript
+function autoDiscoverLanguages() {
+    // 在 supportedLangs 数组中添加新语言代码
+    const supportedLangs = ['zh', 'en', 'fr'];  // 添加 'fr'
+    // ...
+   }
+```
+刷新页面即可出现语言切换选项。
 
 ### 替换图标
 - **MBTI 图标**：将 16 张 PNG 图片命名为 `intj.png`, `intp.png`, ... 放入 `images/mbti/`。
@@ -52,21 +71,20 @@ cd ismotype_test
 
 ```
 ismotype_test/
-├── index.html          # 入口页面（主题、语言切换UI）
-├── data.js             # 核心数据：26个观念标签 + 200+主义权重
-├── main.js             # 主逻辑：题库加载、答题、计分、渲染
-├── languages/          # 语言包（词典式架构）
-│   ├── zh.js           # 中文语言包
-│   └── en.js           # 英文语言包
-├── questions/          # 题库（按语言和编号索引）
+├── index.html                  # 入口页面
+├── data.js                     # 核心数据
+├── main.js                     # 主逻辑
+├── languages/                  # 语言包
+│   ├── zh.js                   # 中文语言包
+│   └── en.js                   # 英文语言包
+├── questions/                  # 题库
 │   ├── questions_zh_1.js
-│   ├── questions_zh_2.js
 │   ├── ... (共7个中文文件)
 │   ├── questions_en_1.js
 │   └── ... (共7个英文文件)
-└── images/             # 图标资源
-    ├── mbti/           # 16种MBTI人格插画
-    └── isms/           # 200+种主义图标
+└── images/                     # 图标资源
+    ├── mbti/           
+    └── isms/           
 ```
 
 ---
