@@ -1,0 +1,5673 @@
+{
+  "taxonomyVersion": "v1",
+  "entries": [
+    {
+      "questionId": "ideo.v1.001",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": 5
+        },
+        {
+          "dim": "power.accountability",
+          "weight": 4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": 3
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·power 高极侧。题干要求中央迅速决断 → centralization（高极=集中统一）+5，这是本题的实质主张。accountability 取 +4：把决断权交给中央即否定大众问责（高极=精英决断）。pluralism 取 +3：强调统一意志意味着不容少数掣肘（高极=多数优先）。community.integrity 取 +3：『统一决断』同时意味着不容拆分。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.002",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": -5
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -3
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·power 低极侧，与 001 反向。要求普通人问责 → accountability −5（低极=大众问责），是本题主载荷。centralization −3：问责制预设权力不集中于一人。pluralism −3：『谁做的谁负责』同时是少数与异见受护的前提。change.procedure +4：问责靠程序落实，故取程序至上。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.003",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": 5
+        },
+        {
+          "dim": "community.openness",
+          "weight": 4
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·community 高极侧。『本国人优先』直接是 scope 的高极（民族本位）+5。openness +4：边界内优先意味着对外来者节制（高极=边界守护）。integrity +4：把共同体当作前提即倾向维护统一。selfgroup.priority −3：集体（本国人）优先于个人。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.004",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": -5
+        },
+        {
+          "dim": "community.openness",
+          "weight": -5
+        },
+        {
+          "dim": "community.integrity",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·community 低极侧，与 003 反向。『对远方陌生人义务不减』是 scope 的极端低极（世界主义）−5。openness −5：对边界内外一视同仁即开放接纳。integrity −3：否认国界的道德意义即倾向自决。selfgroup.altruism −3：把陌生人纳入同等考量是利他优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.005",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": 5
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·change 高极侧。『几百年的做法自有道理』是 tradition 的高极（尊重传统）+5。tempo +4：『未经检验就抛弃是傲慢』即主张缓慢累积（高极=渐进改良）。procedure +3：以『检验』为准绳即程序至上。centralization 弱 +2：为延续性辩护通常伴随对稳定权威的容忍。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.006",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": -5
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": -3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·change 低极侧，与 005 反向。『非推倒重来不可』是 tempo 的极端低极（激进变革）−5。tradition −4：推倒重来即否定既存做法的价值。procedure −3：为根本变革可以绕开程序（低极=目的正当）。centralization −3：激进变革通常反对现有权力集中。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.007",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": 5
+        },
+        {
+          "dim": "market.intervention",
+          "weight": 4
+        },
+        {
+          "dim": "market.property",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·market 高极侧。『价格由供需决定』是 coordination 的高极（市场配置）+5，且题干给出了理由（信息问题），这正是市场派的论证。intervention +4：否认中央机构能替代价格即主张自由放任。property +4：价格机制预设产权可交易。reciprocity +3：市场配置同时是竞争择优。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.008",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": -5
+        },
+        {
+          "dim": "market.intervention",
+          "weight": -4
+        },
+        {
+          "dim": "market.property",
+          "weight": -4
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·market 低极侧，与 007 反向。『必须统一规划』是 coordination 的极端低极（计划配置）−5。intervention −4：统一规划即政府干预。property −4：『交给市场会失控』预设关键资源不宜由私人处置。centralization +4：计划经济需要集中的决策权——**注意这一条与 001 的 centralization 同向但理由完全不同**，正是 taxonomy 把两条轴分开的价值所在。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.009",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": 5
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·distribution 高极侧。『起点公平、规则一致即可接受差距』是 equality 的高极（机会平等）+5。reciprocity +4：接受结果差距即承认竞争择优。welfare +4：『可以接受』意味着不要求社会兜底（高极=自担风险）。selfgroup.priority +3：自己承担结果预设个人优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.010",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·distribution 低极侧，与 009 反向。『必须由社会共同兜住』是 welfare 的极端低极（社会共担）−5。equality −4：把境遇归因于运气而非努力，即主张缩小结果差距。reciprocity −3：风险共担削弱竞争择优。selfgroup.priority −3：风险由集体承担即集体优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.011",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": 3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·selfgroup 高极侧。『我的人生由我自己决定』是 autonomy 的高极（独立自主）+5。priority +5：明确拒绝他人期待即个人优先。altruism +3：把他人期待排除在理由之外，同时意味着不为他人利益让路（高极=自利优先）。pluralism 弱 −2：个人自主的正当性通常伴随对少数权利的坚持。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.012",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": -5
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·selfgroup 低极侧，与 011 反向。『必要时个人应当让步』是 priority 的极端低极（集体优先）−5。autonomy −4：个人身份由共同体定义即归属依从。altruism −3：为集体让路即利他优先。integrity +4：把共同体的存续置于个人之上，同时是维护统一的立场。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.013",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 3
+        },
+        {
+          "dim": "nature.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·lifestyle 高极侧。『拥有更多、体验更多本身就是好的』同时是 abundance 的高极（+5）与 material 的高极（+5）——两个 facet 在这里本来就重合，故同权。gratification +3：『体验更多』含及时享乐。nature.priority −3：以拥有与体验为善，通常把人的需求置于自然之上。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.014",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -5
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -3
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·lifestyle 低极侧，与 013 反向。『越少越自由』是 abundance 的极端低极（简约节制）−5。material −3：把多余之物视为负担即重精神轻物质。gratification −3：节制的态度延伸到欲望本身。nature.priority +3：主动减少占有通常与让位于自然的立场同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.015",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": 5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 3
+        },
+        {
+          "dim": "nature.technology",
+          "weight": 3
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·nature 高极侧。『人的需求不能自动压过生态承受力』是 priority 的高极（自然优先）+5，问的是冲突时谁让步。depth 取 +3 而**不是** +5：题干说的是『不能自动压过』，即给自然设限，但没说自然有独立于人的价值——这正是 priority 与 depth 必须分开的地方。technology +3：设限意味着对技术扩张审慎。material −3：反对无限索取与反对物质至上同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.016",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": -5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": -4
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -4
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·nature 低极侧，与 015 反向。『人的福祉是唯一尺度』是 priority 的极端低极（人类优先）−5。depth −4：『唯一尺度』直接否定自然的内在价值（低极=人类中心）。technology −4：以人的福祉为唯一尺度必然拥抱技术手段。animals −3：人类利益优先的立场延伸到动物（低极）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.017",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": 5
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": 3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·ontology 高极侧。『同样处境下可以做出不同选择』是 agency 的高极（自由意志）+5。meaning +3：可自由选择通常伴随『意义由人承担』的立场。selfgroup.autonomy +4：自由意志是个人自主的形而上学基础。priority +3：把选择权归给个人。**未给 substance 赋值**：本题对『世界由物质还是意识构成』没有主张。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.018",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": -5
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·ontology 低极侧，与 017 反向。『每个选择背后都有成因』是 agency 的极端低极（因果决定）−5。substance +2：把人的选择完全并入因果链，弱指向『一切皆自然过程』的唯物立场（故只给 ±2，不当主载荷）。meaning −3：否认自由意志会削弱『意义可寻』。autonomy −4：选择被决定则自主是幻觉。epistemics.source +3：追问成因是理性演绎的路径。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.019",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": 5
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 4
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·epistemics 高极侧。『可靠知识来自逻辑推演』是 source 的高极（理性演绎）+5。certainty +4：贬低感官即相信推演能给出确定结论。universality +4：逻辑推演不受处境影响，故指向普遍主义。morality.absoluteness +3：认识上的普遍主义通常外溢到道德（这一条是跨构念的次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.020",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": -5
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": -3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·epistemics 低极侧，与 019 反向。『任何结论都可能被推翻』是 certainty 的极端低极（保持怀疑）−5。universality −4：怀疑论通常伴随『判断随处境而变』。source −3：愿意停留在未定状态，与经验归纳的开放态度同源（故**不是** −5：怀疑论并不等于直觉主义）。morality.absoluteness −3：认识上的可错论外溢到道德。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.021",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": 5
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 5
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·morality 高极侧。『无论结果多好都不能做』是 criterion 的高极（义务优先）+5，且题干把『结果』明确排除，是这一极的干净表述。absoluteness +5：『底线』一词即道德绝对。foundation +4：底线以规则形式存在。change.procedure +3：为手段设限即程序至上（跨构念次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.022",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": -5
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·morality 低极侧，与 021 反向。『看实际造成了什么』是 criterion 的极端低极（后果优先）−5。absoluteness −4：只问后果则标准随情境浮动。foundation −3：把『规则是次要的』明说出来即反对规则本位。epistemics.source +3：以可观测的后果为判据，是经验归纳的路数。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.023",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": 5
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 4
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·aesthetics 高极侧。『靠结构与比例』是 order 的高极（秩序和谐）+5。convention +4：以『经得起反复看』为标准即承认经过检验的范式。representation +3：结构与比例的价值预设作品有可把握的形。change.tradition +3：艺术上承袭古典与社会上尊重传统同源（跨构念次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.024",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": -5
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·aesthetics 低极侧，与 023 反向。『要打动人』是 order 的极端低极（情感张力）−5。convention −4：贬斥『四平八稳』即反叛既有范式。representation −3：以打动力为准，不要求忠实再现。change.tradition −3：艺术上的反叛与社会上推陈出新同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.025",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": 5
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 3
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "centralization 高极：全国统一标准须由中央定。integrity +3：统一标准同时是维护统一。coordination +2：反对市场碎片化是市场派的次生立场。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.026",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": 4
+        },
+        {
+          "dim": "power.accountability",
+          "weight": 3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "centralization 高极：危机时应集中决策。accountability +3：集中决策的正当性来自『快』而非『被问责』，故取精英决断侧。tempo +2：快速反应偏渐进体制下的执行力，非激进变革。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.027",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": -5
+        },
+        {
+          "dim": "community.integrity",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "centralization 低极：地方自治。integrity −3：地方自主即中央统一性的让步。autonomy +2：群体的自我决定与个人的自我决定同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.028",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": -4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -3
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "centralization 低极：权力分散更安全。pluralism −3：分散权力即保护少数不受多数碾压。accountability −3：分散即否定少数人决断。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.029",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": -3
+        },
+        {
+          "dim": "community.integrity",
+          "weight": -2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：地方执行出差异未必是坏事。centralization −3。integrity −2：容许差异即弱化统一。tempo +2 与 procedure +2：容许差异是渐进与依程序的立场。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.030",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": 3
+        },
+        {
+          "dim": "power.accountability",
+          "weight": 2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：全国推开总得有人拍板。centralization +3（轻于 025——承认必要而非主张优越）。accountability +2：拍板者即决断者。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.031",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": 5
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "accountability 高极：治理是专业活，交给有见识的人（rubric 高锚点原句）。pluralism +3：专业决断与多数决天然紧张。source +2：专业主义预设理性优于众意。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.032",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": 4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": 3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "accountability 高极：重大决策不该由情绪化民意定。pluralism +3：不信任民意即否定多数优先。tempo +2：情绪化民意常与激变相连，故取渐进侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.033",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": -4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T10:00:11.836Z",
+        "note": "accountability 低极：问责要靠独立于权力的机构才成立，否则只是说法。pluralism −3：能独立说话的机构就是异见的空间。centralization −2：独立机构预设权力不集中在不受质询之处。与锚集 002 的区别：002 立问责的原则，本条讲问责要靠什么才成立。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.034",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": -4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "accountability 低极：没人追责的决定迟早变坏。procedure +2、foundation +2：追责需要程序与规则，二者同在规则本位一侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.035",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": 3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：让最懂行的人来定通常效果更好。权重取 3 而非 5——题干是经验判断，不是原则主张。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.036",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": -2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": -3
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：程序走完不等于决定对。procedure −3（低极=目的正当）。accountability −2：程序不等于问责的实质。criterion −2：看实质不看形式即后果优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.037",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": 5
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -3
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "pluralism 高极（rubric 高锚点原句）：投票结果就该执行。accountability −3：以票决为准即大众问责侧。procedure +2：票决本身是一套程序。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.038",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": 4
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "pluralism 高极：按多数人意愿走。integrity +2：以整体意愿为准即维护统一。tempo +2：多数决通常伴随稳步推进。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.039",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": -5
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -3
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "pluralism 低极（rubric 低锚点原句）：少数的权利必须被写死保护。accountability −3：保护少数靠制度约束而非民意。procedure +3：『写死』即程序化。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.040",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": -4
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -2
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "pluralism 低极：多数同意的事也可能不该做。absoluteness +2：存在『多数也不能做』的事即道德绝对。accountability −2：对民意的保留。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.041",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": -1
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：通过得快不代表考虑周全。pluralism 只取 −1——题干质疑的是速度不是多数决本身。procedure +2、certainty −2：慎思与可错论同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.042",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": 3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：等所有人点头事情就办不成。pluralism +3（从效率角度为多数决辩护）。centralization +2：办成事需要决断力。tempo −2：不耐烦等待即偏激变。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.043",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": -4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "openness 低极：人员与文化的流动是活力而不是威胁。tradition −3：本地旧样子变了不算损失。universality −2：文化没有固定的「应有样子」。与锚集 051 的区别：051 讲该不该欢迎外来者，本条讲本地样子变了算不算损失。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.044",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": 4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "scope 高极：文化上的根决定归属。tradition +3：以延续的文化为归属依据。autonomy −2：归属由传承而非自选决定。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.045",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": -5
+        },
+        {
+          "dim": "community.openness",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "scope 低极：首先是人是其次才是公民。openness −3：身份不设边界。altruism −3：把义务扩展到全人类即利他优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.046",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": -4
+        },
+        {
+          "dim": "community.openness",
+          "weight": -2
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "scope 低极：把本国置于全人类之上长期对谁都不好（后果论论证，不是道德论证）。welfare −2：长期共赢即风险共担。universality +2：用『对谁都没好处』论证即诉诸普遍标准。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.047",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：国情不同，照搬很少成功。scope +3（国情即本国特殊性）。universality −3：直接否定普遍适用性。tempo +2：渐进移植。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.048",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": -3
+        },
+        {
+          "dim": "community.openness",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：同一件事发生在不同国家，我的感受一样。scope −3：感受不按国界分配。openness −2、altruism −2 同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.049",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": 5
+        },
+        {
+          "dim": "community.scope",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "openness 高极（rubric 高锚点原句）：过快流动瓦解信任，需要节制。scope +3：节制流动即本位立场。tradition +2：维系既有文化样态。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.050",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": 4
+        },
+        {
+          "dim": "community.scope",
+          "weight": 2
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "openness 高极：先有自己的样子才谈得上接纳。integrity +3：『自己的样子』即共同体的完整。scope +2、tradition +2 同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.051",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": -5
+        },
+        {
+          "dim": "community.scope",
+          "weight": -2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "openness 低极（rubric 低锚点原句）：外来文化的活力大于冲击。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.052",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": -4
+        },
+        {
+          "dim": "community.scope",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "openness 低极：小区里各种口音让我舒服。用日常情境而非原则表述，避免与 051 语义重叠。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.053",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": -2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 1
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：学别人的语言技术不等于放弃自己的东西。三个权重都取小值——题干明确否认『开放』与『守旧』的对立，这是本批唯一刻意取低权重的题。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.054",
+      "loadings": [
+        {
+          "dim": "community.openness",
+          "weight": 2
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：文化能否活下去看它自己的生命力。openness +2：生命力说把责任归于内部而非外部冲击。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.055",
+      "loadings": [
+        {
+          "dim": "community.integrity",
+          "weight": 5
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "integrity 高极（rubric 高锚点原句）：共同体一旦形成不该随意拆分。centralization +3：维护统一需要集中的力量。tradition +3：既存形态本身有价值。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.056",
+      "loadings": [
+        {
+          "dim": "community.integrity",
+          "weight": 4
+        },
+        {
+          "dim": "community.openness",
+          "weight": 2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "integrity 高极：有些东西分开就回不去了。tempo +3：不可逆性论证指向渐进。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.057",
+      "loadings": [
+        {
+          "dim": "community.integrity",
+          "weight": -5
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "integrity 低极（rubric 低锚点原句）：强留只带来更大痛苦。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.058",
+      "loadings": [
+        {
+          "dim": "community.integrity",
+          "weight": -4
+        },
+        {
+          "dim": "community.openness",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "integrity 低极：自己的事自己决定，群体与个人同理。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.059",
+      "loadings": [
+        {
+          "dim": "community.integrity",
+          "weight": 2
+        },
+        {
+          "dim": "community.openness",
+          "weight": 2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：两害相权。四个权重都在 ±2 内——题干是权衡表述，本身不站边，故任一维度都不该给高权重。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.060",
+      "loadings": [
+        {
+          "dim": "community.integrity",
+          "weight": -3
+        },
+        {
+          "dim": "community.scope",
+          "weight": 2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：地图上的线是画的，心里的线不是。integrity −3（心里的线不由地图决定）。scope +2：承认心里确实有线。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.061",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": 5
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tempo 高极（rubric 高锚点原句）：剧烈变动带来灾难，宁可一步一步来。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.062",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": 4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tempo 高极：制度改太快人跟不上。procedure +3：节奏靠程序控制。certainty 只 −1：承认改快了会出问题，不等于对目标没有把握。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.063",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": -5
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tempo 低极：不拆掉旧的就建不起新的。与锚集 006 区别：006 说的是『小修小补无效』，本题说的是『必须先清除』，是更彻底的低极表述。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.064",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": -4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tempo 低极：机会窗口就几年。certainty +2：相信窗口确实存在且可辨认——这条与 062 的 −1 构成对照，说明 tempo 与 certainty 不是一根轴。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.065",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：速度取决于条件，没有一定之规。三权重皆小，universality −2：『没有一定之规』即情境化判断。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.066",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：等条件成熟就等于不动手。accountability −2：这句话是行动派对程序性问责的抱怨。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.067",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": 4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -3
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "procedure 高极：程序本身有不可绕过的价值，理由不是手段干净，而是它护住说不上话的人。pluralism −3：程序是少数与异见的护身符。accountability −3：程序让权力可被普通人追问。与锚集 073 的区别：073 讲手段与结果，本条讲程序护住的是谁。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.068",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": 4
+        },
+        {
+          "dim": "community.scope",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tradition 高极：过节的规矩一样都不省。selfgroup.autonomy −2：守规矩与『人生自定』反向。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.069",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": -5
+        },
+        {
+          "dim": "change.tempo",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tradition 低极（rubric 低锚点原句）：传统不该因为旧就免于质疑。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.070",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tradition 低极：祖辈怎么做不构成理由。autonomy +4：以自我立法取代承袭。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.071",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：老办法新办法各有道理。三权重皆小；universality −2：『各有各的道理』是情境化判断。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.072",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "tradition 低极：天经地义的事回头看只是某个年代的习惯。universality −3：把『天经地义』归因于时代即情境建构。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.073",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": 5
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": 4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "procedure 高极（rubric 高锚点原句）：手段不正当结果再好也站不住脚。criterion +4：为手段设限即义务优先。foundation +3：手段以规则形式存在。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.074",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": 4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "procedure 高极：该走的程序一步都不能省。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.075",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": -5
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -4
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "procedure 低极（rubric 低锚点原句）：规则本身制造不公时绕过它是必要的。criterion −4：以结果正当为手段辩护。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.076",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": -4
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "procedure 低极：能救很多人则程序瑕疵可补救。welfare −2：把『救很多人』当作理由，是后果共担的思路。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.077",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -1
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：规则再细也有漏洞，关键看有没有人认真执行。procedure +2 但 foundation −1：主张的是执行而非规则本身更细——两个维度在这里刻意分向。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.078",
+      "loadings": [
+        {
+          "dim": "change.procedure",
+          "weight": -3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": -2
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：紧急情况下按部就班是失职。centralization +2：紧急处置权需要集中。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.079",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": -4
+        },
+        {
+          "dim": "market.coordination",
+          "weight": -2
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "intervention 低极：企业算不进去的那本账得由外部来管。coordination −2：这类账价格信号本身算不进来。priority +2：污染不能只按人的便利来定。与锚集 087 的区别：087 讲市场失灵时政府该出手，本条讲企业算不进去的那本账。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.080",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": 4
+        },
+        {
+          "dim": "market.property",
+          "weight": 2
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "coordination 高极：让买卖双方谈价格。property +2：可谈预设可交易。reciprocity +2 同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.081",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": -5
+        },
+        {
+          "dim": "market.property",
+          "weight": -3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "coordination 低极：计划部门统一安排。property −3：统一安排即否定分散产权。centralization +4：计划需要集中的决策权（与锚集 008 同侧，但那条讲的是资源失控，本条讲的是生产安排）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.082",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": -4
+        },
+        {
+          "dim": "market.intervention",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "coordination 低极：生活必需品不由逐利市场决定。intervention −3：直接要求政府介入。welfare −2：把必需品从价格机制里拿出来，是风险共担的思路。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.083",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": 3
+        },
+        {
+          "dim": "market.intervention",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：价格涨跌是在传递信息。certainty 只 +1——这句话是描述性的，不含对市场结果的评价。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.084",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：完全按价格分配会让穷人用不上。equality −3：从结果可及性出发反对纯价格机制。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.085",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": 5
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 2
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "intervention 高极：政府管得越少越有活力。welfare +3：少管同时意味着少兜底。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.086",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": 4
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 2
+        },
+        {
+          "dim": "market.property",
+          "weight": 2
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "intervention 高极（rubric 高锚点原句）：政府一介入就带来扭曲。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.087",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -3
+        },
+        {
+          "dim": "market.coordination",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "intervention 低极（rubric 低锚点原句）：市场失灵时政府有责任出手。coordination 只取 −1：承认失灵不等于否定价格机制本身——**这正是 coordination 与 intervention 必须分开的地方**。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.088",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": -4
+        },
+        {
+          "dim": "market.property",
+          "weight": -3
+        },
+        {
+          "dim": "market.coordination",
+          "weight": -2
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "intervention 低极：某些行业必须政府办。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.089",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 3
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境，**刻意让两根轴背离**：相信市场机制（intervention +3）同时接受央行存在（coordination 只 +1）。规则优于相机决策 → certainty +3。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.090",
+      "loadings": [
+        {
+          "dim": "market.intervention",
+          "weight": -2
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：补贴有时必要，补久了没人愿意走路。intervention −2（承认必要）与 welfare +2（警惕依赖）**反向**——这是本批第二处刻意背离。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.091",
+      "loadings": [
+        {
+          "dim": "market.property",
+          "weight": 5
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "property 高极（rubric 高锚点原句）：产权清晰是繁荣的前提。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.092",
+      "loadings": [
+        {
+          "dim": "market.property",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 3
+        },
+        {
+          "dim": "ontology.agency",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "property 高极：我挣的钱怎么花不需要报备。这条把产权接到 selfgroup 两轴上——产权不只是经济制度，也是个人边界。（覆盖度补齐：追加 ontology.agency 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.093",
+      "loadings": [
+        {
+          "dim": "market.property",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "property 低极：关键生产资料私人掌握就不可能平等。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.094",
+      "loadings": [
+        {
+          "dim": "market.property",
+          "weight": -4
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "property 低极：土地矿藏不该属于个人。nature.priority +3：把自然物排除在商品之外，同时是自然优先的立场（跨构念次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.095",
+      "loadings": [
+        {
+          "dim": "market.property",
+          "weight": 2
+        },
+        {
+          "dim": "market.intervention",
+          "weight": -2
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 1
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：国有民营各有适用场合。四个权重都小；**property 为正而 intervention 为负**，是不站边但承认两类安排都存在——这种组合在单轴模型里写不出来。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.096",
+      "loadings": [
+        {
+          "dim": "market.property",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：员工持股与完全私有不是一回事。property −3 而非 −5——题干没有否定产权，只是指出中间形态。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.097",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": 5
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 3
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "equality 高极：同一条起跑线比同时到达更重要。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.098",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "equality 高极：差距只要是干出来的就正常。三载荷同向——这是标准的右翼分配观，作为高极的典型表述。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.099",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "equality 低极（rubric 低锚点原句）：起点公平是幻觉。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.100",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "equality 低极：允许有人富可敌国本身就是问题。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.101",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：光看收入差距说明不了什么，得看有没有往上走的路。autonomy +3：『往上走』预设个人能改变自己的位置。universality −2：『说明不了什么』是对单一指标的保留。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.102",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -2
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：同样努力得到不同结果，很难说是公平的。criterion −2：以实际结果评判而非以规则评判。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.103",
+      "loadings": [
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 5
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        },
+        {
+          "dim": "market.property",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "reciprocity 高极（rubric 高锚点原句）：让最能干的人胜出。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.104",
+      "loadings": [
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "reciprocity 高极：竞争让人进步，市场与学校同理。universality +2：『同理』即主张一条普遍规律。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.105",
+      "loadings": [
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -3
+        },
+        {
+          "dim": "market.property",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "reciprocity 低极（rubric 低锚点原句）：把资源交给胜者只会放大不公。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.106",
+      "loadings": [
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "reciprocity 低极：首先应当互相搭把手，而不是比谁跑得快。altruism −4 同向且强度相当——合作与利他在此重合，但其余题里未必（见 108）。（覆盖度补齐：追加 nature.animals 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.107",
+      "loadings": [
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": 1
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：有竞争才有动力，但赢家通吃值得商榷。reciprocity 只 +2、equality 只 +1——题干承认竞争又质疑其规则，两个方向都很弱。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.108",
+      "loadings": [
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        },
+        {
+          "dim": "market.intervention",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "**本批最关键的背离题**：合作社靠自愿，不是国家给的好处。reciprocity −5（合作）与 welfare +3（不要国家福利）完全反向——互助主义不是福利国家主义。单轴模型无法表达，这正是把 distribution 拆成三个 facet 的理由。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.109",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": 5
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": 3
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "welfare 高极（rubric 高锚点原句）：过度兜底会养出依赖。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.110",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        },
+        {
+          "dim": "ontology.agency",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "welfare 高极：一个人过成什么样主要看自己努力。（覆盖度补齐：追加 ontology.agency 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.111",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": -5
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -3
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "welfare 低极：怎么对待最弱的人是文明与否的标志。（覆盖度补齐：追加 nature.animals 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.112",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -3
+        },
+        {
+          "dim": "market.intervention",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "welfare 低极：医疗教育不该看口袋里的钱。intervention −2：实现它需要政府介入。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.113",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：兜底应该，但不能兜到没人愿意工作。criterion −2：用『会产生什么后果』反对过度兜底，是后果论论证而非权利论证。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.114",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：有些人落到那一步真不是不够努力。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.115",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 高极（rubric 高锚点原句）：集体是为个人而存在的。pluralism −2：反对以集体之名压个人，与保护少数同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.116",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 3
+        },
+        {
+          "dim": "market.property",
+          "weight": 2
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 高极：自己的利益不争没人替你争。altruism +4 与之同向——个人优先与自利优先在多数情况下同行，但 117 与 118 显示它们也可以分开。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.117",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": -5
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -4
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 低极：个人价值在群体里实现。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.118",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 低极：先想我们再想我，这是教养。tradition +2：把集体优先表述为『教养』即诉诸承袭的规范。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.119",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：个人和集体不总是对立的。**priority +2 与 altruism −2 反向**：在『两者不对立』的框架下，整体取向偏个人而利他取向偏他人，说明这两根轴不能互相替代。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.120",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向高极：说『为了大家好』时往往有人替别人做决定。accountability −3：对代他人决策的警惕。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.121",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "autonomy 高极：一个人怎么活只有他自己说了算。与锚集 011 的区别：011 讲『别人的期待不构成理由』，本条讲『谁有资格决定』——同一极的两种表述。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.122",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        },
+        {
+          "dim": "ontology.agency",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "autonomy 高极：不太在乎别人怎么看我的选择。tradition −2：不在乎他人评价与不在乎成规同源。（覆盖度补齐：追加 ontology.agency 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.123",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -5
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -4
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "autonomy 低极（rubric 低锚点原句）：对家庭和社群负有不能推卸的责任。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.124",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        },
+        {
+          "dim": "community.scope",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "autonomy 低极：知道自己在家里是什么位置，人才能安心。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.125",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：独立和依靠不是非此即彼。三权重皆 ±2；altruism −2 与 welfare −2 反映『承认需要别人』的两面。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.126",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 2
+        },
+        {
+          "dim": "ontology.agency",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：太早教孩子『做自己就好』未必是好事。（覆盖度补齐：追加 ontology.agency 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.127",
+      "loadings": [
+        {
+          "dim": "selfgroup.altruism",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "altruism 高极（rubric 高锚点原句）：自利并不可耻。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.128",
+      "loadings": [
+        {
+          "dim": "selfgroup.altruism",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 2
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "altruism 高极：帮是情分，不帮是本分。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.129",
+      "loadings": [
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -5
+        },
+        {
+          "dim": "community.scope",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "altruism 低极（rubric 低锚点原句）：别人的苦痛和自己的没有本质区别。scope −3：把义务推到全人类即超越国界。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.130",
+      "loadings": [
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -2
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -2
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "altruism 低极：看到有人受苦而无动于衷本身就不对。foundation −2：从『成为什么样的人』而非『守什么规则』出发，是品格本位。（覆盖度补齐：追加 nature.animals 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.131",
+      "loadings": [
+        {
+          "dim": "selfgroup.altruism",
+          "weight": 3
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 1
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：人多少都有点私心，这很正常。用『这很正常』作论证 → criterion −2（诉诸实际而非应然）。（覆盖度补齐：追加 ontology.substance 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.132",
+      "loadings": [
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -2
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：举手之劳没什么好犹豫的。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.133",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 5
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "material 高极：生活水平与收入是实在标准。abundance +5 同权——重物质与要多，两个 facet 在这里天然重合（与锚集 013 同一处理）。technology −3：技术乐观同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.134",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": 4
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "material 高极：把日子过好是最实际的事。abundance 只 +2——想过好日子不等于要拥有很多，**这是两个 facet 在本批里第一次分开**。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.135",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": -5
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -3
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": 3
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "material 低极：外在条件改善到一定程度就无意义了。meaning +3：转向内在即认为意义另有来源。（覆盖度补齐：追加 ontology.substance 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.136",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": -4
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "material 低极：一个人值不值得尊重，跟他的收入和排场没关系。gratification −3：不以排场取人同时是对炫耀性消费的否定。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.137",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 2
+        },
+        {
+          "dim": "nature.priority",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：日子过得舒服一点难道不好吗。三权重皆 ±2，题干是反问式的常识表述，不构成强主张。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.138",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：把钱花在别人身上比花在自己身上更让人踏实。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.139",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": 4
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "material 高极：生活的底子是物质条件。abundance +3：宽裕即拥有更多。welfare +2：靠自己的积蓄而不靠社会兜底。与锚集 133 的区别：133 讲用什么衡量过得好，本条讲物质与精神的先后。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.140",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 2
+        },
+        {
+          "dim": "market.coordination",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "abundance 高极：想买什么就买什么，这种自由很重要。market.coordination +2：消费自由与市场配置同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.141",
+      "loadings": [
+        {
+          "dim": "lifestyle.material",
+          "weight": -4
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "material 低极：重心在体验而不在可见条件。abundance −3：不追求更多。gratification +2：把当下的喜欢放在前面。与锚集 135 的区别：135 讲外在条件的边际递减，本条讲把日子拿去跟人比较这件事本身。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.142",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -4
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "abundance 低极：家里堆满用不上的东西，只让人觉得累。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.143",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 2
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：多买点还是少买点，看当时需要。certainty −1：以『看情况』作答即情境化判断。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.144",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：买之前先想想是不是真的需要。三权重皆 −2，是克制的日常表述。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.145",
+      "loadings": [
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 3
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "gratification 高极：人生短暂，能快乐的时候就该快乐。criterion −2：以『人生短暂』这类后果理由为放纵辩护。（覆盖度补齐：追加 ontology.substance 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.146",
+      "loadings": [
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 4
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "gratification 高极：想吃什么就吃，别跟自己过不去。foundation −3：以自我感受而非规则节制为准。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.147",
+      "loadings": [
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -5
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "gratification 低极：放纵欲望只会让人被欲望支配，节制才是自由。foundation +3：节制以规则形式落实。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.148",
+      "loadings": [
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -4
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -2
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "gratification 低极：口腹之欲是可以也应该被管住的。animals −2：节制欲望与不吃动物同源（跨构念，与计划 3 的 weights 表一致）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.149",
+      "loadings": [
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 2
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：辛苦一天，晚上吃顿好的不过分。三权重皆小。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.150",
+      "loadings": [
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：先把该做的事做完，再想玩的事。procedure +2：先后次序即程序感。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.151",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": 5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 1
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 高极、**depth 只 +1**：为了人的长远利益也必须给自然让路。这正是 priority 与 depth 的分界——保护自然的理由是人的存续，不是自然本身的价值。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.152",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": 4
+        },
+        {
+          "dim": "nature.technology",
+          "weight": 3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 高极：开发之前先问一句生态承不承受得住。technology +3：审慎而非否定技术。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.153",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -3
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 3
+        },
+        {
+          "dim": "ontology.agency",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "technology 高极：不可逆的技术要审慎。certainty −3：我们并不真知道后果。tempo +3：慢一点、一步一步来。agency +2：能不能用是人的选择，不是技术自己决定的。与锚集 169 的区别：169 讲尚未理解的风险，本条讲不可逆。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.154",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": -4
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -3
+        },
+        {
+          "dim": "market.intervention",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "priority 低极：把资源留在地下不如用它改善生活。technology −3：技术乐观。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.155",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": 2
+        },
+        {
+          "dim": "nature.technology",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：发展和保护未必只能选一个。certainty −2：承认两者的关系不确定。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.156",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": -2
+        },
+        {
+          "dim": "nature.depth",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：穷的时候顾不上谈保护。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.157",
+      "loadings": [
+        {
+          "dim": "nature.depth",
+          "weight": 5
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 3
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "depth 高极：物种和生态系统有独立于人的价值。meaning +2：承认自然有内在价值同时是意义来源的问题。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.158",
+      "loadings": [
+        {
+          "dim": "nature.depth",
+          "weight": 4
+        },
+        {
+          "dim": "nature.animals",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "depth 高极：一条河即使没人去用，它也有存在的理由。source −2：以直观体认而非功利计算为据。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.159",
+      "loadings": [
+        {
+          "dim": "nature.depth",
+          "weight": -5
+        },
+        {
+          "dim": "nature.priority",
+          "weight": -3
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "depth 低极：保护环境最终是为了人自己过得更好。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.160",
+      "loadings": [
+        {
+          "dim": "nature.depth",
+          "weight": -4
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -3
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "depth 低极：说自然有权利，是一种拟人化的说法。criterion −2：以『这种说法没有实际后果』为理由，是后果论式的反驳。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.161",
+      "loadings": [
+        {
+          "dim": "nature.depth",
+          "weight": 2
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：人和其它物种的关系值得重新想一想。三权重皆 +2。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.162",
+      "loadings": [
+        {
+          "dim": "nature.depth",
+          "weight": -2
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -2
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：生态问题最终要靠技术解决。substance +2：技术解决论预设世界可按物理规律改造。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.163",
+      "loadings": [
+        {
+          "dim": "nature.animals",
+          "weight": 5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 3
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "animals 高极：动物和人一样会痛会怕，为口腹之欲杀它们是不正当的。altruism −4：把道德关怀扩展到非人，是利他优先的延伸。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.164",
+      "loadings": [
+        {
+          "dim": "nature.animals",
+          "weight": 4
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -3
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "animals 高极：吃肉这件事本身值得反省。criterion +3：为动物设不可逾越的界线，是义务论式的表述。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.165",
+      "loadings": [
+        {
+          "dim": "nature.animals",
+          "weight": -5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "animals 低极：动物可以被人利用，只要不造成不必要的痛苦。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.166",
+      "loadings": [
+        {
+          "dim": "nature.animals",
+          "weight": -4
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -3
+        },
+        {
+          "dim": "nature.priority",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "animals 低极：把动物的地位抬到和人一样，是搞错了重点。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.167",
+      "loadings": [
+        {
+          "dim": "nature.animals",
+          "weight": 2
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 2
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：怎么对待动物，多少能看出一个社会的样子。foundation −2：从『社会的样子』即品格而非规则出发。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.168",
+      "loadings": [
+        {
+          "dim": "nature.animals",
+          "weight": -2
+        },
+        {
+          "dim": "nature.priority",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：养殖场的条件能改善当然好，但不必上纲上线。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.169",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": 5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 3
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "technology 高极：每项新技术都在制造我们尚未理解的风险。depth +3：对技术的警惕与承认自然的独立价值同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.170",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": 4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "technology 高极：能不用就不用，慢一点没什么不好。certainty −3：对技术后果的不确定感。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.171",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": -5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "technology 低极：技术带来的问题最终要靠更好的技术解决。source +3：技术乐观预设理性可以解决理性造成的问题。（覆盖度补齐：追加 ontology.substance 次载荷）"
+      }
+    },
+    {
+      "questionId": "ideo.v1.172",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": -4
+        },
+        {
+          "dim": "change.tempo",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "technology 低极：新技术一出就该尽快用上，等别人先试是浪费机会。tempo −3：快速采用即偏激变。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.173",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：新技术该不该用，得看它解决了什么问题、又带来了什么问题。procedure +2：逐项评估即程序化。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.174",
+      "loadings": [
+        {
+          "dim": "nature.technology",
+          "weight": -2
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：工具就是工具，用就是了。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.175",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": 5
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "substance 高极：所谓精神现象最终都能还原为物质过程。meaning −4：还原论同时否定意义有独立来源。source +4：还原是推演式的路径。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.176",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": 4
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "substance 高极：人就是生物，没什么神秘的。technology −3：反神秘主义通常伴随技术乐观。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.177",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": -5
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": 4
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "substance 低极：意识不是物质的副产品，它才是更根本的东西。meaning +4：意识第一性与意义可寻同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.178",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": -4
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "substance 低极：把一切都当成物质，漏掉了最要紧的那部分。source −3：反对还原论通常诉诸直观体认。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.179",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 2
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：这个问题可能问错了——重要的不是世界是什么做的。**substance +2 与 meaning −2 反向**：不站本体论立场，但因此也不认为意义有客观来源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.180",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": -2
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：有些东西科学解释不了，也不必硬解释。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.181",
+      "loadings": [
+        {
+          "dim": "ontology.substance",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 2
+        },
+        {
+          "dim": "ontology.agency",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "substance 低极：第一人称的意识不是物质过程的副产品。source −3：亲身体认优先于仪器测量的推演。certainty +2：自身体认是最确定的一类知识。agency +2：不可还原的体验意味着人不是可被完全外部解释的系统。与锚集 177 的区别：177 是本体论断言，本条拿第一人称的疼当证据。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.182",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "agency 高极：一个人做了什么样的选择，就得承担什么样的结果。welfare +3：自由意志与自担风险在实践上相连。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.183",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -3
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "agency 低极：连可选项都被出身框定，自由的空间比人以为的小。autonomy −3：人生的可能性由出身与角色给定。equality −2：起点不均等已经决定了后来能走到哪，故不满足于机会平等。与锚集 018 的区别：018 讲每个选择背后都有成因，本条讲连选项集合都是被给定的。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.184",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "agency 低极：很多人的处境不是他自己选的，把责任全推给他不公平。welfare −3：决定论与风险共担相连。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.185",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": 2
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：自由不自由，可能取决于你问的是哪个层面。certainty −2：以『取决于层面』作答即拒绝单一结论。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.186",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：人受环境的影响，比自己以为的大得多。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.187",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "meaning 高极：人生自有其目的，只是需要我们去找出来。certainty +2：可寻预设它确实存在。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.188",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": 4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        },
+        {
+          "dim": "community.scope",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "meaning 高极：意义藏在传统里，前人已经替你走过一遍。tradition +3：把意义来源放在承袭而非自创。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.189",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": -5
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 2
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "meaning 低极：宇宙不提供任何意义，意义只能由自己造，或者干脆没有。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.190",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "meaning 低极：意义是自己给的，所以也没有谁能规定它该是什么。autonomy +4：自赋意义即自我立法。absoluteness −3：自赋与道德相对同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.191",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：有人靠信仰活着，有人靠自己造，两种都能过一辈子。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.192",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 3
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：别老想活着为了什么，把眼前的日子过好就行。gratification +3：把注意力放在当下。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.193",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T10:00:50.932Z",
+        "note": "source 高极：观察要靠理论才成立，理性先于经验。universality +2：理论框架不随观察者而变。certainty +2：有框架才谈得上判断对错。与锚集 019 的区别：019 讲感官会骗人，本条讲没有理论就不知道该看什么。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.194",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "source 高极：要能从头推导出来才肯信。foundation +2：可推导即可检验，与规则本位同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.195",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": -5
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "source 低极：知识最终要回到观察和实验。certainty 只 +1——经验论者未必认为自己掌握了确定结论。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.196",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "source 低极：亲眼看过一次胜过书本道理。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.197",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": 1
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：光靠想和光靠看都不够。source 只 +1——题干明确否认单一路径，给高权重会与题干矛盾。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.198",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：手比脑子先明白，很多事是做出来的。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.199",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": 5
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "certainty 高极：方法对就能得到经得起检验的确定结论。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.200",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "certainty 高极：说不清楚通常是因为还没想清楚。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.201",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": -5
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "certainty 低极：今天确信的东西过几年多半会改。与锚集 020 区别：020 讲『应当保持怀疑』（规范性），本条讲『我确实会改主意』（经验性）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.202",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "certainty 低极：越言之凿凿越值得警惕。accountability −2：对断言者的警惕与要求问责同侧。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.203",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：有些领域能求确定，有些只能求大概。**certainty +2 与 universality −2 反向**——承认确定性的适用范围有限，但不否认它存在。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.204",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": -3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：承认自己不知道比装作知道强。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.205",
+      "loadings": [
+        {
+          "dim": "epistemics.universality",
+          "weight": 5
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "universality 高极：同一个问题在哪儿都该有同一个正确答案。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.206",
+      "loadings": [
+        {
+          "dim": "epistemics.universality",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "universality 高极：数学和物理在中国和在欧洲是一回事。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.207",
+      "loadings": [
+        {
+          "dim": "epistemics.universality",
+          "weight": -5
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "universality 低极：真理往往只是某个视角的说法。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.208",
+      "loadings": [
+        {
+          "dim": "epistemics.universality",
+          "weight": -4
+        },
+        {
+          "dim": "community.scope",
+          "weight": -2
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "universality 低极：同一个道理放在不同文化里意思就变了。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.209",
+      "loadings": [
+        {
+          "dim": "epistemics.universality",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -1
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：有些标准放之四海皆准，有些得看地方。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.210",
+      "loadings": [
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：谁对谁错，很多时候取决于你站在哪儿看。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.211",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": 5
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "criterion 高极：做了不该做的事，结果碰巧好也不能算对。与锚集 021 区别：021 是『无论结果多好都不能做』（禁令式），本条是『碰巧好也不算对』（评价式）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.212",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": 4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "criterion 高极：先看符不符合规则，而不是看带来了什么。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.213",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": -5
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "criterion 低极：只要最后大家都更好，过程中有些事可以做。与锚集 022 区别：022 是『看实际造成了什么』（判据式），本条是『整体更好就允许』（权衡式）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.214",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": -4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -2
+        },
+        {
+          "dim": "change.procedure",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "criterion 低极：光有好心办不成事，就等于没办。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.215",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": 1
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：动机和结果哪个更该被看重，得看具体是什么事。criterion 只 +1——题干明确拒绝给出统一判据。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.216",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": -3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -2
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：完全不看后果的道德判断太不近人情。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.217",
+      "loadings": [
+        {
+          "dim": "morality.foundation",
+          "weight": 5
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": 4
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "foundation 高极：道德首先是守住底线。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.218",
+      "loadings": [
+        {
+          "dim": "morality.foundation",
+          "weight": 4
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "foundation 高极：把规矩立清楚比指望自觉可靠。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.219",
+      "loadings": [
+        {
+          "dim": "morality.foundation",
+          "weight": -5
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -1
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "foundation 低极：光守规矩的人可能很冷漠。criterion 只 −1——反规则本位不等于主张后果论，也可能主张德性论。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.220",
+      "loadings": [
+        {
+          "dim": "morality.foundation",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "foundation 低极：是什么样的人比做过什么更根本。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.221",
+      "loadings": [
+        {
+          "dim": "morality.foundation",
+          "weight": 2
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": 2
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：规则和品格都重要，不好说哪个在先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.222",
+      "loadings": [
+        {
+          "dim": "morality.foundation",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -2
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：太讲规矩的地方往往也最不讲人情。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.223",
+      "loadings": [
+        {
+          "dim": "morality.absoluteness",
+          "weight": 5
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 4
+        },
+        {
+          "dim": "morality.criterion",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "absoluteness 高极：有些事在任何时代任何文化里都是错的。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.224",
+      "loadings": [
+        {
+          "dim": "morality.absoluteness",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 3
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "absoluteness 高极：对就是对，不因为大家都这么做就变。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.225",
+      "loadings": [
+        {
+          "dim": "morality.absoluteness",
+          "weight": -5
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -4
+        },
+        {
+          "dim": "community.scope",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "absoluteness 低极：道德标准是特定社会长出来的。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.226",
+      "loadings": [
+        {
+          "dim": "morality.absoluteness",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "absoluteness 低极：每个时代的道德都是它自己的，无所谓进步退步。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.227",
+      "loadings": [
+        {
+          "dim": "morality.absoluteness",
+          "weight": 3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 2
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：大是大非上没什么可商量的，小事上各有各的活法。**absoluteness +3 但 foundation 只 +1**：绝对性可以只体现在少数底线上，不必是全面的规则主义。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.228",
+      "loadings": [
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：同一件事，二十年前和现在的看法就不一样了。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.229",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": -4
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-27T09:55:54.244Z",
+        "note": "representation 低极：写实不再是绘画的任务。technology −3：技术改变了艺术该做什么，是推动而不是威胁。tradition −2：旧任务该让位。与锚集 237 的区别：237 讲形式本身就能说话，本条讲摄影把写实的任务拿走了。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.230",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": 4
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 3
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "order 高极：真正耐看的东西，细节都摆得恰到好处。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.231",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": -5
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -3
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "order 低极：不能让人心里一动，技术再完美也没用。与锚集 024 区别：024 是『四平八稳没有生命』（评价式），本条是『完美但无动于衷』（反例式）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.232",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "order 低极：混乱、冲突、失衡恰恰最有力量。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.233",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": 2
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 2
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": 1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：秩序和张力，好的作品里其实都有。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.234",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": -2
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": -2
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：看着舒服和看着震撼，是两种不同的好。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.235",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": 5
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": 2
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "representation 高极：作品的价值在于多准确地抓住了真实。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.236",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": 4
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 3
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "representation 高极：画得像不像仍是基本功。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.237",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": -5
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -3
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "representation 低极：艺术不必像什么，形式和色彩本身就能说话。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.238",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "representation 低极：照搬现实叫记录，不叫创作。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.239",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": 2
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": 2
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：抽象和具象各有各的好。三权重皆 +2。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.240",
+      "loadings": [
+        {
+          "dim": "aesthetics.representation",
+          "weight": -3
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": -2
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：看得懂看不懂不该是评价标准。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.241",
+      "loadings": [
+        {
+          "dim": "aesthetics.convention",
+          "weight": 5
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": 4
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "convention 高极：先学好古典再谈创新。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.242",
+      "loadings": [
+        {
+          "dim": "aesthetics.convention",
+          "weight": 4
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "convention 高极：前人试过几百年才留下的规矩不该轻易丢。tradition +4：艺术上的承袭与社会上的守成同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.243",
+      "loadings": [
+        {
+          "dim": "aesthetics.convention",
+          "weight": -5
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": -4
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "convention 低极：艺术的推进靠砸掉上一代的规矩。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.244",
+      "loadings": [
+        {
+          "dim": "aesthetics.convention",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": -2
+        },
+        {
+          "dim": "change.tempo",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "convention 低极：只讲传承的手艺很快会僵掉。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.245",
+      "loadings": [
+        {
+          "dim": "aesthetics.convention",
+          "weight": 2
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": 2
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境：学传统和搞创新其实不矛盾。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.246",
+      "loadings": [
+        {
+          "dim": "aesthetics.convention",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -2
+        },
+        {
+          "dim": "aesthetics.order",
+          "weight": -1
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "中性情境但倾向低极：每个时代都会觉得上一代的品味过时了。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.247",
+      "loadings": [
+        {
+          "dim": "power.pluralism",
+          "weight": -5
+        },
+        {
+          "dim": "power.accountability",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T15:58:44.102Z",
+        "note": "pluralism 低极：权利不由票决决定。accountability −3：与票决反向。autonomy +2：权利以个人边界为依据。补此题是为了让该维度低极一侧达到 3 道（复核 I6）；载荷刻意与 039 区分（原先完全相同，被签名诊断报出）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.248",
+      "loadings": [
+        {
+          "dim": "ontology.meaning",
+          "weight": -5
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T15:58:44.102Z",
+        "note": "meaning 低极：意义没有标准答案。universality −3 与 absoluteness −3：无标准答案同时是情境化判断与道德相对。与 189（宇宙不提供意义、需自己造）角度不同：本题讲的是\"没有统一答案\"。补此题是为了让该维度低极一侧达到 3 道（复核 I6）。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "version": "v1",
+  "constructs": [
+    {
+      "id": "power",
+      "nameKey": "c.power",
+      "definition": "政治权力如何获得、如何被约束、如何分配。回答的是「谁说了算、凭什么、能管多宽」。",
+      "facets": [
+        {
+          "id": "power.centralization",
+          "nameKey": "dim.power.centralization",
+          "definition": "权力应当集中在少数决策者手中，还是分散给地方与个人。",
+          "excludes": "不测决策者由谁产生、受谁约束——那是 power.accountability；也不测一个共同体是否可以拆分——那是 community.integrity。",
+          "poles": ["集中统一", "分散自治"],
+          "anchors": {
+            "high": "国家大事必须由中央快速决断，地方各行其是只会坏事。",
+            "low": "地方和自己的事应该自己决定，上级少插手。"
+          }
+        },
+        {
+          "id": "power.accountability",
+          "nameKey": "dim.power.accountability",
+          "definition": "决策者应当受普通人问责，还是应由更有能力/德行的人自主决断。",
+          "excludes": "不测权力的集中程度——那是 power.centralization；不测是否保护少数——那是 power.pluralism。",
+          "poles": ["精英决断", "大众问责"],
+          "anchors": {
+            "high": "治理是专业活，交给有见识的人比让人人都插嘴更好。",
+            "low": "公共决策必须能被人问责，谁做的谁负责。"
+          }
+        },
+        {
+          "id": "power.pluralism",
+          "nameKey": "dim.power.pluralism",
+          "definition": "多数人的意志是否应当有边界，少数与异见是否应受特别保护。",
+          "excludes": "不测决策者的产生方式——那是 power.accountability；不测共同体边界——那是 community.scope。",
+          "poles": ["多数优先", "少数受护"],
+          "anchors": {
+            "high": "投票结果出来了就该执行，不能因为少数人不高兴就推翻。",
+            "low": "多数也可能压迫人，少数和异见的权利必须被写死保护。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "nameKey": "c.community",
+      "definition": "「我们」的边界画在哪里，以及对边界内外的人分别负有什么义务。",
+      "facets": [
+        {
+          "id": "community.scope",
+          "nameKey": "dim.community.scope",
+          "definition": "认同与忠诚的首要对象是本民族国家，还是全人类。",
+          "excludes": "不测是否接纳外来者——那是 community.openness；也不测共同体内部少数与多数的关系——那是 power.pluralism。",
+          "poles": ["民族本位", "世界主义"],
+          "anchors": {
+            "high": "本国人的利益必须放在第一位，这是任何政治共同体的前提。",
+            "low": "国界只是历史偶然，我对远方陌生人的义务不比邻居少。"
+          }
+        },
+        {
+          "id": "community.openness",
+          "nameKey": "dim.community.openness",
+          "definition": "共同体应当对外来者、异文化保持开放，还是优先维系内部同质与稳定。",
+          "excludes": "不测忠诚对象是人类还是民族——那是 community.scope；也不测共同体能否被拆分——那是 community.integrity。",
+          "poles": ["边界守护", "开放接纳"],
+          "anchors": {
+            "high": "过快的人员与文化流动会瓦解社会信任，需要节制。",
+            "low": "外来文化带来的活力远大于冲击，应该欢迎。"
+          }
+        },
+        {
+          "id": "community.integrity",
+          "nameKey": "dim.community.integrity",
+          "definition": "既存政治共同体的统一是否应当维护，还是内部群体有权自决甚至分离。",
+          "excludes": "不测权力的集中程度——那是 power.centralization；不测对外来者的态度——那是 community.openness。",
+          "poles": ["维护统一", "自决分离"],
+          "anchors": {
+            "high": "共同体一旦形成，就不该因一部分人的意愿而随意拆分。",
+            "low": "一个群体若不愿留下，强留只会带来更大的痛苦。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "change",
+      "nameKey": "c.change",
+      "definition": "社会应当改变多少、多快，以及在改变时受不受既存规则的约束。",
+      "facets": [
+        {
+          "id": "change.tempo",
+          "nameKey": "dim.change.tempo",
+          "definition": "社会变革应当剧烈而彻底，还是缓慢而累积。",
+          "excludes": "不测是否珍视传统本身——那是 change.tradition；也不测历史是否有必然方向——那是 ontology.agency。",
+          "poles": ["渐进改良", "激进变革"],
+          "anchors": {
+            "high": "剧烈变动往往带来意想不到的灾难，宁可一步一步来。",
+            "low": "小修小补解决不了根本问题，必须推倒重来。"
+          }
+        },
+        {
+          "id": "change.tradition",
+          "nameKey": "dim.change.tradition",
+          "definition": "沿袭已久的做法与价值是否本身就值得尊重。",
+          "excludes": "不测变革的速度与幅度——那是 change.tempo；也不测艺术上是否承袭古典范式——那是 aesthetics.convention。",
+          "poles": ["尊重传统", "推陈出新"],
+          "anchors": {
+            "high": "能延续几百年自有其道理，未经检验就抛弃是傲慢。",
+            "low": "传统常常只是过去的不合理，不该因为它旧就免于质疑。"
+          }
+        },
+        {
+          "id": "change.procedure",
+          "nameKey": "dim.change.procedure",
+          "definition": "推动改变时，程序与既存规则是否必须遵守，还是可以为正当目的绕开。",
+          "excludes": "不测道德判断该看义务还是看后果——那是 morality.criterion。",
+          "poles": ["程序至上", "目的正当"],
+          "anchors": {
+            "high": "手段不正当，结果再好也站不住脚。",
+            "low": "当规则本身在制造不公时，绕过它是必要的。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "nameKey": "c.market",
+      "definition": "经济资源由谁配置、依据什么信号配置，以及生产资料归谁所有。",
+      "facets": [
+        {
+          "id": "market.coordination",
+          "nameKey": "dim.market.coordination",
+          "definition": "资源配置应当依靠分散的价格信号，还是依靠集中的计划安排。",
+          "excludes": "不测生产资料归谁所有——那是 market.property。",
+          "poles": ["市场配置", "计划配置"],
+          "anchors": {
+            "high": "价格由供需决定，任何中央机构都不可能掌握足够信息替代它。",
+            "low": "关系国计民生的资源必须统一规划，交给市场会失控。"
+          }
+        },
+        {
+          "id": "market.intervention",
+          "nameKey": "dim.market.intervention",
+          "definition": "政府应当积极介入经济活动，还是尽量不干预。",
+          "excludes": "不测所有制——那是 market.property；不测再分配力度——那是 distribution.welfare。",
+          "poles": ["自由放任", "政府干预"],
+          "anchors": {
+            "high": "政府一介入就带来扭曲，最好的经济政策是少管。",
+            "low": "市场会失灵，政府有责任在萧条和垄断时出手。"
+          }
+        },
+        {
+          "id": "market.property",
+          "nameKey": "dim.market.property",
+          "definition": "生产资料应当主要归私人所有，还是归公共/集体所有。",
+          "excludes": "不测资源靠价格还是靠计划配置——那是 market.coordination；也不测政府干预经济的总力度——那是 market.intervention。",
+          "poles": ["私有产权", "公有共享"],
+          "anchors": {
+            "high": "产权清晰是繁荣的前提，公有往往等于无人负责。",
+            "low": "关键生产资料由私人掌握，就不可能真正实现平等。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "nameKey": "c.distribution",
+      "definition": "经济成果按什么标准分给谁，以及个人对自身境遇负多大责任。",
+      "facets": [
+        {
+          "id": "distribution.equality",
+          "nameKey": "dim.distribution.equality",
+          "definition": "平等主要指起点公平与机会均等，还是指结果的接近。",
+          "excludes": "不测竞争与合作的取向——那是 distribution.reciprocity；也不测风险由个人还是由社会承担——那是 distribution.welfare。",
+          "poles": ["机会平等", "结果平等"],
+          "anchors": {
+            "high": "只要起点公平、规则一致，结果有差距是可以接受的。",
+            "low": "起点公平是幻觉，不缩小结果差距就谈不上平等。"
+          }
+        },
+        {
+          "id": "distribution.reciprocity",
+          "nameKey": "dim.distribution.reciprocity",
+          "definition": "人与人之间应以竞争择优为主，还是以合作互助为主。",
+          "excludes": "不测平等指机会还是指结果——那是 distribution.equality；也不测人应当自利还是利他——那是 selfgroup.altruism。",
+          "poles": ["竞争择优", "合作互助"],
+          "anchors": {
+            "high": "让最能干的人胜出，整体才会更好。",
+            "low": "把资源交给竞争中的胜者，只会不断放大不公。"
+          }
+        },
+        {
+          "id": "distribution.welfare",
+          "nameKey": "dim.distribution.welfare",
+          "definition": "个人应当自担风险，还是由社会共同分担。",
+          "excludes": "不测平等指机会还是指结果——那是 distribution.equality；也不测政府干预经济的总力度——那是 market.intervention。",
+          "poles": ["自担风险", "社会共担"],
+          "anchors": {
+            "high": "自己的选择自己负责，过度兜底会养出依赖。",
+            "low": "失业、疾病、衰老是任何人都可能遇到的，必须由社会共同兜住。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "selfgroup",
+      "nameKey": "c.selfgroup",
+      "definition": "个人与所属群体之间，谁的价值优先，以及人应当多独立、为他人让渡多少。",
+      "facets": [
+        {
+          "id": "selfgroup.priority",
+          "nameKey": "dim.selfgroup.priority",
+          "definition": "当个人利益与集体利益冲突时，哪一方应当优先。",
+          "excludes": "不测人生方向由自己还是由角色期待决定——那是 selfgroup.autonomy；也不测人应当自利还是利他——那是 selfgroup.altruism。",
+          "poles": ["个人优先", "集体优先"],
+          "anchors": {
+            "high": "集体是为个人而存在的，不能反过来要求个人为它牺牲。",
+            "low": "离开共同体，个人什么都不是，必要时个人应当让步。"
+          }
+        },
+        {
+          "id": "selfgroup.autonomy",
+          "nameKey": "dim.selfgroup.autonomy",
+          "definition": "人生的方向应当由自己定义，还是由家庭、社群与角色期待来定义。",
+          "excludes": "不测利益冲突时个人与集体谁优先——那是 selfgroup.priority；也不测选择在因果上是否自由——那是 ontology.agency。",
+          "poles": ["独立自主", "归属依从"],
+          "anchors": {
+            "high": "我的人生由我自己决定，别人的期待不构成理由。",
+            "low": "人对家庭和社群负有不能推卸的责任，那决定了该怎么活。"
+          }
+        },
+        {
+          "id": "selfgroup.altruism",
+          "nameKey": "dim.selfgroup.altruism",
+          "definition": "人应当主要追求自身利益，还是把他人利益放在同等甚至更重的位置。",
+          "excludes": "不测个人与集体谁优先——那是 selfgroup.priority；也不测合作与竞争的制度偏好——那是 distribution.reciprocity。",
+          "poles": ["自利优先", "利他优先"],
+          "anchors": {
+            "high": "先把自己照顾好，才有余力谈别人，自利并不可耻。",
+            "low": "别人的苦痛和我自己的苦痛没有本质区别，应当同等对待。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "nameKey": "c.lifestyle",
+      "definition": "人应当把生活重心放在哪里，以及对外在拥有与即时满足持什么态度。",
+      "facets": [
+        {
+          "id": "lifestyle.material",
+          "nameKey": "dim.lifestyle.material",
+          "definition": "生活的重心应当放在物质条件与可见成就，还是放在精神体验与内在状态。",
+          "excludes": "不测拥有与消费是多还是少——那是 lifestyle.abundance；也不测人生意义是否存在——那是 ontology.meaning。",
+          "poles": ["物质追求", "精神追求"],
+          "anchors": {
+            "high": "生活水平、收入和成就，是衡量过得好不好的实在标准。",
+            "low": "外在条件改善到一定程度就无意义了，重要的是内心。"
+          }
+        },
+        {
+          "id": "lifestyle.abundance",
+          "nameKey": "dim.lifestyle.abundance",
+          "definition": "拥有与消费应当尽量丰富，还是尽量精简。",
+          "excludes": "不测重物质还是重精神——那是 lifestyle.material；也不测欲望该不该被克制——那是 lifestyle.gratification。",
+          "poles": ["丰裕丰富", "简约节制"],
+          "anchors": {
+            "high": "能拥有更多、体验更多，本身就是好事。",
+            "low": "东西越少越自由，多余的都是负担。"
+          }
+        },
+        {
+          "id": "lifestyle.gratification",
+          "nameKey": "dim.lifestyle.gratification",
+          "definition": "当下的快乐与欲望是否应当被优先满足，还是应当被约束、延迟或克制。",
+          "excludes": "不测拥有与消费是多还是少——那是 lifestyle.abundance；也不测非人动物的利益是否纳入考量——那是 nature.animals。",
+          "poles": ["及时享乐", "克制禁欲"],
+          "anchors": {
+            "high": "人生短暂，能快乐的时候就该快乐。",
+            "low": "放纵欲望只会让人被欲望支配，节制才是自由。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "nameKey": "c.nature",
+      "definition": "人应当如何看待自然与技术：谁是目的、谁是工具，以及技术的边界在哪里。",
+      "facets": [
+        {
+          "id": "nature.priority",
+          "nameKey": "dim.nature.priority",
+          "definition": "当人的需求与自然秩序冲突时，哪一方应当让步。",
+          "excludes": "不测保护自然的理由是为了人还是为了自然本身——那是 nature.depth；也不测技术进步是否值得乐观——那是 nature.technology。",
+          "poles": ["自然优先", "人类优先"],
+          "anchors": {
+            "high": "自然不是资源库，人的需求不能自动压过生态的承受力。",
+            "low": "自然就是为人所用的，人的福祉是唯一的尺度。"
+          }
+        },
+        {
+          "id": "nature.depth",
+          "nameKey": "dim.nature.depth",
+          "definition": "环境保护的理由是「对人有利」，还是「自然本身就有价值」。",
+          "excludes": "不测人与自然的优先级——那是 nature.priority；不测对其他物种的态度是否延伸到个体——那是 nature.animals。",
+          "poles": ["生态中心", "人类中心"],
+          "anchors": {
+            "high": "物种和生态系统有独立于人的价值，哪怕对人无益也该保护。",
+            "low": "保护环境最终是为了人自己过得更好。"
+          }
+        },
+        {
+          "id": "nature.animals",
+          "nameKey": "dim.nature.animals",
+          "definition": "非人动物的个体利益是否应当被纳入道德考量，包括不吃它们。",
+          "excludes": "不测生态系统整体的价值——那是 nature.depth；也不测日常欲望该不该克制——那是 lifestyle.gratification。",
+          "poles": ["动物个体受护", "人类利益优先"],
+          "anchors": {
+            "high": "动物和人一样会痛会怕，为口腹之欲杀它们是不正当的。",
+            "low": "动物可以被人利用，只要不造成不必要的痛苦即可。"
+          }
+        },
+        {
+          "id": "nature.technology",
+          "nameKey": "dim.nature.technology",
+          "definition": "技术进步总体上值得乐观推进，还是需要警惕与节制。",
+          "excludes": "不测人的需求与自然秩序冲突时谁让步——那是 nature.priority。",
+          "poles": ["技术审慎", "技术乐观"],
+          "anchors": {
+            "high": "每项新技术都在制造我们尚未理解的风险，应当慢一点。",
+            "low": "技术带来的问题，最终要靠更好的技术去解决。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ontology",
+      "nameKey": "c.ontology",
+      "definition": "世界根本上由什么构成，人的意志在其中有多少空间，以及意义从何而来。",
+      "facets": [
+        {
+          "id": "ontology.substance",
+          "nameKey": "dim.ontology.substance",
+          "definition": "世界的根本是物质，还是意识/精神。",
+          "excludes": "不测可靠认识来自理性还是来自经验——那是 epistemics.source。",
+          "poles": ["唯物", "唯心"],
+          "anchors": {
+            "high": "所谓精神现象，最终都能还原为物质过程。",
+            "low": "意识不是物质的副产品，它才是更根本的东西。"
+          }
+        },
+        {
+          "id": "ontology.agency",
+          "nameKey": "dim.ontology.agency",
+          "definition": "人的选择在多大程度上是自由的，还是被因果、环境或结构决定。",
+          "excludes": "不测人生方向由自己还是由角色期待决定——那是 selfgroup.autonomy；也不测社会变革该多快多彻底——那是 change.tempo。",
+          "poles": ["自由意志", "因果决定"],
+          "anchors": {
+            "high": "人可以在同样的处境下做出完全不同的选择，这才是人。",
+            "low": "人的每一个选择背后都有成因，所谓自由只是没看清成因。"
+          }
+        },
+        {
+          "id": "ontology.meaning",
+          "nameKey": "dim.ontology.meaning",
+          "definition": "人生的意义是被给定的、需要被发现的，还是必须由自己创造，甚至根本不存在。",
+          "excludes": "不测生活重心在物质还是在精神——那是 lifestyle.material。",
+          "poles": ["意义可寻", "意义自赋"],
+          "anchors": {
+            "high": "人生自有其目的，只是需要我们去找出来。",
+            "low": "宇宙不提供任何意义，意义只能由自己造，或者干脆没有。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "epistemics",
+      "nameKey": "c.epistemics",
+      "definition": "人如何获得可靠的认识：靠推演还是观察，能有多大把握，以及真理是普遍的吗。",
+      "facets": [
+        {
+          "id": "epistemics.source",
+          "nameKey": "dim.epistemics.source",
+          "definition": "可靠的知识主要来自理性推演，还是来自经验观察与直觉体认。",
+          "excludes": "不测世界由什么构成——那是 ontology.substance；不测有多大把握——那是 epistemics.certainty。",
+          "poles": ["理性演绎", "经验归纳"],
+          "anchors": {
+            "high": "真正可靠的知识来自逻辑推演，感官是会骗人的。",
+            "low": "一切知识最终都要回到观察和体验，推演离了经验就是空转。"
+          }
+        },
+        {
+          "id": "epistemics.certainty",
+          "nameKey": "dim.epistemics.certainty",
+          "definition": "人能否获得确定无疑的知识，还是应当对一切结论保持怀疑与开放。",
+          "excludes": "不测知识的来源——那是 epistemics.source；不测真理是否普遍——那是 epistemics.universality。",
+          "poles": ["追求确定", "保持怀疑"],
+          "anchors": {
+            "high": "只要方法正确，我们就能得到经得起检验的确定结论。",
+            "low": "任何结论都可能被推翻，重要的是保持怀疑而不是急着定论。"
+          }
+        },
+        {
+          "id": "epistemics.universality",
+          "nameKey": "dim.epistemics.universality",
+          "definition": "真理与判断标准是普遍适用的，还是随文化、语境与视角而变。",
+          "excludes": "不测道德是否绝对——那是 morality.absoluteness；不测对确定性的态度——那是 epistemics.certainty。",
+          "poles": ["普遍主义", "情境建构"],
+          "anchors": {
+            "high": "同一个问题在哪儿都该有同一个正确答案。",
+            "low": "所谓真理往往只是某个视角的说法，换个处境就不成立。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "morality",
+      "nameKey": "c.morality",
+      "definition": "道德判断依据什么作出，以及道德要求是绝对的还是可变的。",
+      "facets": [
+        {
+          "id": "morality.criterion",
+          "nameKey": "dim.morality.criterion",
+          "definition": "判断行为对错，看的是它是否符合义务，还是它带来了什么后果。",
+          "excludes": "不测道德的根基在规则还是在品格——那是 morality.foundation；也不测为正当目的能否绕开程序——那是 change.procedure。",
+          "poles": ["义务优先", "后果优先"],
+          "anchors": {
+            "high": "有些事无论结果多好都不能做，这是底线。",
+            "low": "判断对错要看实际造成了什么，动机和规则都是次要的。"
+          }
+        },
+        {
+          "id": "morality.foundation",
+          "nameKey": "dim.morality.foundation",
+          "definition": "道德的根基在于遵守规则，还是在于养成好的品格与恰当的关怀。",
+          "excludes": "不测判断对错看义务还是看后果——那是 morality.criterion；也不测道德标准是否随情境改变——那是 morality.absoluteness。",
+          "poles": ["规则本位", "品格本位"],
+          "anchors": {
+            "high": "道德首先是守住规则，做不到就别谈什么品格。",
+            "low": "光守规则的人可能冷漠，重要的是成为什么样的人。"
+          }
+        },
+        {
+          "id": "morality.absoluteness",
+          "nameKey": "dim.morality.absoluteness",
+          "definition": "道德标准是否不随情境与文化改变，还是因时因地而异。",
+          "excludes": "不测道德的根基在规则还是在品格——那是 morality.foundation；也不测一般意义上的真理是否普遍——那是 epistemics.universality。",
+          "poles": ["道德绝对", "道德相对"],
+          "anchors": {
+            "high": "有些事在任何时代任何文化里都是错的，没有例外。",
+            "low": "道德标准是特定社会长出来的，不应用一套去评判另一套。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aesthetics",
+      "nameKey": "c.aesthetics",
+      "definition": "什么是好的艺术：形式与情感的配比、再现与抽象的选择、承袭与反叛的立场。",
+      "facets": [
+        {
+          "id": "aesthetics.order",
+          "nameKey": "dim.aesthetics.order",
+          "definition": "好的作品应当追求秩序、比例与和谐，还是追求情感强度与张力。",
+          "excludes": "不测写实还是抽象——那是 aesthetics.representation；不测是否承袭古典——那是 aesthetics.convention。",
+          "poles": ["秩序和谐", "情感张力"],
+          "anchors": {
+            "high": "真正的好作品经得起反复看，靠的是结构与比例。",
+            "low": "艺术就是要打动人，四平八稳的东西没有生命。"
+          }
+        },
+        {
+          "id": "aesthetics.representation",
+          "nameKey": "dim.aesthetics.representation",
+          "definition": "艺术应当忠实再现现实，还是可以脱离具象、走向抽象与变形。",
+          "excludes": "不测作品该重秩序还是重情感张力——那是 aesthetics.order。",
+          "poles": ["写实再现", "抽象表现"],
+          "anchors": {
+            "high": "作品的价值在于它多准确地抓住了真实。",
+            "low": "艺术不必像什么，形式与色彩本身就能说话。"
+          }
+        },
+        {
+          "id": "aesthetics.convention",
+          "nameKey": "dim.aesthetics.convention",
+          "definition": "创作应当承袭经过检验的古典范式，还是应当不断打破惯例。",
+          "excludes": "不测作品该重秩序还是重情感张力——那是 aesthetics.order；也不测社会层面的传统该不该守——那是 change.tradition。",
+          "poles": ["古典承袭", "反叛实验"],
+          "anchors": {
+            "high": "古典作品已经示范了什么是好，先学好再谈创新。",
+            "low": "艺术的推进靠的就是把上一代的规矩砸掉。"
+          }
+        }
+      ]
+    }
+  ]
+}

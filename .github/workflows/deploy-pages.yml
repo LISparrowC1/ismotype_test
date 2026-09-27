@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+
+# 只在 main 分支推上去、或手动触发时部署。
+# `npm run ci` 那道自检由 ci.yml 负责，这里只做打包与发布，免得同一套检查跑两遍。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时刻只允许一个部署；排队中的旧任务直接取消，但**不打断正在跑的发布**
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci
+      # 项目站点服务在 /<仓库名>/ 下，资源路径要跟着走（vite.config.ts 的 base）
+      - run: npm run build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

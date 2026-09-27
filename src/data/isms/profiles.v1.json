@@ -1,0 +1,2262 @@
+[
+  {
+    "id": "art.baroque",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.baroque",
+    "descKey": "ism.art.baroque.desc",
+    "icon": "images/isms/baroque.png",
+    "profile": {
+      "aesthetics.order": -3,
+      "aesthetics.representation": 2,
+      "aesthetics.convention": 1,
+      "lifestyle.material": 4,
+      "lifestyle.abundance": 5,
+      "lifestyle.gratification": 2,
+      "change.tradition": 3,
+      "ontology.meaning": 3,
+      "epistemics.source": -1
+    }
+  },
+  {
+    "id": "art.classicism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.classicism",
+    "descKey": "ism.art.classicism.desc",
+    "icon": "images/isms/classicism.png",
+    "profile": {
+      "aesthetics.convention": 5,
+      "aesthetics.order": 5,
+      "aesthetics.representation": 2,
+      "change.tradition": 5,
+      "change.tempo": 5,
+      "change.procedure": 3,
+      "power.centralization": 3,
+      "power.accountability": 2,
+      "epistemics.source": 5,
+      "epistemics.certainty": 3,
+      "epistemics.universality": 4,
+      "morality.absoluteness": 5,
+      "morality.foundation": 4,
+      "lifestyle.gratification": -3
+    }
+  },
+  {
+    "id": "art.dadaism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.dadaism",
+    "descKey": "ism.art.dadaism.desc",
+    "icon": "images/isms/dadaism.png",
+    "profile": {
+      "aesthetics.order": -5,
+      "aesthetics.representation": -4,
+      "aesthetics.convention": -5,
+      "change.tradition": -5,
+      "change.tempo": -5,
+      "change.procedure": -4,
+      "epistemics.certainty": -5,
+      "epistemics.universality": -3,
+      "power.centralization": -5,
+      "power.accountability": -4,
+      "morality.absoluteness": -4,
+      "selfgroup.autonomy": 4,
+      "lifestyle.abundance": -1
+    }
+  },
+  {
+    "id": "art.expressionism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.expressionism",
+    "descKey": "ism.art.expressionism.desc",
+    "icon": "images/isms/expressionism.png",
+    "profile": {
+      "aesthetics.order": -5,
+      "aesthetics.representation": -4,
+      "aesthetics.convention": -5,
+      "epistemics.source": -5,
+      "change.tradition": -4,
+      "change.tempo": -3,
+      "power.centralization": -3,
+      "power.accountability": -2,
+      "ontology.meaning": 3,
+      "ontology.agency": 3,
+      "selfgroup.priority": 3,
+      "selfgroup.autonomy": 4,
+      "lifestyle.material": -2
+    }
+  },
+  {
+    "id": "art.functionalism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.functionalism",
+    "descKey": "ism.art.functionalism.desc",
+    "icon": "images/isms/functionalism.png",
+    "profile": {
+      "aesthetics.order": 4,
+      "aesthetics.representation": 1,
+      "aesthetics.convention": 1,
+      "market.coordination": 2,
+      "epistemics.source": 5,
+      "lifestyle.abundance": -2,
+      "nature.technology": -4,
+      "morality.criterion": -4,
+      "change.tradition": -3
+    }
+  },
+  {
+    "id": "art.impressionism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.impressionism",
+    "descKey": "ism.art.impressionism.desc",
+    "icon": "images/isms/impressionism.png",
+    "profile": {
+      "aesthetics.order": -2,
+      "aesthetics.convention": -3,
+      "aesthetics.representation": 1,
+      "epistemics.source": -5,
+      "lifestyle.gratification": 3,
+      "change.tradition": -2,
+      "selfgroup.autonomy": 3
+    }
+  },
+  {
+    "id": "art.minimalism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.minimalism",
+    "descKey": "ism.art.minimalism.desc",
+    "icon": "images/isms/minimalism_art.png",
+    "profile": {
+      "aesthetics.order": 4,
+      "aesthetics.representation": -3,
+      "aesthetics.convention": -3,
+      "lifestyle.abundance": -5,
+      "lifestyle.material": -3,
+      "lifestyle.gratification": -2,
+      "epistemics.source": 4,
+      "nature.technology": -2,
+      "selfgroup.autonomy": 2
+    }
+  },
+  {
+    "id": "art.naturalism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.naturalism",
+    "descKey": "ism.art.naturalism.desc",
+    "icon": "images/isms/naturalism_art.png",
+    "profile": {
+      "aesthetics.representation": 5,
+      "aesthetics.order": 2,
+      "aesthetics.convention": 2,
+      "nature.priority": 5,
+      "nature.depth": 3,
+      "ontology.meaning": -3,
+      "ontology.substance": 2,
+      "epistemics.source": 2,
+      "lifestyle.abundance": -2
+    }
+  },
+  {
+    "id": "art.realism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.realism",
+    "descKey": "ism.art.realism.desc",
+    "icon": "images/isms/realism.png",
+    "profile": {
+      "aesthetics.representation": 5,
+      "aesthetics.order": 2,
+      "aesthetics.convention": 2,
+      "ontology.meaning": -4,
+      "ontology.substance": 1,
+      "epistemics.source": 3,
+      "epistemics.certainty": 2,
+      "lifestyle.material": 2
+    }
+  },
+  {
+    "id": "art.romanticism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.romanticism",
+    "descKey": "ism.art.romanticism.desc",
+    "icon": "images/isms/romanticism.png",
+    "profile": {
+      "aesthetics.order": -4,
+      "aesthetics.convention": -3,
+      "aesthetics.representation": 1,
+      "lifestyle.material": -3,
+      "lifestyle.gratification": 1,
+      "ontology.meaning": 4,
+      "ontology.agency": 4,
+      "epistemics.source": -5,
+      "selfgroup.priority": 3,
+      "selfgroup.autonomy": 4,
+      "change.tradition": 2,
+      "change.tempo": -2,
+      "nature.priority": 3,
+      "nature.depth": 2,
+      "power.centralization": -2
+    }
+  },
+  {
+    "id": "art.surrealism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.surrealism",
+    "descKey": "ism.art.surrealism.desc",
+    "icon": "images/isms/surrealism.png",
+    "profile": {
+      "aesthetics.order": -4,
+      "aesthetics.representation": -4,
+      "aesthetics.convention": -5,
+      "ontology.agency": 4,
+      "ontology.meaning": 3,
+      "ontology.substance": -1,
+      "epistemics.source": -5,
+      "epistemics.certainty": -3,
+      "change.tradition": -5,
+      "change.tempo": -4,
+      "power.centralization": -4,
+      "selfgroup.autonomy": 4,
+      "lifestyle.gratification": 3
+    }
+  },
+  {
+    "id": "art.symbolism",
+    "constructId": "aesthetics",
+    "nameKey": "ism.art.symbolism",
+    "descKey": "ism.art.symbolism.desc",
+    "icon": "images/isms/symbolism.png",
+    "profile": {
+      "aesthetics.representation": -4,
+      "aesthetics.convention": -3,
+      "aesthetics.order": -1,
+      "ontology.meaning": 4,
+      "ontology.substance": -2,
+      "epistemics.source": -5,
+      "lifestyle.material": -2,
+      "selfgroup.autonomy": 3
+    }
+  },
+  {
+    "id": "cult.animalliberation",
+    "constructId": "nature",
+    "nameKey": "ism.cult.animalliberation",
+    "descKey": "ism.cult.animalliberation.desc",
+    "icon": "images/isms/animalliberation.png",
+    "profile": {
+      "nature.animals": 5,
+      "nature.depth": 3,
+      "nature.priority": 2,
+      "selfgroup.altruism": -5,
+      "morality.absoluteness": 2,
+      "morality.foundation": 2,
+      "lifestyle.gratification": -3,
+      "change.tempo": -3
+    }
+  },
+  {
+    "id": "cult.backtonature",
+    "constructId": "nature",
+    "nameKey": "ism.cult.backtonature",
+    "descKey": "ism.cult.backtonature.desc",
+    "icon": "images/isms/backtonature.png",
+    "profile": {
+      "nature.technology": 4,
+      "nature.priority": 5,
+      "nature.depth": 5,
+      "nature.animals": 2,
+      "lifestyle.material": -4,
+      "lifestyle.abundance": -4,
+      "lifestyle.gratification": -2,
+      "change.tradition": 2,
+      "ontology.meaning": 2,
+      "epistemics.source": -2
+    }
+  },
+  {
+    "id": "cult.bohemianism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.cult.bohemianism",
+    "descKey": "ism.cult.bohemianism.desc",
+    "icon": "images/isms/bohemianism.png",
+    "profile": {
+      "selfgroup.autonomy": 5,
+      "selfgroup.priority": 4,
+      "selfgroup.altruism": 1,
+      "change.tradition": -4,
+      "change.procedure": -3,
+      "lifestyle.material": -3,
+      "lifestyle.gratification": 3,
+      "lifestyle.abundance": -2,
+      "aesthetics.convention": -3,
+      "aesthetics.order": -3,
+      "morality.absoluteness": -3
+    }
+  },
+  {
+    "id": "cult.collectivism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.cult.collectivism",
+    "descKey": "ism.cult.collectivism.desc",
+    "icon": "images/isms/collectivism.png",
+    "profile": {
+      "distribution.reciprocity": -3,
+      "selfgroup.priority": -5,
+      "selfgroup.autonomy": -3,
+      "selfgroup.altruism": -3,
+      "community.integrity": 4,
+      "community.scope": 2,
+      "power.centralization": 1,
+      "distribution.welfare": -2,
+      "change.tradition": 2
+    }
+  },
+  {
+    "id": "cult.consumerism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.cult.consumerism",
+    "descKey": "ism.cult.consumerism.desc",
+    "icon": "images/isms/consumerism.png",
+    "profile": {
+      "lifestyle.material": 5,
+      "lifestyle.abundance": 5,
+      "lifestyle.gratification": 4,
+      "nature.priority": -3,
+      "nature.technology": -4,
+      "ontology.meaning": -3,
+      "selfgroup.priority": 3,
+      "morality.absoluteness": -2
+    }
+  },
+  {
+    "id": "cult.ecologism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.ecologism",
+    "descKey": "ism.cult.ecologism.desc",
+    "icon": "images/isms/ecologism.png",
+    "profile": {
+      "nature.priority": 5,
+      "nature.depth": 5,
+      "nature.animals": 3,
+      "nature.technology": 2,
+      "ontology.meaning": 3,
+      "ontology.substance": -1,
+      "distribution.reciprocity": -4,
+      "distribution.welfare": -3,
+      "selfgroup.altruism": -4,
+      "community.scope": -3,
+      "lifestyle.material": -3,
+      "lifestyle.abundance": -3,
+      "change.tempo": -3
+    }
+  },
+  {
+    "id": "cult.environmentalism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.environmentalism",
+    "descKey": "ism.cult.environmentalism.desc",
+    "icon": "images/isms/environmentalism.png",
+    "profile": {
+      "nature.priority": 5,
+      "nature.depth": 1,
+      "nature.animals": 1,
+      "change.tempo": -2,
+      "distribution.welfare": -2,
+      "selfgroup.altruism": -3,
+      "lifestyle.material": -2,
+      "morality.absoluteness": 1
+    }
+  },
+  {
+    "id": "cult.futurism",
+    "constructId": "change",
+    "nameKey": "ism.cult.futurism",
+    "descKey": "ism.cult.futurism.desc",
+    "icon": "images/isms/futurism.png",
+    "profile": {
+      "change.tradition": -5,
+      "change.tempo": -4,
+      "nature.technology": -5,
+      "nature.priority": -3,
+      "lifestyle.abundance": 4,
+      "lifestyle.material": 3,
+      "selfgroup.autonomy": 4,
+      "morality.absoluteness": -2,
+      "aesthetics.convention": -5,
+      "aesthetics.order": -4
+    }
+  },
+  {
+    "id": "cult.individualism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.cult.individualism",
+    "descKey": "ism.cult.individualism.desc",
+    "icon": "images/isms/individualism.png",
+    "profile": {
+      "distribution.reciprocity": 4,
+      "selfgroup.priority": 5,
+      "selfgroup.autonomy": 5,
+      "selfgroup.altruism": 2,
+      "power.pluralism": -3,
+      "power.centralization": -1,
+      "distribution.welfare": 3,
+      "change.tradition": -2,
+      "morality.absoluteness": -2,
+      "lifestyle.material": 2
+    }
+  },
+  {
+    "id": "cult.luddism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.luddism",
+    "descKey": "ism.cult.luddism.desc",
+    "icon": "images/isms/luddism.png",
+    "profile": {
+      "nature.technology": 5,
+      "nature.depth": 2,
+      "nature.priority": 5,
+      "nature.animals": 1,
+      "market.coordination": -4,
+      "lifestyle.abundance": -4,
+      "lifestyle.material": -3,
+      "epistemics.certainty": -3,
+      "change.tradition": 3,
+      "power.centralization": -3
+    }
+  },
+  {
+    "id": "cult.materialism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.cult.materialism",
+    "descKey": "ism.cult.materialism.desc",
+    "icon": "images/isms/materialism_lifestyle.png",
+    "profile": {
+      "lifestyle.material": 5,
+      "lifestyle.abundance": 5,
+      "lifestyle.gratification": 3,
+      "nature.technology": -4,
+      "nature.priority": -2,
+      "ontology.substance": 4,
+      "ontology.meaning": -3,
+      "selfgroup.priority": 3,
+      "market.coordination": 2,
+      "morality.absoluteness": -2
+    }
+  },
+  {
+    "id": "cult.minimalism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.cult.minimalism",
+    "descKey": "ism.cult.minimalism.desc",
+    "icon": "images/isms/minimalism.png",
+    "profile": {
+      "lifestyle.abundance": -5,
+      "lifestyle.material": -3,
+      "lifestyle.gratification": -2,
+      "nature.priority": 2,
+      "nature.depth": 2,
+      "selfgroup.autonomy": 4,
+      "aesthetics.order": 3,
+      "aesthetics.convention": -2
+    }
+  },
+  {
+    "id": "cult.modernism",
+    "constructId": "change",
+    "nameKey": "ism.cult.modernism",
+    "descKey": "ism.cult.modernism.desc",
+    "icon": "images/isms/modernism.png",
+    "profile": {
+      "change.tradition": -4,
+      "change.tempo": -2,
+      "change.procedure": 1,
+      "epistemics.source": 4,
+      "epistemics.universality": 3,
+      "epistemics.certainty": 2,
+      "nature.technology": -2,
+      "morality.absoluteness": -3,
+      "aesthetics.convention": -4,
+      "aesthetics.representation": -3,
+      "selfgroup.autonomy": 2
+    }
+  },
+  {
+    "id": "cult.spiritualism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.cult.spiritualism",
+    "descKey": "ism.cult.spiritualism.desc",
+    "icon": "images/isms/spiritualism.png",
+    "profile": {
+      "distribution.reciprocity": -2,
+      "lifestyle.material": -5,
+      "lifestyle.gratification": -2,
+      "ontology.substance": -5,
+      "ontology.meaning": 5,
+      "nature.priority": 2,
+      "nature.depth": 2,
+      "selfgroup.altruism": -2,
+      "morality.absoluteness": 2,
+      "change.tradition": 2
+    }
+  },
+  {
+    "id": "cult.technicism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.technicism",
+    "descKey": "ism.cult.technicism.desc",
+    "icon": "images/isms/technicism.png",
+    "profile": {
+      "nature.technology": -5,
+      "nature.priority": -2,
+      "nature.depth": -5,
+      "nature.animals": -1,
+      "ontology.substance": 3,
+      "epistemics.source": 5,
+      "epistemics.certainty": 3,
+      "lifestyle.material": 2,
+      "lifestyle.abundance": 4,
+      "market.coordination": 2
+    }
+  },
+  {
+    "id": "cult.technooptimism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.technooptimism",
+    "descKey": "ism.cult.technooptimism.desc",
+    "icon": "images/isms/technooptimism.png",
+    "profile": {
+      "nature.technology": -4,
+      "nature.priority": -1,
+      "nature.depth": -2,
+      "ontology.meaning": 3,
+      "epistemics.certainty": -1,
+      "change.tempo": -3,
+      "lifestyle.abundance": 4
+    }
+  },
+  {
+    "id": "cult.technopessimism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.technopessimism",
+    "descKey": "ism.cult.technopessimism.desc",
+    "icon": "images/isms/technopessimism.png",
+    "profile": {
+      "nature.technology": 4,
+      "nature.priority": 4,
+      "nature.depth": 2,
+      "nature.animals": 1,
+      "epistemics.certainty": -3,
+      "change.tradition": 2,
+      "ontology.meaning": 2
+    }
+  },
+  {
+    "id": "cult.traditionalism",
+    "constructId": "change",
+    "nameKey": "ism.cult.traditionalism",
+    "descKey": "ism.cult.traditionalism.desc",
+    "icon": "images/isms/traditionalism.png",
+    "profile": {
+      "epistemics.certainty": 4,
+      "epistemics.universality": -3,
+      "change.tradition": 5,
+      "change.tempo": 5,
+      "change.procedure": 3,
+      "power.centralization": 4,
+      "power.accountability": 3,
+      "community.integrity": 3,
+      "community.scope": 3,
+      "selfgroup.priority": -4,
+      "selfgroup.autonomy": -4,
+      "lifestyle.gratification": -3,
+      "lifestyle.material": -2,
+      "morality.absoluteness": 4,
+      "morality.foundation": 4,
+      "aesthetics.convention": 3,
+      "nature.technology": 2
+    }
+  },
+  {
+    "id": "cult.vegetarianism",
+    "constructId": "nature",
+    "nameKey": "ism.cult.vegetarianism",
+    "descKey": "ism.cult.vegetarianism.desc",
+    "icon": "images/isms/vegetarianism.png",
+    "profile": {
+      "nature.animals": 4,
+      "nature.priority": 3,
+      "nature.depth": 2,
+      "lifestyle.gratification": -3,
+      "selfgroup.altruism": -4,
+      "morality.foundation": -1
+    }
+  },
+  {
+    "id": "econ.capitalism",
+    "constructId": "market",
+    "nameKey": "ism.econ.capitalism",
+    "descKey": "ism.econ.capitalism.desc",
+    "icon": "images/isms/capitalism.png",
+    "profile": {
+      "market.property": 5,
+      "distribution.reciprocity": 5,
+      "market.coordination": 3,
+      "market.intervention": 3,
+      "distribution.equality": 3,
+      "distribution.welfare": 3,
+      "lifestyle.material": 4,
+      "lifestyle.abundance": 4,
+      "selfgroup.priority": 4
+    }
+  },
+  {
+    "id": "econ.cooperativism",
+    "constructId": "distribution",
+    "nameKey": "ism.econ.cooperativism",
+    "descKey": "ism.econ.cooperativism.desc",
+    "icon": "images/isms/cooperativism.png",
+    "profile": {
+      "distribution.reciprocity": -5,
+      "market.property": -4,
+      "distribution.welfare": -1,
+      "distribution.equality": -2,
+      "market.coordination": -1,
+      "selfgroup.priority": -4,
+      "selfgroup.autonomy": 3
+    }
+  },
+  {
+    "id": "econ.distributism",
+    "constructId": "distribution",
+    "nameKey": "ism.econ.distributism",
+    "descKey": "ism.econ.distributism.desc",
+    "icon": "images/isms/distributism.png",
+    "profile": {
+      "distribution.reciprocity": -5,
+      "market.property": -3,
+      "distribution.equality": -3,
+      "distribution.welfare": -1,
+      "market.intervention": -1,
+      "morality.absoluteness": 4,
+      "community.integrity": 3
+    }
+  },
+  {
+    "id": "econ.georgism",
+    "constructId": "distribution",
+    "nameKey": "ism.econ.georgism",
+    "descKey": "ism.econ.georgism.desc",
+    "icon": "images/isms/georgism.png",
+    "profile": {
+      "change.tradition": 3,
+      "distribution.equality": -2,
+      "distribution.welfare": -2,
+      "market.coordination": 2,
+      "market.property": 1,
+      "distribution.reciprocity": 1,
+      "nature.priority": 2,
+      "epistemics.source": 3
+    }
+  },
+  {
+    "id": "econ.interventionism",
+    "constructId": "market",
+    "nameKey": "ism.econ.interventionism",
+    "descKey": "ism.econ.interventionism.desc",
+    "icon": "images/isms/interventionism.png",
+    "profile": {
+      "change.tradition": 1,
+      "market.intervention": -4,
+      "market.coordination": 1,
+      "market.property": 2,
+      "distribution.equality": -3,
+      "distribution.welfare": -3,
+      "distribution.reciprocity": -2,
+      "power.centralization": 4,
+      "change.tempo": 3,
+      "epistemics.source": 3
+    }
+  },
+  {
+    "id": "econ.keynesianism",
+    "constructId": "market",
+    "nameKey": "ism.econ.keynesianism",
+    "descKey": "ism.econ.keynesianism.desc",
+    "icon": "images/isms/keynesianism.png",
+    "profile": {
+      "distribution.welfare": -4,
+      "market.intervention": -3,
+      "market.coordination": 1,
+      "market.property": 3,
+      "distribution.equality": -1,
+      "distribution.reciprocity": -1,
+      "change.tempo": 4,
+      "epistemics.source": 4
+    }
+  },
+  {
+    "id": "econ.laissezfaire",
+    "constructId": "market",
+    "nameKey": "ism.econ.laissezfaire",
+    "descKey": "ism.econ.laissezfaire.desc",
+    "icon": "images/isms/laissezfaire.png",
+    "profile": {
+      "market.coordination": 5,
+      "market.intervention": 5,
+      "market.property": 4,
+      "distribution.equality": 4,
+      "distribution.reciprocity": 3,
+      "distribution.welfare": 3,
+      "power.centralization": -4
+    }
+  },
+  {
+    "id": "econ.marketeconomy",
+    "constructId": "market",
+    "nameKey": "ism.econ.marketeconomy",
+    "descKey": "ism.econ.marketeconomy.desc",
+    "icon": "images/isms/marketeconomy.png",
+    "profile": {
+      "market.coordination": 5,
+      "distribution.reciprocity": 4,
+      "market.property": 2,
+      "market.intervention": 2,
+      "distribution.equality": 2,
+      "distribution.welfare": 1
+    }
+  },
+  {
+    "id": "econ.mercantilism",
+    "constructId": "market",
+    "nameKey": "ism.econ.mercantilism",
+    "descKey": "ism.econ.mercantilism.desc",
+    "icon": "images/isms/mercantilism.png",
+    "profile": {
+      "change.tradition": 3,
+      "market.intervention": -4,
+      "market.coordination": -3,
+      "market.property": 4,
+      "distribution.equality": -2,
+      "distribution.reciprocity": 3,
+      "distribution.welfare": -1,
+      "community.scope": 5,
+      "community.openness": 2,
+      "power.centralization": 4,
+      "lifestyle.material": 3
+    }
+  },
+  {
+    "id": "econ.mixedeconomy",
+    "constructId": "market",
+    "nameKey": "ism.econ.mixedeconomy",
+    "descKey": "ism.econ.mixedeconomy.desc",
+    "icon": "images/isms/mixedeconomy.png",
+    "profile": {
+      "market.coordination": 2,
+      "market.intervention": -2,
+      "market.property": 3,
+      "distribution.welfare": -2,
+      "change.tempo": 5
+    }
+  },
+  {
+    "id": "econ.monetarism",
+    "constructId": "market",
+    "nameKey": "ism.econ.monetarism",
+    "descKey": "ism.econ.monetarism.desc",
+    "icon": "images/isms/monetarism.png",
+    "profile": {
+      "market.coordination": 4,
+      "market.intervention": 1,
+      "market.property": 3,
+      "distribution.equality": 2,
+      "distribution.welfare": 1,
+      "epistemics.source": 5,
+      "epistemics.certainty": 5
+    }
+  },
+  {
+    "id": "econ.mutualism",
+    "constructId": "distribution",
+    "nameKey": "ism.econ.mutualism",
+    "descKey": "ism.econ.mutualism.desc",
+    "icon": "images/isms/mutualism.png",
+    "profile": {
+      "distribution.reciprocity": -5,
+      "distribution.welfare": -1,
+      "market.property": -4,
+      "market.coordination": -3,
+      "market.intervention": -3,
+      "power.centralization": -5,
+      "selfgroup.altruism": -3,
+      "community.integrity": -3
+    }
+  },
+  {
+    "id": "econ.plannedeconomy",
+    "constructId": "market",
+    "nameKey": "ism.econ.plannedeconomy",
+    "descKey": "ism.econ.plannedeconomy.desc",
+    "icon": "images/isms/plannedeconomy.png",
+    "profile": {
+      "change.tradition": -2,
+      "market.coordination": -5,
+      "market.property": -5,
+      "market.intervention": -5,
+      "distribution.reciprocity": -5,
+      "distribution.welfare": -4,
+      "distribution.equality": -4,
+      "power.centralization": 5,
+      "power.accountability": 2,
+      "selfgroup.priority": -5,
+      "community.integrity": 3
+    }
+  },
+  {
+    "id": "econ.schumpeterianism",
+    "constructId": "market",
+    "nameKey": "ism.econ.schumpeterianism",
+    "descKey": "ism.econ.schumpeterianism.desc",
+    "icon": "images/isms/schumpeterianism.png",
+    "profile": {
+      "distribution.reciprocity": 5,
+      "market.coordination": 3,
+      "market.property": 2,
+      "market.intervention": 1,
+      "distribution.equality": 1,
+      "change.tempo": -5,
+      "nature.technology": -5,
+      "selfgroup.autonomy": 3
+    }
+  },
+  {
+    "id": "econ.supplyside",
+    "constructId": "market",
+    "nameKey": "ism.econ.supplyside",
+    "descKey": "ism.econ.supplyside.desc",
+    "icon": "images/isms/supplyside.png",
+    "profile": {
+      "distribution.equality": 5,
+      "distribution.welfare": 5,
+      "distribution.reciprocity": 4,
+      "market.property": 3,
+      "market.intervention": 1,
+      "market.coordination": 2,
+      "lifestyle.abundance": 5
+    }
+  },
+  {
+    "id": "ethi.altruism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.ethi.altruism",
+    "descKey": "ism.ethi.altruism.desc",
+    "icon": "images/isms/altruism.png",
+    "profile": {
+      "selfgroup.altruism": -5,
+      "selfgroup.priority": -4,
+      "distribution.welfare": -3,
+      "distribution.reciprocity": -3,
+      "distribution.equality": -3,
+      "nature.animals": -3,
+      "morality.foundation": -4,
+      "community.scope": -3
+    }
+  },
+  {
+    "id": "ethi.asceticism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.ethi.asceticism",
+    "descKey": "ism.ethi.asceticism.desc",
+    "icon": "images/isms/asceticism.png",
+    "profile": {
+      "lifestyle.gratification": -5,
+      "lifestyle.abundance": -5,
+      "lifestyle.material": -5,
+      "ontology.meaning": 4,
+      "ontology.substance": 1,
+      "morality.absoluteness": 3,
+      "morality.foundation": 3,
+      "change.tradition": 3
+    }
+  },
+  {
+    "id": "ethi.careethics",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.careethics",
+    "descKey": "ism.ethi.careethics.desc",
+    "icon": "images/isms/careethics.png",
+    "profile": {
+      "morality.foundation": -5,
+      "morality.criterion": -1,
+      "morality.absoluteness": -4,
+      "selfgroup.altruism": -5,
+      "distribution.reciprocity": -3,
+      "distribution.welfare": -2,
+      "epistemics.source": -3,
+      "epistemics.universality": -3,
+      "nature.animals": -2
+    }
+  },
+  {
+    "id": "ethi.consequentialism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.consequentialism",
+    "descKey": "ism.ethi.consequentialism.desc",
+    "icon": "images/isms/consequentialism.png",
+    "profile": {
+      "morality.criterion": -5,
+      "morality.absoluteness": -3,
+      "epistemics.source": 5,
+      "epistemics.universality": 3,
+      "distribution.welfare": -2,
+      "selfgroup.altruism": -1
+    }
+  },
+  {
+    "id": "ethi.deontology",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.deontology",
+    "descKey": "ism.ethi.deontology.desc",
+    "icon": "images/isms/deontology.png",
+    "profile": {
+      "morality.criterion": 5,
+      "morality.foundation": 4,
+      "morality.absoluteness": 5,
+      "epistemics.source": 5,
+      "epistemics.certainty": 3,
+      "epistemics.universality": 4,
+      "change.procedure": 5,
+      "change.tradition": 1,
+      "power.centralization": 2,
+      "selfgroup.priority": -1
+    }
+  },
+  {
+    "id": "ethi.egoism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.ethi.egoism",
+    "descKey": "ism.ethi.egoism.desc",
+    "icon": "images/isms/egoism.png",
+    "profile": {
+      "selfgroup.altruism": 5,
+      "selfgroup.priority": 5,
+      "selfgroup.autonomy": 4,
+      "distribution.reciprocity": 4,
+      "distribution.welfare": 4,
+      "distribution.equality": 4,
+      "market.coordination": 3,
+      "market.property": 3,
+      "lifestyle.material": 4,
+      "lifestyle.gratification": 3,
+      "morality.absoluteness": -3,
+      "morality.foundation": -2
+    }
+  },
+  {
+    "id": "ethi.emotivism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.emotivism",
+    "descKey": "ism.ethi.emotivism.desc",
+    "icon": "images/isms/emotivism.png",
+    "profile": {
+      "morality.criterion": -3,
+      "morality.foundation": -3,
+      "morality.absoluteness": -5,
+      "epistemics.source": -5,
+      "epistemics.universality": -5,
+      "epistemics.certainty": -3,
+      "lifestyle.gratification": 3,
+      "ontology.meaning": -2,
+      "selfgroup.priority": 2
+    }
+  },
+  {
+    "id": "ethi.hedonism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.ethi.hedonism",
+    "descKey": "ism.ethi.hedonism.desc",
+    "icon": "images/isms/hedonism.png",
+    "profile": {
+      "lifestyle.gratification": 5,
+      "lifestyle.material": 5,
+      "lifestyle.abundance": 5,
+      "distribution.welfare": 2,
+      "selfgroup.priority": 3,
+      "selfgroup.altruism": 3,
+      "morality.criterion": -3,
+      "morality.foundation": -3,
+      "morality.absoluteness": -3,
+      "ontology.meaning": -2
+    }
+  },
+  {
+    "id": "ethi.moralabsolutism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.moralabsolutism",
+    "descKey": "ism.ethi.moralabsolutism.desc",
+    "icon": "images/isms/moralabsolutism.png",
+    "profile": {
+      "morality.absoluteness": 5,
+      "morality.foundation": 5,
+      "morality.criterion": 4,
+      "power.centralization": 4,
+      "power.accountability": 3,
+      "change.tradition": 2,
+      "change.tempo": 2,
+      "change.procedure": 3,
+      "community.integrity": 3,
+      "community.scope": 2,
+      "selfgroup.priority": -2,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 5,
+      "lifestyle.gratification": -3
+    }
+  },
+  {
+    "id": "ethi.moralnihilism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.moralnihilism",
+    "descKey": "ism.ethi.moralnihilism.desc",
+    "icon": "images/isms/moralnihilism.png",
+    "profile": {
+      "morality.absoluteness": -5,
+      "morality.foundation": -5,
+      "morality.criterion": -3,
+      "ontology.meaning": -4,
+      "ontology.substance": 2,
+      "epistemics.certainty": -4,
+      "epistemics.universality": -4,
+      "selfgroup.altruism": 2,
+      "change.tradition": -4,
+      "power.centralization": -3
+    }
+  },
+  {
+    "id": "ethi.moralrelativism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.moralrelativism",
+    "descKey": "ism.ethi.moralrelativism.desc",
+    "icon": "images/isms/moralrelativism.png",
+    "profile": {
+      "morality.absoluteness": -5,
+      "morality.foundation": -2,
+      "morality.criterion": -1,
+      "epistemics.universality": -5,
+      "epistemics.certainty": -3,
+      "community.scope": -3,
+      "community.openness": -2,
+      "change.tradition": -2,
+      "power.centralization": -3
+    }
+  },
+  {
+    "id": "ethi.religiousethics",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.religiousethics",
+    "descKey": "ism.ethi.religiousethics.desc",
+    "icon": "images/isms/religiousethics.png",
+    "profile": {
+      "market.intervention": -2,
+      "ontology.substance": -5,
+      "ontology.meaning": 4,
+      "epistemics.source": -3,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 5,
+      "morality.foundation": 5,
+      "morality.absoluteness": 5,
+      "morality.criterion": 3,
+      "change.tradition": 5,
+      "change.procedure": 4,
+      "change.tempo": 3,
+      "power.centralization": 4,
+      "power.accountability": 3,
+      "selfgroup.priority": -3,
+      "selfgroup.autonomy": -2,
+      "lifestyle.material": -2,
+      "lifestyle.gratification": -3,
+      "community.integrity": 3,
+      "community.scope": 2
+    }
+  },
+  {
+    "id": "ethi.secularism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.secularism",
+    "descKey": "ism.ethi.secularism.desc",
+    "icon": "images/isms/secularism.png",
+    "profile": {
+      "ontology.substance": 3,
+      "epistemics.source": 5,
+      "epistemics.certainty": 3,
+      "epistemics.universality": 3,
+      "morality.foundation": 2,
+      "morality.criterion": 1,
+      "morality.absoluteness": 3,
+      "change.tradition": -4,
+      "change.tempo": -3,
+      "power.centralization": -2,
+      "nature.technology": -4
+    }
+  },
+  {
+    "id": "ethi.utilitarianism",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.utilitarianism",
+    "descKey": "ism.ethi.utilitarianism.desc",
+    "icon": "images/isms/utilitarianism.png",
+    "profile": {
+      "morality.criterion": -5,
+      "morality.foundation": 1,
+      "morality.absoluteness": -1,
+      "distribution.welfare": -3,
+      "distribution.equality": -2,
+      "distribution.reciprocity": -2,
+      "selfgroup.altruism": -2,
+      "epistemics.source": 4,
+      "epistemics.universality": 3,
+      "nature.animals": -1,
+      "market.intervention": -1
+    }
+  },
+  {
+    "id": "ethi.virtueethics",
+    "constructId": "morality",
+    "nameKey": "ism.ethi.virtueethics",
+    "descKey": "ism.ethi.virtueethics.desc",
+    "icon": "images/isms/virtueethics.png",
+    "profile": {
+      "distribution.reciprocity": -1,
+      "morality.foundation": -5,
+      "morality.criterion": 1,
+      "morality.absoluteness": 1,
+      "selfgroup.altruism": -1,
+      "epistemics.source": 3,
+      "lifestyle.material": -2,
+      "lifestyle.gratification": -2,
+      "change.tradition": 2,
+      "community.integrity": 1
+    }
+  },
+  {
+    "id": "phil.absolutism",
+    "constructId": "morality",
+    "nameKey": "ism.phil.absolutism",
+    "descKey": "ism.phil.absolutism.desc",
+    "icon": "images/isms/absolutism.png",
+    "profile": {
+      "morality.absoluteness": 5,
+      "morality.foundation": 5,
+      "morality.criterion": 2,
+      "power.centralization": 5,
+      "power.accountability": 4,
+      "power.pluralism": 3,
+      "change.tradition": 5,
+      "change.tempo": 5,
+      "change.procedure": 3,
+      "community.integrity": 4,
+      "community.scope": 3,
+      "selfgroup.priority": -3,
+      "selfgroup.autonomy": -2,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 5
+    }
+  },
+  {
+    "id": "phil.absurdism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.absurdism",
+    "descKey": "ism.phil.absurdism.desc",
+    "icon": "images/isms/absurdism.png",
+    "profile": {
+      "ontology.agency": 4,
+      "ontology.meaning": -3,
+      "selfgroup.priority": 4,
+      "selfgroup.autonomy": 4,
+      "power.centralization": -4,
+      "change.tradition": -3,
+      "epistemics.certainty": -4,
+      "epistemics.universality": -3,
+      "lifestyle.gratification": 4,
+      "morality.absoluteness": -3
+    }
+  },
+  {
+    "id": "phil.cynicism",
+    "constructId": "morality",
+    "nameKey": "ism.phil.cynicism",
+    "descKey": "ism.phil.cynicism.desc",
+    "icon": "images/isms/cynicism.png",
+    "profile": {
+      "morality.absoluteness": -4,
+      "morality.foundation": -3,
+      "morality.criterion": -2,
+      "epistemics.certainty": -4,
+      "epistemics.universality": -3,
+      "ontology.meaning": -3,
+      "ontology.substance": 1,
+      "selfgroup.altruism": 3,
+      "selfgroup.priority": 2,
+      "change.tradition": -4,
+      "power.centralization": -3,
+      "power.accountability": -3,
+      "community.scope": -3,
+      "lifestyle.abundance": -2
+    }
+  },
+  {
+    "id": "phil.deconstruction",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.deconstruction",
+    "descKey": "ism.phil.deconstruction.desc",
+    "icon": "images/isms/deconstruction.png",
+    "profile": {
+      "epistemics.universality": -5,
+      "epistemics.certainty": -4,
+      "epistemics.source": -1,
+      "morality.absoluteness": -4,
+      "ontology.substance": -2,
+      "change.tradition": -5,
+      "change.tempo": -4,
+      "change.procedure": -3,
+      "power.centralization": -4,
+      "power.accountability": -3,
+      "community.scope": -3,
+      "aesthetics.convention": -4
+    }
+  },
+  {
+    "id": "phil.determinism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.determinism",
+    "descKey": "ism.phil.determinism.desc",
+    "icon": "images/isms/determinism.png",
+    "profile": {
+      "ontology.agency": -5,
+      "ontology.substance": 3,
+      "ontology.meaning": -3,
+      "power.centralization": 4,
+      "power.accountability": 3,
+      "selfgroup.priority": -4,
+      "selfgroup.autonomy": -5,
+      "epistemics.source": 4,
+      "change.procedure": 3,
+      "change.tradition": 2
+    }
+  },
+  {
+    "id": "phil.dialectics",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.dialectics",
+    "descKey": "ism.phil.dialectics.desc",
+    "icon": "images/isms/dialectics.png",
+    "profile": {
+      "epistemics.source": 4,
+      "epistemics.universality": 3,
+      "epistemics.certainty": 1,
+      "ontology.substance": 3,
+      "change.tempo": -4,
+      "selfgroup.priority": -1,
+      "community.integrity": 1
+    }
+  },
+  {
+    "id": "phil.empiricism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.empiricism",
+    "descKey": "ism.phil.empiricism.desc",
+    "icon": "images/isms/empiricism.png",
+    "profile": {
+      "epistemics.source": -5,
+      "epistemics.universality": 2,
+      "epistemics.certainty": -3,
+      "ontology.substance": 4,
+      "morality.absoluteness": 2,
+      "change.procedure": 2,
+      "nature.technology": -2
+    }
+  },
+  {
+    "id": "phil.epicureanism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.phil.epicureanism",
+    "descKey": "ism.phil.epicureanism.desc",
+    "icon": "images/isms/epicureanism.png",
+    "profile": {
+      "lifestyle.gratification": 3,
+      "lifestyle.material": 1,
+      "lifestyle.abundance": -1,
+      "ontology.substance": 3,
+      "ontology.meaning": 2,
+      "epistemics.source": -2,
+      "selfgroup.altruism": -2,
+      "nature.technology": 1
+    }
+  },
+  {
+    "id": "phil.existentialism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.existentialism",
+    "descKey": "ism.phil.existentialism.desc",
+    "icon": "images/isms/existentialism.png",
+    "profile": {
+      "ontology.agency": 5,
+      "ontology.meaning": 3,
+      "ontology.substance": 1,
+      "selfgroup.priority": 4,
+      "selfgroup.autonomy": 5,
+      "power.centralization": -3,
+      "power.accountability": -3,
+      "change.tradition": -3,
+      "change.tempo": -2,
+      "epistemics.certainty": -3,
+      "epistemics.universality": -3,
+      "epistemics.source": -2,
+      "morality.absoluteness": -3,
+      "morality.foundation": -2,
+      "lifestyle.material": -3,
+      "lifestyle.gratification": 2,
+      "aesthetics.order": -1
+    }
+  },
+  {
+    "id": "phil.freewill",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.freewill",
+    "descKey": "ism.phil.freewill.desc",
+    "icon": "images/isms/freewill.png",
+    "profile": {
+      "ontology.agency": 5,
+      "ontology.meaning": 3,
+      "selfgroup.priority": 4,
+      "selfgroup.autonomy": 5,
+      "power.centralization": -3,
+      "power.accountability": -2,
+      "distribution.equality": 3,
+      "epistemics.certainty": 1
+    }
+  },
+  {
+    "id": "phil.humanism",
+    "constructId": "morality",
+    "nameKey": "ism.phil.humanism",
+    "descKey": "ism.phil.humanism.desc",
+    "icon": "images/isms/humanism.png",
+    "profile": {
+      "morality.criterion": -1,
+      "morality.absoluteness": 3,
+      "selfgroup.altruism": -3,
+      "epistemics.universality": 2,
+      "community.scope": -1,
+      "change.tempo": 3,
+      "nature.animals": -1,
+      "ontology.substance": 1
+    }
+  },
+  {
+    "id": "phil.idealism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.idealism",
+    "descKey": "ism.phil.idealism.desc",
+    "icon": "images/isms/idealism.png",
+    "profile": {
+      "ontology.substance": -5,
+      "ontology.meaning": 5,
+      "ontology.agency": 3,
+      "epistemics.source": -2,
+      "lifestyle.material": -5,
+      "nature.priority": 2,
+      "nature.depth": 2,
+      "selfgroup.autonomy": 3,
+      "morality.absoluteness": 2
+    }
+  },
+  {
+    "id": "phil.logicalpositivism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.logicalpositivism",
+    "descKey": "ism.phil.logicalpositivism.desc",
+    "icon": "images/isms/logicalpositivism.png",
+    "profile": {
+      "epistemics.source": 5,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 5,
+      "ontology.substance": 5,
+      "ontology.meaning": -4,
+      "morality.absoluteness": 3,
+      "nature.technology": -4,
+      "change.tradition": -1
+    }
+  },
+  {
+    "id": "phil.materialism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.materialism",
+    "descKey": "ism.phil.materialism.desc",
+    "icon": "images/isms/materialism.png",
+    "profile": {
+      "ontology.substance": 5,
+      "ontology.meaning": -4,
+      "ontology.agency": -2,
+      "epistemics.source": 4,
+      "epistemics.universality": 2,
+      "epistemics.certainty": 1,
+      "lifestyle.material": 5,
+      "lifestyle.abundance": 4,
+      "nature.technology": -4,
+      "nature.depth": -2,
+      "nature.priority": -1,
+      "selfgroup.priority": 1
+    }
+  },
+  {
+    "id": "phil.naturalism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.naturalism",
+    "descKey": "ism.phil.naturalism.desc",
+    "icon": "images/isms/naturalism.png",
+    "profile": {
+      "ontology.substance": 4,
+      "ontology.meaning": -2,
+      "ontology.agency": -2,
+      "nature.priority": 5,
+      "nature.depth": 3,
+      "nature.technology": 1,
+      "epistemics.source": 3,
+      "lifestyle.abundance": -2,
+      "lifestyle.gratification": -2
+    }
+  },
+  {
+    "id": "phil.nihilism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.nihilism",
+    "descKey": "ism.phil.nihilism.desc",
+    "icon": "images/isms/nihilism.png",
+    "profile": {
+      "ontology.meaning": -5,
+      "ontology.substance": 2,
+      "ontology.agency": 2,
+      "morality.absoluteness": -5,
+      "morality.foundation": -4,
+      "morality.criterion": -2,
+      "epistemics.certainty": -3,
+      "epistemics.universality": -4,
+      "selfgroup.altruism": 2,
+      "selfgroup.priority": 2,
+      "change.tradition": -4
+    }
+  },
+  {
+    "id": "phil.objectivism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.phil.objectivism",
+    "descKey": "ism.phil.objectivism.desc",
+    "icon": "images/isms/objectivism.png",
+    "profile": {
+      "selfgroup.priority": 5,
+      "selfgroup.autonomy": 5,
+      "selfgroup.altruism": 4,
+      "market.coordination": 5,
+      "market.intervention": 5,
+      "market.property": 5,
+      "distribution.equality": 5,
+      "distribution.reciprocity": 4,
+      "distribution.welfare": 4,
+      "ontology.agency": 4,
+      "ontology.substance": 3,
+      "epistemics.source": 5,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 4,
+      "morality.criterion": 3,
+      "morality.absoluteness": 4,
+      "lifestyle.material": 3,
+      "lifestyle.abundance": 4
+    }
+  },
+  {
+    "id": "phil.optimism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.optimism",
+    "descKey": "ism.phil.optimism.desc",
+    "icon": "images/isms/optimism.png",
+    "profile": {
+      "ontology.meaning": 4,
+      "epistemics.certainty": 2,
+      "change.tempo": 2,
+      "nature.technology": -4,
+      "selfgroup.altruism": -3,
+      "community.scope": -3
+    }
+  },
+  {
+    "id": "phil.pessimism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.pessimism",
+    "descKey": "ism.phil.pessimism.desc",
+    "icon": "images/isms/pessimism.png",
+    "profile": {
+      "ontology.meaning": -4,
+      "epistemics.certainty": -3,
+      "morality.absoluteness": -2,
+      "lifestyle.gratification": -2,
+      "nature.technology": 2
+    }
+  },
+  {
+    "id": "phil.phenomenology",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.phenomenology",
+    "descKey": "ism.phil.phenomenology.desc",
+    "icon": "images/isms/phenomenology.png",
+    "profile": {
+      "epistemics.source": -3,
+      "epistemics.universality": -3,
+      "epistemics.certainty": 2,
+      "ontology.substance": -3,
+      "ontology.meaning": 3,
+      "ontology.agency": 3,
+      "lifestyle.material": -2,
+      "lifestyle.gratification": 3,
+      "selfgroup.autonomy": 3
+    }
+  },
+  {
+    "id": "phil.positivism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.positivism",
+    "descKey": "ism.phil.positivism.desc",
+    "icon": "images/isms/positivism.png",
+    "profile": {
+      "epistemics.source": 5,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 5,
+      "ontology.substance": 4,
+      "ontology.meaning": -4,
+      "morality.absoluteness": 3,
+      "change.procedure": 3,
+      "change.tempo": 2,
+      "power.centralization": 2,
+      "nature.technology": -4
+    }
+  },
+  {
+    "id": "phil.postmodernism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.postmodernism",
+    "descKey": "ism.phil.postmodernism.desc",
+    "icon": "images/isms/postmodernism.png",
+    "profile": {
+      "epistemics.universality": -5,
+      "epistemics.certainty": -4,
+      "morality.absoluteness": -5,
+      "ontology.substance": -2,
+      "ontology.meaning": -1,
+      "change.tradition": -5,
+      "change.tempo": -4,
+      "power.centralization": -4,
+      "community.scope": -4,
+      "aesthetics.convention": -4
+    }
+  },
+  {
+    "id": "phil.pragmaticrationalism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.pragmaticrationalism",
+    "descKey": "ism.phil.pragmaticrationalism.desc",
+    "icon": "images/isms/pragmaticrationalism.png",
+    "profile": {
+      "epistemics.source": 5,
+      "epistemics.universality": 3,
+      "epistemics.certainty": 2,
+      "change.tempo": 4,
+      "market.coordination": 2,
+      "morality.criterion": -3,
+      "nature.technology": -3
+    }
+  },
+  {
+    "id": "phil.pragmatism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.pragmatism",
+    "descKey": "ism.phil.pragmatism.desc",
+    "icon": "images/isms/pragmatism.png",
+    "profile": {
+      "epistemics.source": 4,
+      "epistemics.universality": -4,
+      "epistemics.certainty": 2,
+      "change.tempo": 4,
+      "market.coordination": 2,
+      "market.intervention": 2,
+      "morality.criterion": -4,
+      "ontology.substance": 2,
+      "ontology.meaning": -2,
+      "nature.technology": -3,
+      "lifestyle.abundance": 2
+    }
+  },
+  {
+    "id": "phil.rationalism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.rationalism",
+    "descKey": "ism.phil.rationalism.desc",
+    "icon": "images/isms/rationalism.png",
+    "profile": {
+      "epistemics.source": 5,
+      "epistemics.certainty": 4,
+      "epistemics.universality": 5,
+      "ontology.agency": 2,
+      "ontology.substance": -2,
+      "morality.absoluteness": 4,
+      "change.procedure": 3,
+      "change.tempo": 2,
+      "power.centralization": 2,
+      "selfgroup.autonomy": 2,
+      "nature.technology": -3
+    }
+  },
+  {
+    "id": "phil.relativism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.relativism",
+    "descKey": "ism.phil.relativism.desc",
+    "icon": "images/isms/relativism.png",
+    "profile": {
+      "epistemics.universality": -5,
+      "epistemics.certainty": -3,
+      "morality.absoluteness": -5,
+      "community.scope": -3,
+      "change.tradition": -2,
+      "power.centralization": -3,
+      "selfgroup.autonomy": 3
+    }
+  },
+  {
+    "id": "phil.skepticism",
+    "constructId": "epistemics",
+    "nameKey": "ism.phil.skepticism",
+    "descKey": "ism.phil.skepticism.desc",
+    "icon": "images/isms/skepticism.png",
+    "profile": {
+      "epistemics.certainty": -5,
+      "epistemics.universality": -3,
+      "morality.absoluteness": -3,
+      "change.tradition": -3,
+      "change.procedure": -2,
+      "power.centralization": -3,
+      "selfgroup.autonomy": 3,
+      "ontology.meaning": -2
+    }
+  },
+  {
+    "id": "phil.stoicism",
+    "constructId": "lifestyle",
+    "nameKey": "ism.phil.stoicism",
+    "descKey": "ism.phil.stoicism.desc",
+    "icon": "images/isms/stoicism.png",
+    "profile": {
+      "distribution.reciprocity": -2,
+      "lifestyle.gratification": -4,
+      "lifestyle.abundance": -3,
+      "lifestyle.material": -2,
+      "ontology.agency": -3,
+      "ontology.meaning": 3,
+      "ontology.substance": 2,
+      "epistemics.source": 5,
+      "epistemics.certainty": 2,
+      "morality.foundation": 3,
+      "morality.absoluteness": 3,
+      "change.tradition": 2,
+      "selfgroup.altruism": -2
+    }
+  },
+  {
+    "id": "phil.structuralism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.structuralism",
+    "descKey": "ism.phil.structuralism.desc",
+    "icon": "images/isms/structuralism.png",
+    "profile": {
+      "ontology.agency": -4,
+      "ontology.substance": 1,
+      "selfgroup.priority": -4,
+      "selfgroup.autonomy": -3,
+      "power.centralization": 3,
+      "epistemics.source": 4,
+      "epistemics.universality": 3,
+      "change.tradition": 2,
+      "community.integrity": 2
+    }
+  },
+  {
+    "id": "phil.transcendentalism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.transcendentalism",
+    "descKey": "ism.phil.transcendentalism.desc",
+    "icon": "images/isms/transcendentalism.png",
+    "profile": {
+      "ontology.substance": -4,
+      "ontology.meaning": 5,
+      "ontology.agency": 4,
+      "epistemics.source": -3,
+      "epistemics.universality": 2,
+      "epistemics.certainty": 1,
+      "selfgroup.autonomy": 4,
+      "selfgroup.priority": 3,
+      "lifestyle.material": -4,
+      "lifestyle.gratification": -1,
+      "nature.priority": 3,
+      "nature.depth": 3
+    }
+  },
+  {
+    "id": "phil.voluntarism",
+    "constructId": "ontology",
+    "nameKey": "ism.phil.voluntarism",
+    "descKey": "ism.phil.voluntarism.desc",
+    "icon": "images/isms/voluntarism.png",
+    "profile": {
+      "ontology.agency": 5,
+      "ontology.meaning": 4,
+      "ontology.substance": -2,
+      "selfgroup.priority": 4,
+      "selfgroup.autonomy": 5,
+      "power.centralization": -4,
+      "power.accountability": -2,
+      "change.tempo": -3
+    }
+  },
+  {
+    "id": "poli.anarchism",
+    "constructId": "power",
+    "nameKey": "ism.poli.anarchism",
+    "descKey": "ism.poli.anarchism.desc",
+    "icon": "images/isms/anarchism.png",
+    "profile": {
+      "power.accountability": -2,
+      "power.centralization": -5,
+      "power.pluralism": -4,
+      "community.integrity": -5,
+      "community.scope": -3,
+      "community.openness": -3,
+      "change.tempo": -4,
+      "change.procedure": -3,
+      "change.tradition": -3,
+      "distribution.reciprocity": -5,
+      "distribution.welfare": -3,
+      "selfgroup.autonomy": 5,
+      "selfgroup.priority": 2,
+      "morality.foundation": -3
+    }
+  },
+  {
+    "id": "poli.anticolonialism",
+    "constructId": "community",
+    "nameKey": "ism.poli.anticolonialism",
+    "descKey": "ism.poli.anticolonialism.desc",
+    "icon": "images/isms/anticolonialism.png",
+    "profile": {
+      "morality.absoluteness": 2,
+      "community.integrity": -2,
+      "community.scope": 2,
+      "community.openness": -1,
+      "power.centralization": -3,
+      "power.accountability": -3,
+      "change.tempo": -3,
+      "selfgroup.autonomy": 4,
+      "distribution.equality": -2
+    }
+  },
+  {
+    "id": "poli.authoritarianism",
+    "constructId": "power",
+    "nameKey": "ism.poli.authoritarianism",
+    "descKey": "ism.poli.authoritarianism.desc",
+    "icon": "images/isms/authoritarianism.png",
+    "profile": {
+      "epistemics.certainty": 4,
+      "epistemics.universality": -2,
+      "power.centralization": 5,
+      "power.accountability": 5,
+      "power.pluralism": 4,
+      "community.scope": 4,
+      "community.integrity": 4,
+      "community.openness": 3,
+      "change.tradition": 4,
+      "change.tempo": 3,
+      "change.procedure": 2,
+      "selfgroup.priority": -4,
+      "selfgroup.autonomy": -4,
+      "morality.absoluteness": 4,
+      "morality.foundation": 3
+    }
+  },
+  {
+    "id": "poli.centrism",
+    "constructId": "change",
+    "nameKey": "ism.poli.centrism",
+    "descKey": "ism.poli.centrism.desc",
+    "icon": "images/isms/centrism.png",
+    "profile": {
+      "market.property": 2,
+      "change.tempo": 4,
+      "change.procedure": 3,
+      "power.centralization": 1,
+      "distribution.reciprocity": -1,
+      "epistemics.certainty": 1
+    }
+  },
+  {
+    "id": "poli.colonialism",
+    "constructId": "community",
+    "nameKey": "ism.poli.colonialism",
+    "descKey": "ism.poli.colonialism.desc",
+    "icon": "images/isms/colonialism.png",
+    "profile": {
+      "change.tradition": 2,
+      "power.pluralism": 4,
+      "power.centralization": 3,
+      "power.accountability": 3,
+      "community.scope": 3,
+      "community.integrity": 1,
+      "community.openness": -2,
+      "distribution.equality": 4,
+      "distribution.reciprocity": 4,
+      "distribution.welfare": 4,
+      "selfgroup.altruism": 3,
+      "morality.absoluteness": 3,
+      "epistemics.universality": 3,
+      "lifestyle.material": 3
+    }
+  },
+  {
+    "id": "poli.communism",
+    "constructId": "distribution",
+    "nameKey": "ism.poli.communism",
+    "descKey": "ism.poli.communism.desc",
+    "icon": "images/isms/communism.png",
+    "profile": {
+      "market.property": -5,
+      "market.coordination": -5,
+      "market.intervention": -5,
+      "distribution.equality": -5,
+      "distribution.reciprocity": -5,
+      "distribution.welfare": -3,
+      "power.centralization": 4,
+      "selfgroup.priority": -5,
+      "selfgroup.autonomy": -4,
+      "change.tempo": -5,
+      "community.integrity": 3
+    }
+  },
+  {
+    "id": "poli.communitarianism",
+    "constructId": "selfgroup",
+    "nameKey": "ism.poli.communitarianism",
+    "descKey": "ism.poli.communitarianism.desc",
+    "icon": "images/isms/communitarianism.png",
+    "profile": {
+      "change.tempo": 2,
+      "selfgroup.priority": -4,
+      "selfgroup.autonomy": -2,
+      "selfgroup.altruism": -2,
+      "community.integrity": 4,
+      "community.scope": 2,
+      "community.openness": 1,
+      "change.tradition": 3,
+      "distribution.reciprocity": -2,
+      "morality.foundation": 1
+    }
+  },
+  {
+    "id": "poli.conservatism",
+    "constructId": "change",
+    "nameKey": "ism.poli.conservatism",
+    "descKey": "ism.poli.conservatism.desc",
+    "icon": "images/isms/conservatism.png",
+    "profile": {
+      "market.property": 4,
+      "change.tradition": 5,
+      "change.tempo": 5,
+      "change.procedure": 4,
+      "power.centralization": 3,
+      "power.accountability": 2,
+      "community.integrity": 3,
+      "community.scope": 2,
+      "selfgroup.priority": -2,
+      "morality.absoluteness": 2,
+      "morality.foundation": 3,
+      "lifestyle.gratification": -2
+    }
+  },
+  {
+    "id": "poli.cosmopolitanism",
+    "constructId": "community",
+    "nameKey": "ism.poli.cosmopolitanism",
+    "descKey": "ism.poli.cosmopolitanism.desc",
+    "icon": "images/isms/cosmopolitanism.png",
+    "profile": {
+      "community.scope": -5,
+      "community.openness": -5,
+      "community.integrity": -2,
+      "epistemics.universality": 3,
+      "selfgroup.altruism": -3,
+      "selfgroup.autonomy": 2,
+      "change.tradition": -3,
+      "morality.absoluteness": 2
+    }
+  },
+  {
+    "id": "poli.democracy",
+    "constructId": "power",
+    "nameKey": "ism.poli.democracy",
+    "descKey": "ism.poli.democracy.desc",
+    "icon": "images/isms/democracy.png",
+    "profile": {
+      "power.accountability": -5,
+      "power.centralization": -3,
+      "power.pluralism": -3,
+      "change.procedure": 4,
+      "distribution.welfare": -2,
+      "distribution.equality": -1,
+      "morality.absoluteness": 2,
+      "epistemics.universality": 3,
+      "community.openness": -1
+    }
+  },
+  {
+    "id": "poli.egalitarianism",
+    "constructId": "distribution",
+    "nameKey": "ism.poli.egalitarianism",
+    "descKey": "ism.poli.egalitarianism.desc",
+    "icon": "images/isms/egalitarianism.png",
+    "profile": {
+      "market.intervention": -3,
+      "distribution.equality": -5,
+      "distribution.reciprocity": -4,
+      "distribution.welfare": -2,
+      "selfgroup.altruism": -5,
+      "selfgroup.priority": -3,
+      "community.scope": -3
+    }
+  },
+  {
+    "id": "poli.elitism",
+    "constructId": "power",
+    "nameKey": "ism.poli.elitism",
+    "descKey": "ism.poli.elitism.desc",
+    "icon": "images/isms/elitism.png",
+    "profile": {
+      "power.accountability": 5,
+      "power.centralization": 1,
+      "power.pluralism": 2,
+      "distribution.equality": 4,
+      "distribution.reciprocity": 4,
+      "distribution.welfare": 3,
+      "market.intervention": 3,
+      "market.coordination": 3,
+      "selfgroup.altruism": 3
+    }
+  },
+  {
+    "id": "poli.federalism",
+    "constructId": "power",
+    "nameKey": "ism.poli.federalism",
+    "descKey": "ism.poli.federalism.desc",
+    "icon": "images/isms/federalism.png",
+    "profile": {
+      "change.tradition": 2,
+      "power.centralization": -5,
+      "power.accountability": -2,
+      "power.pluralism": -3,
+      "community.integrity": -3,
+      "community.openness": -1,
+      "change.procedure": 4,
+      "change.tempo": 3,
+      "selfgroup.autonomy": 2
+    }
+  },
+  {
+    "id": "poli.internationalism",
+    "constructId": "community",
+    "nameKey": "ism.poli.internationalism",
+    "descKey": "ism.poli.internationalism.desc",
+    "icon": "images/isms/internationalism.png",
+    "profile": {
+      "community.scope": -5,
+      "community.openness": -4,
+      "community.integrity": -1,
+      "distribution.welfare": -2,
+      "distribution.reciprocity": -2,
+      "selfgroup.altruism": -3,
+      "change.tradition": -2,
+      "epistemics.universality": 3
+    }
+  },
+  {
+    "id": "poli.isolationism",
+    "constructId": "community",
+    "nameKey": "ism.poli.isolationism",
+    "descKey": "ism.poli.isolationism.desc",
+    "icon": "images/isms/isolationism.png",
+    "profile": {
+      "market.intervention": -2,
+      "community.scope": 5,
+      "community.openness": 4,
+      "community.integrity": 4,
+      "power.centralization": 3,
+      "change.tradition": 3,
+      "change.tempo": 3,
+      "morality.absoluteness": 3
+    }
+  },
+  {
+    "id": "poli.liberalism",
+    "constructId": "power",
+    "nameKey": "ism.poli.liberalism",
+    "descKey": "ism.poli.liberalism.desc",
+    "icon": "images/isms/liberalism.png",
+    "profile": {
+      "power.accountability": -5,
+      "power.pluralism": -5,
+      "power.centralization": -4,
+      "selfgroup.autonomy": 5,
+      "selfgroup.priority": 4,
+      "market.coordination": 4,
+      "market.intervention": 4,
+      "market.property": 4,
+      "change.procedure": 4,
+      "change.tradition": -2,
+      "morality.absoluteness": 3,
+      "epistemics.universality": 3,
+      "community.openness": -2
+    }
+  },
+  {
+    "id": "poli.libertarianism",
+    "constructId": "market",
+    "nameKey": "ism.poli.libertarianism",
+    "descKey": "ism.poli.libertarianism.desc",
+    "icon": "images/isms/libertarianism.png",
+    "profile": {
+      "distribution.welfare": 5,
+      "market.property": 5,
+      "distribution.equality": 5,
+      "market.coordination": 4,
+      "market.intervention": 4,
+      "distribution.reciprocity": 4,
+      "power.centralization": -5,
+      "power.accountability": -3,
+      "selfgroup.priority": 5,
+      "selfgroup.autonomy": 5
+    }
+  },
+  {
+    "id": "poli.moderatism",
+    "constructId": "change",
+    "nameKey": "ism.poli.moderatism",
+    "descKey": "ism.poli.moderatism.desc",
+    "icon": "images/isms/moderatism.png",
+    "profile": {
+      "change.tempo": 5,
+      "change.procedure": 4,
+      "change.tradition": 2,
+      "power.centralization": 1,
+      "distribution.reciprocity": -1,
+      "morality.absoluteness": 1
+    }
+  },
+  {
+    "id": "poli.nationalism",
+    "constructId": "community",
+    "nameKey": "ism.poli.nationalism",
+    "descKey": "ism.poli.nationalism.desc",
+    "icon": "images/isms/nationalism.png",
+    "profile": {
+      "market.intervention": -2,
+      "community.scope": 5,
+      "community.openness": 4,
+      "community.integrity": 4,
+      "power.pluralism": 3,
+      "power.centralization": 4,
+      "change.tradition": 4,
+      "selfgroup.priority": -3,
+      "morality.absoluteness": 4,
+      "epistemics.universality": -2
+    }
+  },
+  {
+    "id": "poli.neoliberalism",
+    "constructId": "market",
+    "nameKey": "ism.poli.neoliberalism",
+    "descKey": "ism.poli.neoliberalism.desc",
+    "icon": "images/isms/neoliberalism.png",
+    "profile": {
+      "market.coordination": 5,
+      "market.property": 5,
+      "market.intervention": 4,
+      "distribution.equality": 4,
+      "distribution.welfare": 4,
+      "distribution.reciprocity": 3,
+      "community.scope": -3,
+      "community.openness": -3,
+      "lifestyle.abundance": 4
+    }
+  },
+  {
+    "id": "poli.patriotism",
+    "constructId": "community",
+    "nameKey": "ism.poli.patriotism",
+    "descKey": "ism.poli.patriotism.desc",
+    "icon": "images/isms/patriotism.png",
+    "profile": {
+      "distribution.reciprocity": -2,
+      "community.scope": 4,
+      "community.integrity": 4,
+      "community.openness": 2,
+      "power.centralization": 2,
+      "power.accountability": 1,
+      "change.tradition": 3,
+      "selfgroup.priority": -2,
+      "morality.absoluteness": 2
+    }
+  },
+  {
+    "id": "poli.populism",
+    "constructId": "power",
+    "nameKey": "ism.poli.populism",
+    "descKey": "ism.poli.populism.desc",
+    "icon": "images/isms/populism.png",
+    "profile": {
+      "power.pluralism": 5,
+      "power.accountability": -5,
+      "power.centralization": 1,
+      "community.scope": 3,
+      "community.openness": 3,
+      "change.tradition": 2,
+      "selfgroup.priority": -2,
+      "morality.absoluteness": 2,
+      "epistemics.source": -2
+    }
+  },
+  {
+    "id": "poli.progressivism",
+    "constructId": "change",
+    "nameKey": "ism.poli.progressivism",
+    "descKey": "ism.poli.progressivism.desc",
+    "icon": "images/isms/progressivism.png",
+    "profile": {
+      "market.intervention": -3,
+      "change.tradition": -4,
+      "change.tempo": -3,
+      "distribution.equality": -3,
+      "distribution.welfare": -3,
+      "community.openness": -3,
+      "community.scope": -2,
+      "power.accountability": -4,
+      "power.pluralism": -3,
+      "morality.absoluteness": -3,
+      "epistemics.universality": 2
+    }
+  },
+  {
+    "id": "poli.radicalism",
+    "constructId": "change",
+    "nameKey": "ism.poli.radicalism",
+    "descKey": "ism.poli.radicalism.desc",
+    "icon": "images/isms/radicalism.png",
+    "profile": {
+      "market.intervention": -4,
+      "change.tempo": -5,
+      "change.tradition": -4,
+      "change.procedure": -4,
+      "power.centralization": -4,
+      "power.accountability": -3,
+      "distribution.equality": -3,
+      "selfgroup.autonomy": 3,
+      "morality.absoluteness": -3
+    }
+  },
+  {
+    "id": "poli.republicanism",
+    "constructId": "power",
+    "nameKey": "ism.poli.republicanism",
+    "descKey": "ism.poli.republicanism.desc",
+    "icon": "images/isms/republicanism.png",
+    "profile": {
+      "change.procedure": 5,
+      "change.tradition": 3,
+      "power.accountability": -3,
+      "power.centralization": 2,
+      "power.pluralism": -1,
+      "morality.foundation": 3,
+      "morality.criterion": 2,
+      "community.integrity": 2
+    }
+  },
+  {
+    "id": "poli.separatism",
+    "constructId": "community",
+    "nameKey": "ism.poli.separatism",
+    "descKey": "ism.poli.separatism.desc",
+    "icon": "images/isms/separatism.png",
+    "profile": {
+      "change.tradition": 2,
+      "community.integrity": -5,
+      "community.scope": 2,
+      "community.openness": 1,
+      "power.centralization": -4,
+      "power.pluralism": -2,
+      "change.tempo": -3,
+      "selfgroup.autonomy": 4
+    }
+  },
+  {
+    "id": "poli.socialdemocracy",
+    "constructId": "distribution",
+    "nameKey": "ism.poli.socialdemocracy",
+    "descKey": "ism.poli.socialdemocracy.desc",
+    "icon": "images/isms/socialdemocracy.png",
+    "profile": {
+      "distribution.welfare": -5,
+      "distribution.reciprocity": -1,
+      "distribution.equality": 1,
+      "market.coordination": 2,
+      "market.intervention": -2,
+      "market.property": 1,
+      "change.tempo": 5,
+      "power.accountability": -4
+    }
+  },
+  {
+    "id": "poli.socialism",
+    "constructId": "distribution",
+    "nameKey": "ism.poli.socialism",
+    "descKey": "ism.poli.socialism.desc",
+    "icon": "images/isms/socialism.png",
+    "profile": {
+      "distribution.welfare": -5,
+      "distribution.reciprocity": -5,
+      "distribution.equality": -3,
+      "market.property": -4,
+      "market.intervention": -3,
+      "market.coordination": -2,
+      "selfgroup.priority": -5,
+      "community.integrity": 2,
+      "change.tempo": -2
+    }
+  },
+  {
+    "id": "poli.thirdway",
+    "constructId": "distribution",
+    "nameKey": "ism.poli.thirdway",
+    "descKey": "ism.poli.thirdway.desc",
+    "icon": "images/isms/thirdway.png",
+    "profile": {
+      "market.coordination": 3,
+      "distribution.equality": 2,
+      "market.property": 2,
+      "distribution.reciprocity": 2,
+      "distribution.welfare": -2,
+      "market.intervention": -1,
+      "change.tempo": 5,
+      "epistemics.source": 3
+    }
+  }
+]

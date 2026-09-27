@@ -1,0 +1,633 @@
+{
+  "taxonomyVersion": "v1",
+  "entries": [
+    {
+      "questionId": "ideo.v1.001",
+      "loadings": [
+        {
+          "dim": "power.centralization",
+          "weight": 5
+        },
+        {
+          "dim": "power.accountability",
+          "weight": 4
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": 3
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·power 高极侧。题干要求中央迅速决断 → centralization（高极=集中统一）+5，这是本题的实质主张。accountability 取 +4：把决断权交给中央即否定大众问责（高极=精英决断）。pluralism 取 +3：强调统一意志意味着不容少数掣肘（高极=多数优先）。community.integrity 取 +3：『统一决断』同时意味着不容拆分。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.002",
+      "loadings": [
+        {
+          "dim": "power.accountability",
+          "weight": -5
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -3
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·power 低极侧，与 001 反向。要求普通人问责 → accountability −5（低极=大众问责），是本题主载荷。centralization −3：问责制预设权力不集中于一人。pluralism −3：『谁做的谁负责』同时是少数与异见受护的前提。change.procedure +4：问责靠程序落实，故取程序至上。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.003",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": 5
+        },
+        {
+          "dim": "community.openness",
+          "weight": 4
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·community 高极侧。『本国人优先』直接是 scope 的高极（民族本位）+5。openness +4：边界内优先意味着对外来者节制（高极=边界守护）。integrity +4：把共同体当作前提即倾向维护统一。selfgroup.priority −3：集体（本国人）优先于个人。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.004",
+      "loadings": [
+        {
+          "dim": "community.scope",
+          "weight": -5
+        },
+        {
+          "dim": "community.openness",
+          "weight": -5
+        },
+        {
+          "dim": "community.integrity",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·community 低极侧，与 003 反向。『对远方陌生人义务不减』是 scope 的极端低极（世界主义）−5。openness −5：对边界内外一视同仁即开放接纳。integrity −3：否认国界的道德意义即倾向自决。selfgroup.altruism −3：把陌生人纳入同等考量是利他优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.005",
+      "loadings": [
+        {
+          "dim": "change.tradition",
+          "weight": 5
+        },
+        {
+          "dim": "change.tempo",
+          "weight": 4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·change 高极侧。『几百年的做法自有道理』是 tradition 的高极（尊重传统）+5。tempo +4：『未经检验就抛弃是傲慢』即主张缓慢累积（高极=渐进改良）。procedure +3：以『检验』为准绳即程序至上。centralization 弱 +2：为延续性辩护通常伴随对稳定权威的容忍。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.006",
+      "loadings": [
+        {
+          "dim": "change.tempo",
+          "weight": -5
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": -3
+        },
+        {
+          "dim": "power.centralization",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·change 低极侧，与 005 反向。『非推倒重来不可』是 tempo 的极端低极（激进变革）−5。tradition −4：推倒重来即否定既存做法的价值。procedure −3：为根本变革可以绕开程序（低极=目的正当）。centralization −3：激进变革通常反对现有权力集中。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.007",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": 5
+        },
+        {
+          "dim": "market.intervention",
+          "weight": 4
+        },
+        {
+          "dim": "market.property",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·market 高极侧。『价格由供需决定』是 coordination 的高极（市场配置）+5，且题干给出了理由（信息问题），这正是市场派的论证。intervention +4：否认中央机构能替代价格即主张自由放任。property +4：价格机制预设产权可交易。reciprocity +3：市场配置同时是竞争择优。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.008",
+      "loadings": [
+        {
+          "dim": "market.coordination",
+          "weight": -5
+        },
+        {
+          "dim": "market.intervention",
+          "weight": -4
+        },
+        {
+          "dim": "market.property",
+          "weight": -4
+        },
+        {
+          "dim": "power.centralization",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·market 低极侧，与 007 反向。『必须统一规划』是 coordination 的极端低极（计划配置）−5。intervention −4：统一规划即政府干预。property −4：『交给市场会失控』预设关键资源不宜由私人处置。centralization +4：计划经济需要集中的决策权——**注意这一条与 001 的 centralization 同向但理由完全不同**，正是 taxonomy 把两条轴分开的价值所在。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.009",
+      "loadings": [
+        {
+          "dim": "distribution.equality",
+          "weight": 5
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": 4
+        },
+        {
+          "dim": "distribution.welfare",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·distribution 高极侧。『起点公平、规则一致即可接受差距』是 equality 的高极（机会平等）+5。reciprocity +4：接受结果差距即承认竞争择优。welfare +4：『可以接受』意味着不要求社会兜底（高极=自担风险）。selfgroup.priority +3：自己承担结果预设个人优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.010",
+      "loadings": [
+        {
+          "dim": "distribution.welfare",
+          "weight": -5
+        },
+        {
+          "dim": "distribution.equality",
+          "weight": -4
+        },
+        {
+          "dim": "distribution.reciprocity",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·distribution 低极侧，与 009 反向。『必须由社会共同兜住』是 welfare 的极端低极（社会共担）−5。equality −4：把境遇归因于运气而非努力，即主张缩小结果差距。reciprocity −3：风险共担削弱竞争择优。selfgroup.priority −3：风险由集体承担即集体优先。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.011",
+      "loadings": [
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 5
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": 3
+        },
+        {
+          "dim": "power.pluralism",
+          "weight": -2
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·selfgroup 高极侧。『我的人生由我自己决定』是 autonomy 的高极（独立自主）+5。priority +5：明确拒绝他人期待即个人优先。altruism +3：把他人期待排除在理由之外，同时意味着不为他人利益让路（高极=自利优先）。pluralism 弱 −2：个人自主的正当性通常伴随对少数权利的坚持。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.012",
+      "loadings": [
+        {
+          "dim": "selfgroup.priority",
+          "weight": -5
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -4
+        },
+        {
+          "dim": "selfgroup.altruism",
+          "weight": -3
+        },
+        {
+          "dim": "community.integrity",
+          "weight": 4
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·selfgroup 低极侧，与 011 反向。『必要时个人应当让步』是 priority 的极端低极（集体优先）−5。autonomy −4：个人身份由共同体定义即归属依从。altruism −3：为集体让路即利他优先。integrity +4：把共同体的存续置于个人之上，同时是维护统一的立场。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.013",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": 5
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": 3
+        },
+        {
+          "dim": "nature.priority",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·lifestyle 高极侧。『拥有更多、体验更多本身就是好的』同时是 abundance 的高极（+5）与 material 的高极（+5）——两个 facet 在这里本来就重合，故同权。gratification +3：『体验更多』含及时享乐。nature.priority −3：以拥有与体验为善，通常把人的需求置于自然之上。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.014",
+      "loadings": [
+        {
+          "dim": "lifestyle.abundance",
+          "weight": -5
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        },
+        {
+          "dim": "lifestyle.gratification",
+          "weight": -3
+        },
+        {
+          "dim": "nature.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·lifestyle 低极侧，与 013 反向。『越少越自由』是 abundance 的极端低极（简约节制）−5。material −3：把多余之物视为负担即重精神轻物质。gratification −3：节制的态度延伸到欲望本身。nature.priority +3：主动减少占有通常与让位于自然的立场同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.015",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": 5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": 3
+        },
+        {
+          "dim": "nature.technology",
+          "weight": 3
+        },
+        {
+          "dim": "lifestyle.material",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·nature 高极侧。『人的需求不能自动压过生态承受力』是 priority 的高极（自然优先）+5，问的是冲突时谁让步。depth 取 +3 而**不是** +5：题干说的是『不能自动压过』，即给自然设限，但没说自然有独立于人的价值——这正是 priority 与 depth 必须分开的地方。technology +3：设限意味着对技术扩张审慎。material −3：反对无限索取与反对物质至上同源。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.016",
+      "loadings": [
+        {
+          "dim": "nature.priority",
+          "weight": -5
+        },
+        {
+          "dim": "nature.depth",
+          "weight": -4
+        },
+        {
+          "dim": "nature.technology",
+          "weight": -4
+        },
+        {
+          "dim": "nature.animals",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·nature 低极侧，与 015 反向。『人的福祉是唯一尺度』是 priority 的极端低极（人类优先）−5。depth −4：『唯一尺度』直接否定自然的内在价值（低极=人类中心）。technology −4：以人的福祉为唯一尺度必然拥抱技术手段。animals −3：人类利益优先的立场延伸到动物（低极）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.017",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": 5
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": 3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": 4
+        },
+        {
+          "dim": "selfgroup.priority",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·ontology 高极侧。『同样处境下可以做出不同选择』是 agency 的高极（自由意志）+5。meaning +3：可自由选择通常伴随『意义由人承担』的立场。selfgroup.autonomy +4：自由意志是个人自主的形而上学基础。priority +3：把选择权归给个人。**未给 substance 赋值**：本题对『世界由物质还是意识构成』没有主张。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.018",
+      "loadings": [
+        {
+          "dim": "ontology.agency",
+          "weight": -5
+        },
+        {
+          "dim": "ontology.substance",
+          "weight": 2
+        },
+        {
+          "dim": "ontology.meaning",
+          "weight": -3
+        },
+        {
+          "dim": "selfgroup.autonomy",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·ontology 低极侧，与 017 反向。『每个选择背后都有成因』是 agency 的极端低极（因果决定）−5。substance +2：把人的选择完全并入因果链，弱指向『一切皆自然过程』的唯物立场（故只给 ±2，不当主载荷）。meaning −3：否认自由意志会削弱『意义可寻』。autonomy −4：选择被决定则自主是幻觉。epistemics.source +3：追问成因是理性演绎的路径。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.019",
+      "loadings": [
+        {
+          "dim": "epistemics.source",
+          "weight": 5
+        },
+        {
+          "dim": "epistemics.certainty",
+          "weight": 4
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": 4
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·epistemics 高极侧。『可靠知识来自逻辑推演』是 source 的高极（理性演绎）+5。certainty +4：贬低感官即相信推演能给出确定结论。universality +4：逻辑推演不受处境影响，故指向普遍主义。morality.absoluteness +3：认识上的普遍主义通常外溢到道德（这一条是跨构念的次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.020",
+      "loadings": [
+        {
+          "dim": "epistemics.certainty",
+          "weight": -5
+        },
+        {
+          "dim": "epistemics.universality",
+          "weight": -4
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": -3
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·epistemics 低极侧，与 019 反向。『任何结论都可能被推翻』是 certainty 的极端低极（保持怀疑）−5。universality −4：怀疑论通常伴随『判断随处境而变』。source −3：愿意停留在未定状态，与经验归纳的开放态度同源（故**不是** −5：怀疑论并不等于直觉主义）。morality.absoluteness −3：认识上的可错论外溢到道德。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.021",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": 5
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": 5
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": 4
+        },
+        {
+          "dim": "change.procedure",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·morality 高极侧。『无论结果多好都不能做』是 criterion 的高极（义务优先）+5，且题干把『结果』明确排除，是这一极的干净表述。absoluteness +5：『底线』一词即道德绝对。foundation +4：底线以规则形式存在。change.procedure +3：为手段设限即程序至上（跨构念次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.022",
+      "loadings": [
+        {
+          "dim": "morality.criterion",
+          "weight": -5
+        },
+        {
+          "dim": "morality.absoluteness",
+          "weight": -4
+        },
+        {
+          "dim": "morality.foundation",
+          "weight": -3
+        },
+        {
+          "dim": "epistemics.source",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·morality 低极侧，与 021 反向。『看实际造成了什么』是 criterion 的极端低极（后果优先）−5。absoluteness −4：只问后果则标准随情境浮动。foundation −3：把『规则是次要的』明说出来即反对规则本位。epistemics.source +3：以可观测的后果为判据，是经验归纳的路数。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.023",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": 5
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": 4
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": 3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": 3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·aesthetics 高极侧。『靠结构与比例』是 order 的高极（秩序和谐）+5。convention +4：以『经得起反复看』为标准即承认经过检验的范式。representation +3：结构与比例的价值预设作品有可把握的形。change.tradition +3：艺术上承袭古典与社会上尊重传统同源（跨构念次载荷）。"
+      }
+    },
+    {
+      "questionId": "ideo.v1.024",
+      "loadings": [
+        {
+          "dim": "aesthetics.order",
+          "weight": -5
+        },
+        {
+          "dim": "aesthetics.convention",
+          "weight": -4
+        },
+        {
+          "dim": "aesthetics.representation",
+          "weight": -3
+        },
+        {
+          "dim": "change.tradition",
+          "weight": -3
+        }
+      ],
+      "provenance": {
+        "source": "human",
+        "at": "2026-09-26T14:17:51.000Z",
+        "note": "锚集·aesthetics 低极侧，与 023 反向。『要打动人』是 order 的极端低极（情感张力）−5。convention −4：贬斥『四平八稳』即反叛既有范式。representation −3：以打动力为准，不要求忠实再现。change.tradition −3：艺术上的反叛与社会上推陈出新同源。"
+      }
+    }
+  ]
+}

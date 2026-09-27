@@ -1,0 +1,4926 @@
+[
+  {
+    "id": "ideo.v1.001",
+    "textKey": "q.ideo.v1.001",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": 5
+      },
+      {
+        "dim": "power.accountability",
+        "weight": 4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": 3
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.002",
+    "textKey": "q.ideo.v1.002",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": -5
+      },
+      {
+        "dim": "power.centralization",
+        "weight": -3
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -3
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.003",
+    "textKey": "q.ideo.v1.003",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": 5
+      },
+      {
+        "dim": "community.openness",
+        "weight": 4
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.004",
+    "textKey": "q.ideo.v1.004",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": -5
+      },
+      {
+        "dim": "community.openness",
+        "weight": -5
+      },
+      {
+        "dim": "community.integrity",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.005",
+    "textKey": "q.ideo.v1.005",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tradition",
+        "weight": 5
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 3
+      },
+      {
+        "dim": "power.centralization",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.006",
+    "textKey": "q.ideo.v1.006",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": -5
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": -3
+      },
+      {
+        "dim": "power.centralization",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.007",
+    "textKey": "q.ideo.v1.007",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": 5
+      },
+      {
+        "dim": "market.intervention",
+        "weight": 4
+      },
+      {
+        "dim": "market.property",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.008",
+    "textKey": "q.ideo.v1.008",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": -5
+      },
+      {
+        "dim": "market.intervention",
+        "weight": -4
+      },
+      {
+        "dim": "market.property",
+        "weight": -4
+      },
+      {
+        "dim": "power.centralization",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.009",
+    "textKey": "q.ideo.v1.009",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": 5
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.010",
+    "textKey": "q.ideo.v1.010",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": -5
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.011",
+    "textKey": "q.ideo.v1.011",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 5
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 5
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": 3
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.012",
+    "textKey": "q.ideo.v1.012",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": -5
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -3
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.013",
+    "textKey": "q.ideo.v1.013",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 5
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 5
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 3
+      },
+      {
+        "dim": "nature.priority",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.014",
+    "textKey": "q.ideo.v1.014",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -5
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": -3
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -3
+      },
+      {
+        "dim": "nature.priority",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.015",
+    "textKey": "q.ideo.v1.015",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": 5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": 3
+      },
+      {
+        "dim": "nature.technology",
+        "weight": 3
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.016",
+    "textKey": "q.ideo.v1.016",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": -5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": -4
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -4
+      },
+      {
+        "dim": "nature.animals",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.017",
+    "textKey": "q.ideo.v1.017",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": 5
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": 3
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.018",
+    "textKey": "q.ideo.v1.018",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": -5
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 2
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.019",
+    "textKey": "q.ideo.v1.019",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": 5
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 4
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.020",
+    "textKey": "q.ideo.v1.020",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": -5
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": -3
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.021",
+    "textKey": "q.ideo.v1.021",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": 5
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 5
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.022",
+    "textKey": "q.ideo.v1.022",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": -5
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.023",
+    "textKey": "q.ideo.v1.023",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": 5
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": 4
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.024",
+    "textKey": "q.ideo.v1.024",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": -5
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -4
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.025",
+    "textKey": "q.ideo.v1.025",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": 5
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 3
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.026",
+    "textKey": "q.ideo.v1.026",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": 4
+      },
+      {
+        "dim": "power.accountability",
+        "weight": 3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.027",
+    "textKey": "q.ideo.v1.027",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": -5
+      },
+      {
+        "dim": "community.integrity",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.028",
+    "textKey": "q.ideo.v1.028",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": -4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -3
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.029",
+    "textKey": "q.ideo.v1.029",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": -3
+      },
+      {
+        "dim": "community.integrity",
+        "weight": -2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.030",
+    "textKey": "q.ideo.v1.030",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.centralization",
+        "weight": 3
+      },
+      {
+        "dim": "power.accountability",
+        "weight": 2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.031",
+    "textKey": "q.ideo.v1.031",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": 5
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.032",
+    "textKey": "q.ideo.v1.032",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": 4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": 3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.033",
+    "textKey": "q.ideo.v1.033",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": -4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -3
+      },
+      {
+        "dim": "power.centralization",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.034",
+    "textKey": "q.ideo.v1.034",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": -4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.035",
+    "textKey": "q.ideo.v1.035",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": 3
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.036",
+    "textKey": "q.ideo.v1.036",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.accountability",
+        "weight": -2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": -3
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.037",
+    "textKey": "q.ideo.v1.037",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": 5
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -3
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.038",
+    "textKey": "q.ideo.v1.038",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": 4
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.039",
+    "textKey": "q.ideo.v1.039",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": -5
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -3
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.040",
+    "textKey": "q.ideo.v1.040",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": -4
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -2
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.041",
+    "textKey": "q.ideo.v1.041",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": -1
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.042",
+    "textKey": "q.ideo.v1.042",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": 3
+      },
+      {
+        "dim": "power.centralization",
+        "weight": 2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.043",
+    "textKey": "q.ideo.v1.043",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": -4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.044",
+    "textKey": "q.ideo.v1.044",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": 4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.045",
+    "textKey": "q.ideo.v1.045",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": -5
+      },
+      {
+        "dim": "community.openness",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.046",
+    "textKey": "q.ideo.v1.046",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": -4
+      },
+      {
+        "dim": "community.openness",
+        "weight": -2
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.047",
+    "textKey": "q.ideo.v1.047",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.048",
+    "textKey": "q.ideo.v1.048",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.scope",
+        "weight": -3
+      },
+      {
+        "dim": "community.openness",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.049",
+    "textKey": "q.ideo.v1.049",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": 5
+      },
+      {
+        "dim": "community.scope",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.050",
+    "textKey": "q.ideo.v1.050",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": 4
+      },
+      {
+        "dim": "community.scope",
+        "weight": 2
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.051",
+    "textKey": "q.ideo.v1.051",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": -5
+      },
+      {
+        "dim": "community.scope",
+        "weight": -2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.052",
+    "textKey": "q.ideo.v1.052",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": -4
+      },
+      {
+        "dim": "community.scope",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.053",
+    "textKey": "q.ideo.v1.053",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": -2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 1
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.054",
+    "textKey": "q.ideo.v1.054",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.openness",
+        "weight": 2
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.055",
+    "textKey": "q.ideo.v1.055",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.integrity",
+        "weight": 5
+      },
+      {
+        "dim": "power.centralization",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.056",
+    "textKey": "q.ideo.v1.056",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.integrity",
+        "weight": 4
+      },
+      {
+        "dim": "community.openness",
+        "weight": 2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.057",
+    "textKey": "q.ideo.v1.057",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.integrity",
+        "weight": -5
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 4
+      },
+      {
+        "dim": "power.centralization",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.058",
+    "textKey": "q.ideo.v1.058",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.integrity",
+        "weight": -4
+      },
+      {
+        "dim": "community.openness",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 3
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.059",
+    "textKey": "q.ideo.v1.059",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.integrity",
+        "weight": 2
+      },
+      {
+        "dim": "community.openness",
+        "weight": 2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.060",
+    "textKey": "q.ideo.v1.060",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "community.integrity",
+        "weight": -3
+      },
+      {
+        "dim": "community.scope",
+        "weight": 2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.061",
+    "textKey": "q.ideo.v1.061",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": 5
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.062",
+    "textKey": "q.ideo.v1.062",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": 4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.063",
+    "textKey": "q.ideo.v1.063",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": -5
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.064",
+    "textKey": "q.ideo.v1.064",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": -4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.065",
+    "textKey": "q.ideo.v1.065",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.066",
+    "textKey": "q.ideo.v1.066",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tempo",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.067",
+    "textKey": "q.ideo.v1.067",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": 4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -3
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.068",
+    "textKey": "q.ideo.v1.068",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tradition",
+        "weight": 4
+      },
+      {
+        "dim": "community.scope",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.069",
+    "textKey": "q.ideo.v1.069",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tradition",
+        "weight": -5
+      },
+      {
+        "dim": "change.tempo",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.070",
+    "textKey": "q.ideo.v1.070",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tradition",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.071",
+    "textKey": "q.ideo.v1.071",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.072",
+    "textKey": "q.ideo.v1.072",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.tradition",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.073",
+    "textKey": "q.ideo.v1.073",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": 5
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": 4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.074",
+    "textKey": "q.ideo.v1.074",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": 4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.075",
+    "textKey": "q.ideo.v1.075",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": -5
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -4
+      },
+      {
+        "dim": "power.centralization",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.076",
+    "textKey": "q.ideo.v1.076",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": -4
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.077",
+    "textKey": "q.ideo.v1.077",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -1
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.078",
+    "textKey": "q.ideo.v1.078",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "change.procedure",
+        "weight": -3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": -2
+      },
+      {
+        "dim": "power.centralization",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.079",
+    "textKey": "q.ideo.v1.079",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": -4
+      },
+      {
+        "dim": "market.coordination",
+        "weight": -2
+      },
+      {
+        "dim": "nature.priority",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.080",
+    "textKey": "q.ideo.v1.080",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": 4
+      },
+      {
+        "dim": "market.property",
+        "weight": 2
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.081",
+    "textKey": "q.ideo.v1.081",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": -5
+      },
+      {
+        "dim": "market.property",
+        "weight": -3
+      },
+      {
+        "dim": "power.centralization",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.082",
+    "textKey": "q.ideo.v1.082",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": -4
+      },
+      {
+        "dim": "market.intervention",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.083",
+    "textKey": "q.ideo.v1.083",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": 3
+      },
+      {
+        "dim": "market.intervention",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.084",
+    "textKey": "q.ideo.v1.084",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.coordination",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.085",
+    "textKey": "q.ideo.v1.085",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": 5
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 2
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.086",
+    "textKey": "q.ideo.v1.086",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": 4
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 2
+      },
+      {
+        "dim": "market.property",
+        "weight": 2
+      },
+      {
+        "dim": "power.centralization",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.087",
+    "textKey": "q.ideo.v1.087",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": -5
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -3
+      },
+      {
+        "dim": "market.coordination",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.088",
+    "textKey": "q.ideo.v1.088",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": -4
+      },
+      {
+        "dim": "market.property",
+        "weight": -3
+      },
+      {
+        "dim": "market.coordination",
+        "weight": -2
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.089",
+    "textKey": "q.ideo.v1.089",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 3
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.090",
+    "textKey": "q.ideo.v1.090",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.intervention",
+        "weight": -2
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.091",
+    "textKey": "q.ideo.v1.091",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.property",
+        "weight": 5
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.092",
+    "textKey": "q.ideo.v1.092",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.property",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 3
+      },
+      {
+        "dim": "ontology.agency",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.093",
+    "textKey": "q.ideo.v1.093",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.property",
+        "weight": -5
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.094",
+    "textKey": "q.ideo.v1.094",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.property",
+        "weight": -4
+      },
+      {
+        "dim": "nature.priority",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.095",
+    "textKey": "q.ideo.v1.095",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.property",
+        "weight": 2
+      },
+      {
+        "dim": "market.intervention",
+        "weight": -2
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 1
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.096",
+    "textKey": "q.ideo.v1.096",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "market.property",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.097",
+    "textKey": "q.ideo.v1.097",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": 5
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 3
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.098",
+    "textKey": "q.ideo.v1.098",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.099",
+    "textKey": "q.ideo.v1.099",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": -5
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.100",
+    "textKey": "q.ideo.v1.100",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.101",
+    "textKey": "q.ideo.v1.101",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.102",
+    "textKey": "q.ideo.v1.102",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.equality",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -2
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.103",
+    "textKey": "q.ideo.v1.103",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 5
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      },
+      {
+        "dim": "market.property",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.104",
+    "textKey": "q.ideo.v1.104",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.105",
+    "textKey": "q.ideo.v1.105",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -5
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -3
+      },
+      {
+        "dim": "market.property",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.106",
+    "textKey": "q.ideo.v1.106",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      },
+      {
+        "dim": "nature.animals",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.107",
+    "textKey": "q.ideo.v1.107",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": 1
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.108",
+    "textKey": "q.ideo.v1.108",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -5
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      },
+      {
+        "dim": "market.intervention",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.109",
+    "textKey": "q.ideo.v1.109",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": 5
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": 3
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.110",
+    "textKey": "q.ideo.v1.110",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      },
+      {
+        "dim": "ontology.agency",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.111",
+    "textKey": "q.ideo.v1.111",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": -5
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -3
+      },
+      {
+        "dim": "nature.animals",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.112",
+    "textKey": "q.ideo.v1.112",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -3
+      },
+      {
+        "dim": "market.intervention",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.113",
+    "textKey": "q.ideo.v1.113",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.114",
+    "textKey": "q.ideo.v1.114",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "distribution.welfare",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.115",
+    "textKey": "q.ideo.v1.115",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": 5
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.116",
+    "textKey": "q.ideo.v1.116",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 3
+      },
+      {
+        "dim": "market.property",
+        "weight": 2
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.117",
+    "textKey": "q.ideo.v1.117",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": -5
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -4
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.118",
+    "textKey": "q.ideo.v1.118",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.119",
+    "textKey": "q.ideo.v1.119",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.120",
+    "textKey": "q.ideo.v1.120",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -3
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.121",
+    "textKey": "q.ideo.v1.121",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 5
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 4
+      },
+      {
+        "dim": "power.pluralism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.122",
+    "textKey": "q.ideo.v1.122",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      },
+      {
+        "dim": "ontology.agency",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.123",
+    "textKey": "q.ideo.v1.123",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -5
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": -4
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.124",
+    "textKey": "q.ideo.v1.124",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      },
+      {
+        "dim": "community.scope",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.125",
+    "textKey": "q.ideo.v1.125",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.126",
+    "textKey": "q.ideo.v1.126",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      },
+      {
+        "dim": "community.integrity",
+        "weight": 2
+      },
+      {
+        "dim": "ontology.agency",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.127",
+    "textKey": "q.ideo.v1.127",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.altruism",
+        "weight": 5
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.128",
+    "textKey": "q.ideo.v1.128",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.altruism",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 2
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.129",
+    "textKey": "q.ideo.v1.129",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -5
+      },
+      {
+        "dim": "community.scope",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.130",
+    "textKey": "q.ideo.v1.130",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -2
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -2
+      },
+      {
+        "dim": "nature.animals",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.131",
+    "textKey": "q.ideo.v1.131",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.altruism",
+        "weight": 3
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 1
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.132",
+    "textKey": "q.ideo.v1.132",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -2
+      },
+      {
+        "dim": "distribution.reciprocity",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.133",
+    "textKey": "q.ideo.v1.133",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": 5
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 5
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.134",
+    "textKey": "q.ideo.v1.134",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": 4
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.135",
+    "textKey": "q.ideo.v1.135",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": -5
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -3
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": 3
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.136",
+    "textKey": "q.ideo.v1.136",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": -4
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -3
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.137",
+    "textKey": "q.ideo.v1.137",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 2
+      },
+      {
+        "dim": "nature.priority",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.138",
+    "textKey": "q.ideo.v1.138",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.139",
+    "textKey": "q.ideo.v1.139",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": 4
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.140",
+    "textKey": "q.ideo.v1.140",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 2
+      },
+      {
+        "dim": "market.coordination",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.141",
+    "textKey": "q.ideo.v1.141",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.material",
+        "weight": -4
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -3
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.142",
+    "textKey": "q.ideo.v1.142",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -4
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.143",
+    "textKey": "q.ideo.v1.143",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 2
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.144",
+    "textKey": "q.ideo.v1.144",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.145",
+    "textKey": "q.ideo.v1.145",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 5
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 3
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.146",
+    "textKey": "q.ideo.v1.146",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 4
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.147",
+    "textKey": "q.ideo.v1.147",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -5
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.148",
+    "textKey": "q.ideo.v1.148",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -4
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -2
+      },
+      {
+        "dim": "nature.animals",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.149",
+    "textKey": "q.ideo.v1.149",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 2
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.150",
+    "textKey": "q.ideo.v1.150",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": -2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.151",
+    "textKey": "q.ideo.v1.151",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": 5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": 1
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.152",
+    "textKey": "q.ideo.v1.152",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": 4
+      },
+      {
+        "dim": "nature.technology",
+        "weight": 3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.153",
+    "textKey": "q.ideo.v1.153",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -3
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 3
+      },
+      {
+        "dim": "ontology.agency",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.154",
+    "textKey": "q.ideo.v1.154",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": -4
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -3
+      },
+      {
+        "dim": "market.intervention",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.155",
+    "textKey": "q.ideo.v1.155",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": 2
+      },
+      {
+        "dim": "nature.technology",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.156",
+    "textKey": "q.ideo.v1.156",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.priority",
+        "weight": -2
+      },
+      {
+        "dim": "nature.depth",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.157",
+    "textKey": "q.ideo.v1.157",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.depth",
+        "weight": 5
+      },
+      {
+        "dim": "nature.priority",
+        "weight": 3
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.158",
+    "textKey": "q.ideo.v1.158",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.depth",
+        "weight": 4
+      },
+      {
+        "dim": "nature.animals",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.159",
+    "textKey": "q.ideo.v1.159",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.depth",
+        "weight": -5
+      },
+      {
+        "dim": "nature.priority",
+        "weight": -3
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.160",
+    "textKey": "q.ideo.v1.160",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.depth",
+        "weight": -4
+      },
+      {
+        "dim": "nature.animals",
+        "weight": -3
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.161",
+    "textKey": "q.ideo.v1.161",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.depth",
+        "weight": 2
+      },
+      {
+        "dim": "nature.priority",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.162",
+    "textKey": "q.ideo.v1.162",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.depth",
+        "weight": -2
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -2
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.163",
+    "textKey": "q.ideo.v1.163",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.animals",
+        "weight": 5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": 3
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.164",
+    "textKey": "q.ideo.v1.164",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.animals",
+        "weight": 4
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": -3
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.165",
+    "textKey": "q.ideo.v1.165",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.animals",
+        "weight": -5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": -3
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.166",
+    "textKey": "q.ideo.v1.166",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.animals",
+        "weight": -4
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -3
+      },
+      {
+        "dim": "nature.priority",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.167",
+    "textKey": "q.ideo.v1.167",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.animals",
+        "weight": 2
+      },
+      {
+        "dim": "nature.depth",
+        "weight": 2
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.168",
+    "textKey": "q.ideo.v1.168",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.animals",
+        "weight": -2
+      },
+      {
+        "dim": "nature.priority",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.169",
+    "textKey": "q.ideo.v1.169",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": 5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": 3
+      },
+      {
+        "dim": "nature.priority",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.170",
+    "textKey": "q.ideo.v1.170",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": 4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.171",
+    "textKey": "q.ideo.v1.171",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": -5
+      },
+      {
+        "dim": "nature.depth",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 3
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.172",
+    "textKey": "q.ideo.v1.172",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": -4
+      },
+      {
+        "dim": "change.tempo",
+        "weight": -3
+      },
+      {
+        "dim": "lifestyle.abundance",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.173",
+    "textKey": "q.ideo.v1.173",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.174",
+    "textKey": "q.ideo.v1.174",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "nature.technology",
+        "weight": -2
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 2
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.175",
+    "textKey": "q.ideo.v1.175",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": 5
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.176",
+    "textKey": "q.ideo.v1.176",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": 4
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -3
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.177",
+    "textKey": "q.ideo.v1.177",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": -5
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": 4
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.178",
+    "textKey": "q.ideo.v1.178",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": -4
+      },
+      {
+        "dim": "nature.depth",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.179",
+    "textKey": "q.ideo.v1.179",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 2
+      },
+      {
+        "dim": "ontology.meaning",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.180",
+    "textKey": "q.ideo.v1.180",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": -2
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.181",
+    "textKey": "q.ideo.v1.181",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.substance",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 2
+      },
+      {
+        "dim": "ontology.agency",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.182",
+    "textKey": "q.ideo.v1.182",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": 4
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": 3
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.183",
+    "textKey": "q.ideo.v1.183",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -3
+      },
+      {
+        "dim": "distribution.equality",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.184",
+    "textKey": "q.ideo.v1.184",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": -4
+      },
+      {
+        "dim": "distribution.welfare",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.priority",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.185",
+    "textKey": "q.ideo.v1.185",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": 2
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.186",
+    "textKey": "q.ideo.v1.186",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.agency",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": -2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.187",
+    "textKey": "q.ideo.v1.187",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": 5
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.188",
+    "textKey": "q.ideo.v1.188",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": 4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 3
+      },
+      {
+        "dim": "community.scope",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.189",
+    "textKey": "q.ideo.v1.189",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": -5
+      },
+      {
+        "dim": "lifestyle.material",
+        "weight": 2
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.190",
+    "textKey": "q.ideo.v1.190",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 4
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.191",
+    "textKey": "q.ideo.v1.191",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.192",
+    "textKey": "q.ideo.v1.192",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 3
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.193",
+    "textKey": "q.ideo.v1.193",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.194",
+    "textKey": "q.ideo.v1.194",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.195",
+    "textKey": "q.ideo.v1.195",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": -5
+      },
+      {
+        "dim": "ontology.substance",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.196",
+    "textKey": "q.ideo.v1.196",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.197",
+    "textKey": "q.ideo.v1.197",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": 1
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.198",
+    "textKey": "q.ideo.v1.198",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.source",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      },
+      {
+        "dim": "lifestyle.gratification",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.199",
+    "textKey": "q.ideo.v1.199",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": 5
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.200",
+    "textKey": "q.ideo.v1.200",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.201",
+    "textKey": "q.ideo.v1.201",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": -5
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.202",
+    "textKey": "q.ideo.v1.202",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.203",
+    "textKey": "q.ideo.v1.203",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.204",
+    "textKey": "q.ideo.v1.204",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.certainty",
+        "weight": -3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.205",
+    "textKey": "q.ideo.v1.205",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.universality",
+        "weight": 5
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 3
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.206",
+    "textKey": "q.ideo.v1.206",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.universality",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.source",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.207",
+    "textKey": "q.ideo.v1.207",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.universality",
+        "weight": -5
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -3
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.208",
+    "textKey": "q.ideo.v1.208",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.universality",
+        "weight": -4
+      },
+      {
+        "dim": "community.scope",
+        "weight": -2
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.209",
+    "textKey": "q.ideo.v1.209",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.universality",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -1
+      },
+      {
+        "dim": "change.tempo",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.210",
+    "textKey": "q.ideo.v1.210",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.211",
+    "textKey": "q.ideo.v1.211",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": 5
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.212",
+    "textKey": "q.ideo.v1.212",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": 4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 4
+      },
+      {
+        "dim": "change.procedure",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.213",
+    "textKey": "q.ideo.v1.213",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": -5
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.214",
+    "textKey": "q.ideo.v1.214",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": -4
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -2
+      },
+      {
+        "dim": "change.procedure",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.215",
+    "textKey": "q.ideo.v1.215",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": 1
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.216",
+    "textKey": "q.ideo.v1.216",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.criterion",
+        "weight": -3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": -2
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.217",
+    "textKey": "q.ideo.v1.217",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.foundation",
+        "weight": 5
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": 4
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.218",
+    "textKey": "q.ideo.v1.218",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.foundation",
+        "weight": 4
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.certainty",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.219",
+    "textKey": "q.ideo.v1.219",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.foundation",
+        "weight": -5
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -1
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.220",
+    "textKey": "q.ideo.v1.220",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.foundation",
+        "weight": -4
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.221",
+    "textKey": "q.ideo.v1.221",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.foundation",
+        "weight": 2
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": 2
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.222",
+    "textKey": "q.ideo.v1.222",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.foundation",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.altruism",
+        "weight": -2
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.223",
+    "textKey": "q.ideo.v1.223",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.absoluteness",
+        "weight": 5
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 4
+      },
+      {
+        "dim": "morality.criterion",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.224",
+    "textKey": "q.ideo.v1.224",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.absoluteness",
+        "weight": 4
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 3
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.225",
+    "textKey": "q.ideo.v1.225",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.absoluteness",
+        "weight": -5
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -4
+      },
+      {
+        "dim": "community.scope",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.226",
+    "textKey": "q.ideo.v1.226",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.absoluteness",
+        "weight": -4
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.227",
+    "textKey": "q.ideo.v1.227",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.absoluteness",
+        "weight": 3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": 2
+      },
+      {
+        "dim": "morality.foundation",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.228",
+    "textKey": "q.ideo.v1.228",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "morality.absoluteness",
+        "weight": -3
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.229",
+    "textKey": "q.ideo.v1.229",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": -4
+      },
+      {
+        "dim": "nature.technology",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.230",
+    "textKey": "q.ideo.v1.230",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": 4
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": 3
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.231",
+    "textKey": "q.ideo.v1.231",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": -5
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -3
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.232",
+    "textKey": "q.ideo.v1.232",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": -4
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -4
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.233",
+    "textKey": "q.ideo.v1.233",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": 2
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": 2
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.234",
+    "textKey": "q.ideo.v1.234",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.order",
+        "weight": -2
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": -2
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.235",
+    "textKey": "q.ideo.v1.235",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": 5
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": 2
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.236",
+    "textKey": "q.ideo.v1.236",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": 4
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": 3
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.237",
+    "textKey": "q.ideo.v1.237",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": -5
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -3
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.238",
+    "textKey": "q.ideo.v1.238",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": -4
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -4
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": -3
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.239",
+    "textKey": "q.ideo.v1.239",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": 2
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": 2
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.240",
+    "textKey": "q.ideo.v1.240",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.representation",
+        "weight": -3
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": -2
+      },
+      {
+        "dim": "aesthetics.convention",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.241",
+    "textKey": "q.ideo.v1.241",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.convention",
+        "weight": 5
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": 4
+      },
+      {
+        "dim": "aesthetics.representation",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.242",
+    "textKey": "q.ideo.v1.242",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.convention",
+        "weight": 4
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": 3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.243",
+    "textKey": "q.ideo.v1.243",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.convention",
+        "weight": -5
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": -4
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -4
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.244",
+    "textKey": "q.ideo.v1.244",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.convention",
+        "weight": -4
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": -2
+      },
+      {
+        "dim": "change.tempo",
+        "weight": -2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.245",
+    "textKey": "q.ideo.v1.245",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.convention",
+        "weight": 2
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": 2
+      },
+      {
+        "dim": "change.tradition",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.246",
+    "textKey": "q.ideo.v1.246",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "aesthetics.convention",
+        "weight": -3
+      },
+      {
+        "dim": "change.tradition",
+        "weight": -2
+      },
+      {
+        "dim": "aesthetics.order",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.247",
+    "textKey": "q.ideo.v1.247",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "power.pluralism",
+        "weight": -5
+      },
+      {
+        "dim": "power.accountability",
+        "weight": -3
+      },
+      {
+        "dim": "selfgroup.autonomy",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "ideo.v1.248",
+    "textKey": "q.ideo.v1.248",
+    "layer": "ideology",
+    "loadings": [
+      {
+        "dim": "ontology.meaning",
+        "weight": -5
+      },
+      {
+        "dim": "epistemics.universality",
+        "weight": -3
+      },
+      {
+        "dim": "morality.absoluteness",
+        "weight": -3
+      }
+    ]
+  }
+]

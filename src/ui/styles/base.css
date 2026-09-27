@@ -1,0 +1,177 @@
+@import './fonts.css';
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  /* 兜底底色。真正的底色由 BackdropLayer 的渐变给，这个值在它没渲染出来时顶一下 */
+  background: var(--bg-from);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--fs-md);
+  line-height: var(--lh-body);
+  /* 分数、题号、百分比必须等宽对齐 —— "仪器感"的实际来源，氛围化也不牺牲它 */
+  font-variant-numeric: tabular-nums;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  line-height: var(--lh-tight);
+  margin: 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
+
+p {
+  margin: 0 0 var(--sp-4);
+  max-width: var(--measure);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: color-mix(in srgb, var(--paper-raised) 70%, transparent);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-btn);
+  padding: var(--sp-3) var(--sp-4);
+  cursor: pointer;
+  transition:
+    background var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease),
+    box-shadow var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: var(--shadow-soft);
+}
+
+button:disabled {
+  color: var(--ink-2);
+  cursor: not-allowed;
+}
+
+/* 焦点样式：全局可见，不用 outline: none 换取"干净" */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* 地标与版面 */
+.app-shell {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1;
+  width: 100%;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--sp-6) var(--page-pad) var(--sp-8);
+}
+
+/* 结果页：卡片 + 右侧雷达栏的两栏结构，68ch 放不下 */
+.page-wide {
+  max-width: var(--measure-wide);
+}
+
+/* 首页 hero 是居中的，段落自身的 68ch 上限会让它左右不对称 */
+.page-center p {
+  max-width: none;
+}
+
+/*
+ * 抬起的面。氛围化之后分区不再只靠分隔线，但**不回到"什么都是盒子"**：
+ * 只有需要与动效背景分层的地方才用（对话框、结果页卡片）。
+ */
+.panel {
+  background: color-mix(in srgb, var(--paper-raised) 78%, transparent);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-soft);
+}
+
+@supports (backdrop-filter: blur(1px)) {
+  .panel {
+    backdrop-filter: blur(10px);
+  }
+}
+
+/* 跳到主内容：默认视觉隐藏，聚焦时出现 */
+.skip-link {
+  position: absolute;
+  left: var(--sp-4);
+  top: calc(-1 * var(--sp-8));
+  z-index: 10;
+  background: var(--paper-raised);
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius-btn);
+  transition: top var(--dur-fast) var(--ease);
+}
+
+.skip-link:focus {
+  top: var(--sp-4);
+}
+
+/* 数值与拉丁标签 */
+.num {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-latin);
+}
+
+.label {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+/* 分区：仍可用通栏分隔线，也可以用餐卡 */
+.rule {
+  border: 0;
+  border-top: 1px solid var(--rule-soft);
+  margin: var(--sp-6) 0;
+}
+
+/* 只用于"不确定"的强调 */
+.uncertain {
+  color: var(--warn);
+}
+
+/* 无障碍：仅供读屏 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* 手机上不模糊：12 张卡片各带一层 backdrop-filter，在中低端机上是掉帧主因 */
+@media (max-width: 768px) {
+  .panel {
+    backdrop-filter: none;
+    background: color-mix(in srgb, var(--paper-raised) 92%, transparent);
+  }
+}

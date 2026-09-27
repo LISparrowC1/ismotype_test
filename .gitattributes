@@ -1,0 +1,6 @@
+# 强制 LF：core.autocrlf=true 时，Windows 上任何一次签出都会把全部文本文件写成 CRLF，
+# 违背项目换行规则，并让生成物（docs/rubric.md 等）每次重建都产生整文件 diff。
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.woff2 binary
