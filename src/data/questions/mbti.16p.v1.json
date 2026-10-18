@@ -1,0 +1,391 @@
+[
+  {
+    "id": "mbti.16p.001",
+    "textKey": "q.mbti.16p.001",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.002",
+    "textKey": "q.mbti.16p.002",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.003",
+    "textKey": "q.mbti.16p.003",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.004",
+    "textKey": "q.mbti.16p.004",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.005",
+    "textKey": "q.mbti.16p.005",
+    "layer": "mbti",
+    "facet": "identity"
+  },
+  {
+    "id": "mbti.16p.006",
+    "textKey": "q.mbti.16p.006",
+    "layer": "mbti",
+    "facet": "energy",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.007",
+    "textKey": "q.mbti.16p.007",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.008",
+    "textKey": "q.mbti.16p.008",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.009",
+    "textKey": "q.mbti.16p.009",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.010",
+    "textKey": "q.mbti.16p.010",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.011",
+    "textKey": "q.mbti.16p.011",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.012",
+    "textKey": "q.mbti.16p.012",
+    "layer": "mbti",
+    "facet": "mind",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.013",
+    "textKey": "q.mbti.16p.013",
+    "layer": "mbti",
+    "facet": "nature"
+  },
+  {
+    "id": "mbti.16p.014",
+    "textKey": "q.mbti.16p.014",
+    "layer": "mbti",
+    "facet": "tactics",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.015",
+    "textKey": "q.mbti.16p.015",
+    "layer": "mbti",
+    "facet": "identity"
+  },
+  {
+    "id": "mbti.16p.016",
+    "textKey": "q.mbti.16p.016",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.017",
+    "textKey": "q.mbti.16p.017",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.018",
+    "textKey": "q.mbti.16p.018",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.019",
+    "textKey": "q.mbti.16p.019",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.020",
+    "textKey": "q.mbti.16p.020",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.021",
+    "textKey": "q.mbti.16p.021",
+    "layer": "mbti",
+    "facet": "energy",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.022",
+    "textKey": "q.mbti.16p.022",
+    "layer": "mbti",
+    "facet": "mind",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.023",
+    "textKey": "q.mbti.16p.023",
+    "layer": "mbti",
+    "facet": "nature"
+  },
+  {
+    "id": "mbti.16p.024",
+    "textKey": "q.mbti.16p.024",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.025",
+    "textKey": "q.mbti.16p.025",
+    "layer": "mbti",
+    "facet": "nature"
+  },
+  {
+    "id": "mbti.16p.026",
+    "textKey": "q.mbti.16p.026",
+    "layer": "mbti",
+    "facet": "energy",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.027",
+    "textKey": "q.mbti.16p.027",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.028",
+    "textKey": "q.mbti.16p.028",
+    "layer": "mbti",
+    "facet": "nature"
+  },
+  {
+    "id": "mbti.16p.029",
+    "textKey": "q.mbti.16p.029",
+    "layer": "mbti",
+    "facet": "tactics",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.030",
+    "textKey": "q.mbti.16p.030",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.031",
+    "textKey": "q.mbti.16p.031",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.032",
+    "textKey": "q.mbti.16p.032",
+    "layer": "mbti",
+    "facet": "mind",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.033",
+    "textKey": "q.mbti.16p.033",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.034",
+    "textKey": "q.mbti.16p.034",
+    "layer": "mbti",
+    "facet": "tactics",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.035",
+    "textKey": "q.mbti.16p.035",
+    "layer": "mbti",
+    "facet": "identity"
+  },
+  {
+    "id": "mbti.16p.036",
+    "textKey": "q.mbti.16p.036",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.037",
+    "textKey": "q.mbti.16p.037",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.038",
+    "textKey": "q.mbti.16p.038",
+    "layer": "mbti",
+    "facet": "nature"
+  },
+  {
+    "id": "mbti.16p.039",
+    "textKey": "q.mbti.16p.039",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.040",
+    "textKey": "q.mbti.16p.040",
+    "layer": "mbti",
+    "facet": "identity"
+  },
+  {
+    "id": "mbti.16p.041",
+    "textKey": "q.mbti.16p.041",
+    "layer": "mbti",
+    "facet": "energy",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.042",
+    "textKey": "q.mbti.16p.042",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.043",
+    "textKey": "q.mbti.16p.043",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.044",
+    "textKey": "q.mbti.16p.044",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.045",
+    "textKey": "q.mbti.16p.045",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.046",
+    "textKey": "q.mbti.16p.046",
+    "layer": "mbti",
+    "facet": "mind",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.047",
+    "textKey": "q.mbti.16p.047",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.048",
+    "textKey": "q.mbti.16p.048",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.049",
+    "textKey": "q.mbti.16p.049",
+    "layer": "mbti",
+    "facet": "tactics",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.050",
+    "textKey": "q.mbti.16p.050",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.051",
+    "textKey": "q.mbti.16p.051",
+    "layer": "mbti",
+    "facet": "energy",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.052",
+    "textKey": "q.mbti.16p.052",
+    "layer": "mbti",
+    "facet": "mind",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.053",
+    "textKey": "q.mbti.16p.053",
+    "layer": "mbti",
+    "facet": "energy"
+  },
+  {
+    "id": "mbti.16p.054",
+    "textKey": "q.mbti.16p.054",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.055",
+    "textKey": "q.mbti.16p.055",
+    "layer": "mbti",
+    "facet": "identity",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.056",
+    "textKey": "q.mbti.16p.056",
+    "layer": "mbti",
+    "facet": "tactics"
+  },
+  {
+    "id": "mbti.16p.057",
+    "textKey": "q.mbti.16p.057",
+    "layer": "mbti",
+    "facet": "mind"
+  },
+  {
+    "id": "mbti.16p.058",
+    "textKey": "q.mbti.16p.058",
+    "layer": "mbti",
+    "facet": "nature",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.059",
+    "textKey": "q.mbti.16p.059",
+    "layer": "mbti",
+    "facet": "tactics",
+    "reversed": true
+  },
+  {
+    "id": "mbti.16p.060",
+    "textKey": "q.mbti.16p.060",
+    "layer": "mbti",
+    "facet": "identity"
+  }
+]

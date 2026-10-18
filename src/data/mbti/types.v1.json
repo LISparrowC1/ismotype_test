@@ -1,0 +1,130 @@
+[
+  {
+    "code": "INTJ",
+    "colorFamily": "purple",
+    "colorStep": "darker-12",
+    "colorHex": "#36263d",
+    "nameKey": "mbti.type.INTJ.name",
+    "descKey": "mbti.type.INTJ.desc"
+  },
+  {
+    "code": "INTP",
+    "colorFamily": "purple",
+    "colorStep": "darker-08",
+    "colorHex": "#513a5c",
+    "nameKey": "mbti.type.INTP.name",
+    "descKey": "mbti.type.INTP.desc"
+  },
+  {
+    "code": "ENTJ",
+    "colorFamily": "purple",
+    "colorStep": "darker-05",
+    "colorHex": "#654873",
+    "nameKey": "mbti.type.ENTJ.name",
+    "descKey": "mbti.type.ENTJ.desc"
+  },
+  {
+    "code": "ENTP",
+    "colorFamily": "purple",
+    "colorStep": "darker-01",
+    "colorHex": "#815c92",
+    "nameKey": "mbti.type.ENTP.name",
+    "descKey": "mbti.type.ENTP.desc"
+  },
+  {
+    "code": "INFJ",
+    "colorFamily": "green",
+    "colorStep": "darker-12",
+    "colorHex": "#14412e",
+    "nameKey": "mbti.type.INFJ.name",
+    "descKey": "mbti.type.INFJ.desc"
+  },
+  {
+    "code": "INFP",
+    "colorFamily": "green",
+    "colorStep": "darker-10",
+    "colorHex": "#195139",
+    "nameKey": "mbti.type.INFP.name",
+    "descKey": "mbti.type.INFP.desc"
+  },
+  {
+    "code": "ENFJ",
+    "colorFamily": "green",
+    "colorStep": "darker-07",
+    "colorHex": "#216a4b",
+    "nameKey": "mbti.type.ENFJ.name",
+    "descKey": "mbti.type.ENFJ.desc"
+  },
+  {
+    "code": "ENFP",
+    "colorFamily": "green",
+    "colorStep": "darker-05",
+    "colorHex": "#267a56",
+    "nameKey": "mbti.type.ENFP.name",
+    "descKey": "mbti.type.ENFP.desc"
+  },
+  {
+    "code": "ISTJ",
+    "colorFamily": "blue",
+    "colorStep": "darker-12",
+    "colorHex": "#1a3c48",
+    "nameKey": "mbti.type.ISTJ.name",
+    "descKey": "mbti.type.ISTJ.desc"
+  },
+  {
+    "code": "ISFJ",
+    "colorFamily": "blue",
+    "colorStep": "darker-09",
+    "colorHex": "#245362",
+    "nameKey": "mbti.type.ISFJ.name",
+    "descKey": "mbti.type.ISFJ.desc"
+  },
+  {
+    "code": "ESTJ",
+    "colorFamily": "blue",
+    "colorStep": "darker-07",
+    "colorHex": "#2a6275",
+    "nameKey": "mbti.type.ESTJ.name",
+    "descKey": "mbti.type.ESTJ.desc"
+  },
+  {
+    "code": "ESFJ",
+    "colorFamily": "blue",
+    "colorStep": "darker-04",
+    "colorHex": "#347990",
+    "nameKey": "mbti.type.ESFJ.name",
+    "descKey": "mbti.type.ESFJ.desc"
+  },
+  {
+    "code": "ISTP",
+    "colorFamily": "yellow",
+    "colorStep": "darker-12",
+    "colorHex": "#5b4517",
+    "nameKey": "mbti.type.ISTP.name",
+    "descKey": "mbti.type.ISTP.desc"
+  },
+  {
+    "code": "ISFP",
+    "colorFamily": "yellow",
+    "colorStep": "darker-11",
+    "colorHex": "#664e1a",
+    "nameKey": "mbti.type.ISFP.name",
+    "descKey": "mbti.type.ISFP.desc"
+  },
+  {
+    "code": "ESTP",
+    "colorFamily": "yellow",
+    "colorStep": "darker-09",
+    "colorHex": "#7d5f1f",
+    "nameKey": "mbti.type.ESTP.name",
+    "descKey": "mbti.type.ESTP.desc"
+  },
+  {
+    "code": "ESFP",
+    "colorFamily": "yellow",
+    "colorStep": "darker-08",
+    "colorHex": "#886822",
+    "nameKey": "mbti.type.ESFP.name",
+    "descKey": "mbti.type.ESFP.desc"
+  }
+]

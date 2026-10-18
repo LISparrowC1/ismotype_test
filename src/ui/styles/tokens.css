@@ -1,0 +1,153 @@
+/*
+ * 设计令牌的唯一真相源。
+ *
+ * 两套主题（亮 / 暗）**只换值，不换令牌名** —— 组件里出现任何写死的颜色
+ * 都会在另一套主题下变成看不见或者刺眼的字。
+ * 主题由 `<html data-theme>` 决定，取值只由 index.html 的引导脚本写一次
+ * （首次按系统偏好，之后按用户选择），CSS 不在媒体查询里再判一遍系统 ——
+ * 判两遍就会出现"系统是暗的、用户选亮的、某些块还是暗的"这种半吊子状态。
+ */
+
+:root {
+  color-scheme: light;
+
+  /* ---- 语义色：亮（深空 · 白昼）---- */
+  --paper: #eef2f7;        /* 页面底色（真正的底色由背景层的渐变给，这里是不支持时的兜底） */
+  --paper-raised: #ffffff; /* 抬起的面：对话框、卡片 */
+  --ink: #0f1720;          /* 墨：正文与数字 */
+  --ink-2: #566274;        /* 次级墨：标签、单位、说明 */
+  --rule: #93a1b3;         /* 刻度线：SVG 轴线与刻度 */
+  --rule-soft: #d7dee8;    /* 细分隔线 */
+  --accent: #0c5468;       /* 主强调：交互与"当前" */
+  --accent-soft: rgb(12 84 104 / 10%);  /* 选中项的底 */
+  --accent-strong: rgb(12 84 104 / 26%); /* "选中且强调"的底：用在最后一题的「看结果」上 */
+  --accent-ink: #ffffff;   /* 压在 --accent 实底上的文字色 */
+  --warn: #a63a22;         /* 警告：**只用于不确定性**，不做装饰（装饰用 --glow-*） */
+  --scrim: rgb(20 24 26 / 45%); /* 模态遮罩 */
+
+  /* ---- 氛围：亮 ----
+     背景层专用。与语义色分开命名，是为了让"这个颜色在表达什么"始终可查：
+     --glow-* 只负责好看，--warn 只负责"这里测不准"。 */
+  --bg-from: #f7fafd;
+  --bg-to: #dfe8f2;
+  --glow-a: rgb(255 214 150 / 55%);   /* 暖日光晕 */
+  --glow-b: rgb(150 200 235 / 45%);   /* 冷天光 */
+  --glow-c: rgb(255 245 225 / 70%);
+  --star-ink: transparent;            /* 白天没有星星 */
+  --veil: rgb(255 255 255 / 72%);     /* 内容底：保证正文压在动效上仍可读 */
+
+  --shadow-soft: 0 1px 2px rgb(15 23 32 / 6%), 0 8px 20px -12px rgb(15 23 32 / 22%);
+  --shadow-lift: 0 2px 4px rgb(15 23 32 / 8%), 0 14px 28px -14px rgb(15 23 32 / 30%);
+  --hairline: rgb(15 23 32 / 8%);
+
+  /* ---- 字体 ---- */
+  /* 不下载中文 webfont（动辄数 MB）；拉丁与数字走自托管的 Space Grotesk */
+  --font-sans: "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-latin: "Space Grotesk", Inter, system-ui, sans-serif;
+
+  /* ---- 字阶 ---- */
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-2xl: 40px;
+  --fs-hero: clamp(38px, 9vw, 64px);  /* 首页站名 */
+  --fs-display: clamp(26px, 5vw, 34px); /* 结果页的类型四字母 */
+
+  --lh-tight: 1.25;
+  --lh-body: 1.6;
+
+  /* ---- 间距 ---- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+
+  /* ---- 版面 ---- */
+  --measure: 68ch;
+  /* 结果页专用：它现在是"卡片 + 右侧雷达栏"的两栏结构，
+     68ch（≈550px）在两栏之后左栏只剩 290px，冠军名与介绍会被挤成窄条。
+     阅读型页面（答题、定向）仍用 --measure。 */
+  --measure-wide: 1000px;
+  --page-pad: clamp(16px, 4vw, 40px);
+  /* 结果页：正文栏 + 雷达栏。雷达栏用固定宽，**展开列表只推左栏**，右栏不动。
+     取 440 是因为轴端要放主义名：中文最长 6 字、英文最长 21 字（约 140px），
+     栏窄了标签就只能缩字号、断词或者压到图上（实测 300px 宽时图的直径只剩 143px，
+     两侧标签各占掉 ~78px，比例很难看）。 */
+  --rail-radar: 440px;
+  --rail-gap: var(--sp-6);
+
+  --radius-btn: 6px;
+  --radius-panel: 14px;
+  --radius-pill: 999px;
+
+  /* ---- 时间：交互 ----
+     只用于回应操作。系统开启"减少动态效果"时归零（见文件末尾）。
+     --dur-ripple 比另两个长得多：点击波纹要扩散到整个按钮才好看，
+     180ms 的过渡时长套上去像闪了一下。 */
+  --dur-fast: 120ms;
+  --dur-base: 180ms;
+  --dur-ripple: 560ms;
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+
+  /* ---- 时间：氛围 ----
+     **故意不跟随 prefers-reduced-motion**（项目所有者裁定：背景在所有环境都照常动）。
+     与 --dur-* 分开命名就是为了让这件事在代码里是**显式**的 ——
+     写成一个 --dur-ambient 会被后来的人当成漏接，从而"顺手修好"。 */
+  --ambient-drift: 46s;
+  --ambient-twinkle: 5.5s;
+  --ambient-shoot: 13s;
+  /* 最后一题「看结果」那圈波纹：与"高亮"是同一件事，属于氛围 */
+  --ambient-ring: 2.6s;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --paper: #070b13;
+  --paper-raised: #111827;
+  --ink: #e9eef7;
+  --ink-2: #97a4b8;
+  --rule: #38445a;
+  --rule-soft: #1d2534;
+  --accent: #62d2e8;
+  --accent-soft: rgb(98 210 232 / 14%);
+  --accent-strong: rgb(98 210 232 / 30%);
+  --accent-ink: #04161d;
+  --warn: #ff8f70;
+  --scrim: rgb(0 0 0 / 62%);
+
+  --bg-from: #060a11;
+  --bg-to: #0b1220;
+  --glow-a: rgb(64 120 190 / 26%);
+  --glow-b: rgb(120 96 200 / 22%);
+  --glow-c: rgb(30 60 110 / 34%);
+  --star-ink: #d8e6ff;
+  --veil: rgb(10 15 24 / 62%);
+
+  --shadow-soft: 0 1px 2px rgb(0 0 0 / 40%), 0 10px 24px -14px rgb(0 0 0 / 70%);
+  --shadow-lift: 0 2px 6px rgb(0 0 0 / 45%), 0 18px 34px -16px rgb(0 0 0 / 80%);
+  --hairline: rgb(255 255 255 / 9%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-base: 0ms;
+    --dur-ripple: 0ms;
+  }
+}
+
+/* 窄屏：雷达栏并到正文下方，正文栏恢复整宽 */
+@media (max-width: 900px) {
+  :root {
+    --rail-radar: 100%;
+    --rail-gap: var(--sp-5);
+  }
+}
+

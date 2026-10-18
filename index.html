@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IsmoType — 人格与主义光谱测试</title>
+    <!--
+      主题必须在**首次绘制之前**定下来，否则暗色用户会先看到一帧白屏再变黑。
+      这段脚本因此不能挪进 main.ts（那是模块，晚于首次绘制），也不能省 ——
+      它读的是与 `src/ui/stores/prefs.ts` 同一个键，取值口径必须与那边一致：
+      存了 'light' / 'dark' 就用它，没存就按系统偏好，**并把结果写成
+      `<html data-theme>`**，让 CSS 只有一处判据（不在媒体查询里再判一遍系统）。
+    -->
+    <script>
+      ;(function () {
+        var theme = null
+        try {
+          var raw = localStorage.getItem('ismotype:prefs:v1')
+          if (raw) {
+            var p = JSON.parse(raw)
+            if (p && p.theme === 'light') theme = 'light'
+            else if (p && p.theme === 'dark') theme = 'dark'
+          }
+        } catch (e) {
+          /* 存档坏了或存储不可用：当作没选过，按系统来 */
+        }
+        if (!theme) {
+          theme =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+        }
+        document.documentElement.dataset.theme = theme
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/ui/main.ts"></script>
+  </body>
+</html>
